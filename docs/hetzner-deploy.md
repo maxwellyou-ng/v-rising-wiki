@@ -3,7 +3,7 @@
 ## 1. Provision
 
 1. Hetzner Cloud → new server: **CX22** (2 vCPU / 4 GB) is plenty to start, Ubuntu 24.04 LTS, add your SSH key
-2. DNS: A record for `wiki.yourdomain` → server IP (and later one for the portfolio domain)
+2. DNS: A record for `wiki.yourdomain` → server IP
 
 ## 2. Harden (5 minutes, do it first)
 
@@ -52,9 +52,3 @@ tar czf /backups/files-$(date +%F).tgz -C ~/vrising-wiki/data images config
 
 Ship `/backups` off the VPS — a Hetzner Storage Box (~€4/mo, BX11) with rsync or
 restic is the easy answer. Test a restore before importing content.
-
-## Portfolio later
-
-Add a second site block to `caddy/Caddyfile` (static file_server or another
-container), point its DNS at the same IP, `docker compose restart caddy`. Done —
-no new infrastructure.

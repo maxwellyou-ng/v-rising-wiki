@@ -13,7 +13,6 @@ Stand up a self-hosted MediaWiki instance as an independent alternative to the V
 - All config (`LocalSettings.php`, `php.ini` overrides) in volumes/bind mounts — nothing baked into images
 - A job runner must run continuously (sidecar container) — MediaWiki defers link-table updates and Cargo rebuilds to the job queue, so pages look stale without it
 - **Anti-spam from day one** (wiki is public immediately): `ConfirmEdit` (captcha), `AbuseFilter`, restrict anonymous editing until the community warrants opening up
-- The VPS will later also host a separate portfolio site (static, served by the same reverse proxy on another domain) — keep the proxy config structured for multiple sites
 
 ### Phase 2 — Content migration from Fandom
 - **Text**: enumerate all pages via `Special:AllPages`/API, export in batches from `https://vrising.fandom.com/wiki/Special:Export` (XML). The exporter caps pages and revisions per request — batching is mandatory
@@ -27,16 +26,13 @@ Stand up a self-hosted MediaWiki instance as an independent alternative to the V
 - Infobox templates for V Rising entities (bosses, weapons, crafting recipes, abilities, etc.)
 - Review and iterate with collaborators
 
-### Phase 4 — Portfolio site
-- Separate static portfolio site on its own domain, served from the same VPS via the reverse proxy (or Cloudflare Pages if preferred — independent decision)
-
 ## Tech Stack (pinned)
 
 - **Wiki software**: MediaWiki **1.43 LTS** (supported until Dec 2027). Pin the image tag (e.g. `mediawiki:1.43`) — never `:latest`. Extensions must match the `REL1_43` branch
 - **Database**: MariaDB **11.4 LTS** (pinned major)
 - **Containerization**: Docker Compose on the VPS
 - **Host**: Hetzner Cloud VPS
-- **Reverse proxy / TLS**: Caddy (automatic Let's Encrypt) — simplest for multi-site later
+- **Reverse proxy / TLS**: Caddy (automatic Let's Encrypt)
 - **PHP overrides** (volume-mounted `php.ini`): raise `upload_max_filesize`, `post_max_size`, `memory_limit`, `max_execution_time` — needed for imports and VisualEditor
 
 ## Extensions to install

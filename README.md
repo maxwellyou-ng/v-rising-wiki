@@ -7,7 +7,7 @@ scripts — no secrets, no wiki content (that lives in the database and backups)
 ## Layout
 
 - `docker-compose.yml` — Caddy (TLS) + MediaWiki 1.43 LTS + MariaDB 11.4 + job runner
-- `caddy/Caddyfile` — reverse proxy config (wiki now, portfolio site later)
+- `caddy/Caddyfile` — reverse proxy config
 - `docs/hetzner-deploy.md` — provision, harden, deploy
 - `docs/first-run-setup.md` — installer, extensions, backup/restore test
 - `scripts/post-install.sh` — fetches Cargo + SearchDigest, generates LocalSettings additions
