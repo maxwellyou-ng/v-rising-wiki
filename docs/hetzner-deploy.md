@@ -43,11 +43,13 @@ disables anonymous editing by default.
 
 ## 5. Backups (off-box)
 
-Nightly cron on the VPS:
+Nightly cron on the VPS using `scripts/backup.sh` (DB dump + images/config
+tarball, prunes after 14 days):
 
 ```bash
-docker exec vrising-wiki-db-1 mariadb-dump -uroot -p"$DB_ROOT_PASSWORD" vrising_wiki | gzip > /backups/db-$(date +%F).sql.gz
-tar czf /backups/files-$(date +%F).tgz -C ~/vrising-wiki/data images config
+sudo mkdir -p /backups && sudo chown deploy /backups
+crontab -e   # add:
+# 0 3 * * * cd /home/deploy/vrising-wiki && ./scripts/backup.sh >> /var/log/wiki-backup.log 2>&1
 ```
 
 Ship `/backups` off the VPS — a Hetzner Storage Box (~€4/mo, BX11) with rsync or

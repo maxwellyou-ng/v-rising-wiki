@@ -26,8 +26,7 @@ fetch Cargo "https://gerrit.wikimedia.org/r/mediawiki/extensions/Cargo" "$MW_BRA
 # SearchDigest — Weird Gloop; uses master (not branched per MW release)
 fetch SearchDigest "https://github.com/weirdgloop/SearchDigest" "master"
 
-mkdir -p "$DATA_ROOT/config-snippets" 2>/dev/null || true
-SNIPPET="$DATA_ROOT/../config-snippets/LocalSettings-additions.php"
+SNIPPET="$(dirname "$0")/../config-snippets/LocalSettings-additions.php"
 mkdir -p "$(dirname "$SNIPPET")"
 
 cat > "$SNIPPET" <<'PHP'
