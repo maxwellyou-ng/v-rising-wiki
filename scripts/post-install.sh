@@ -20,11 +20,11 @@ fetch() {
   rm -rf "$EXT_DIR/$name/.git"
 }
 
-# Cargo — structured data (REL1_43 branch)
-fetch Cargo "https://gerrit.wikimedia.org/r/mediawiki/extensions/Cargo" "$MW_BRANCH"
+# Cargo — structured data (REL1_43 branch; GitHub mirror of Wikimedia Gerrit)
+fetch Cargo "https://github.com/wikimedia/mediawiki-extensions-Cargo" "$MW_BRANCH"
 
 # SearchDigest — Weird Gloop; uses master (not branched per MW release)
-fetch SearchDigest "https://github.com/weirdgloop/SearchDigest" "master"
+fetch SearchDigest "https://github.com/weirdgloop/mediawiki-extensions-SearchDigest" "master"
 
 SNIPPET="$(dirname "$0")/../config-snippets/LocalSettings-additions.php"
 mkdir -p "$(dirname "$SNIPPET")"
