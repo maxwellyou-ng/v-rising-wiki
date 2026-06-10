@@ -1,0 +1,5 @@
+.env
+data/
+backup*.sql
+*.tgz
+.DS_Store

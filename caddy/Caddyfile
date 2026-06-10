@@ -1,0 +1,12 @@
+# Replace wiki.example.com with your domain. Caddy handles Let's Encrypt automatically.
+# Add the portfolio site later as a second block (separate domain → its own container/static dir).
+
+wiki.example.com {
+	reverse_proxy mediawiki:80
+	encode gzip
+}
+
+# portfolio.example.com {
+# 	root * /srv/portfolio
+# 	file_server
+# }

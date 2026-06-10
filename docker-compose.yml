@@ -1,0 +1,74 @@
+# V Rising Wiki — production stack (Hetzner VPS)
+# cp .env.example .env, edit values, then `docker compose up -d`
+#
+# First run: the LocalSettings.php mounts are commented out until the web
+# installer has generated it. See docs/first-run-setup.md.
+
+services:
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./caddy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - ${DATA_ROOT:-./data}/caddy/data:/data
+      - ${DATA_ROOT:-./data}/caddy/config:/config
+
+  db:
+    image: mariadb:11.4
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MARIADB_DATABASE: ${DB_NAME:-vrising_wiki}
+      MARIADB_USER: ${DB_USER:-wiki}
+      MARIADB_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ${DATA_ROOT:-./data}/db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mediawiki:
+    image: mediawiki:1.43
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    # No host port — Caddy proxies to it on the compose network
+    volumes:
+      - ${DATA_ROOT:-./data}/images:/var/www/html/images
+      - ${DATA_ROOT:-./data}/config/php-overrides.ini:/usr/local/etc/php/conf.d/zz-overrides.ini:ro
+      # Uncomment after the web installer has generated LocalSettings.php
+      # (see docs/first-run-setup.md):
+      # - ${DATA_ROOT:-./data}/config/LocalSettings.php:/var/www/html/LocalSettings.php:ro
+      # - ${DATA_ROOT:-./data}/config/extensions/Cargo:/var/www/html/extensions/Cargo:ro
+      # - ${DATA_ROOT:-./data}/config/extensions/SearchDigest:/var/www/html/extensions/SearchDigest:ro
+
+  # Continuous job runner — MediaWiki defers link tables / Cargo rebuilds to the
+  # job queue; without this, pages look stale after edits and imports.
+  jobrunner:
+    image: mediawiki:1.43
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    entrypoint: ["/bin/bash", "-c"]
+    command:
+      - |
+        echo 'Waiting for LocalSettings.php...'
+        until [ -f /var/www/html/LocalSettings.php ]; do sleep 10; done
+        while true; do
+          php maintenance/run.php runJobs --wait --maxjobs=100 || true
+          sleep 5
+        done
+    volumes:
+      - ${DATA_ROOT:-./data}/images:/var/www/html/images
+      - ${DATA_ROOT:-./data}/config/php-overrides.ini:/usr/local/etc/php/conf.d/zz-overrides.ini:ro
+      # Uncomment together with the mediawiki service mounts above:
+      # - ${DATA_ROOT:-./data}/config/LocalSettings.php:/var/www/html/LocalSettings.php:ro
+      # - ${DATA_ROOT:-./data}/config/extensions/Cargo:/var/www/html/extensions/Cargo:ro
+      # - ${DATA_ROOT:-./data}/config/extensions/SearchDigest:/var/www/html/extensions/SearchDigest:ro
