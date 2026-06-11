@@ -44,9 +44,10 @@ services:
       - ${DATA_ROOT:-./data}/config/php-overrides.ini:/usr/local/etc/php/conf.d/zz-overrides.ini:ro
       # Uncomment after the web installer has generated LocalSettings.php
       # (see docs/first-run-setup.md):
-      # - ${DATA_ROOT:-./data}/config/LocalSettings.php:/var/www/html/LocalSettings.php:ro
-      # - ${DATA_ROOT:-./data}/config/extensions/Cargo:/var/www/html/extensions/Cargo:ro
-      # - ${DATA_ROOT:-./data}/config/extensions/SearchDigest:/var/www/html/extensions/SearchDigest:ro
+      - ${DATA_ROOT:-./data}/config/LocalSettings.php:/var/www/html/LocalSettings.php:ro
+      - ${DATA_ROOT:-./data}/config/extensions/Cargo:/var/www/html/extensions/Cargo:ro
+      - ${DATA_ROOT:-./data}/config/extensions/SearchDigest:/var/www/html/extensions/SearchDigest:ro
+      - ${DATA_ROOT:-./data}/config/extensions/TemplateStyles:/var/www/html/extensions/TemplateStyles:ro
 
   # Continuous job runner — MediaWiki defers link tables / Cargo rebuilds to the
   # job queue; without this, pages look stale after edits and imports.
@@ -69,6 +70,7 @@ services:
       - ${DATA_ROOT:-./data}/images:/var/www/html/images
       - ${DATA_ROOT:-./data}/config/php-overrides.ini:/usr/local/etc/php/conf.d/zz-overrides.ini:ro
       # Uncomment together with the mediawiki service mounts above:
-      # - ${DATA_ROOT:-./data}/config/LocalSettings.php:/var/www/html/LocalSettings.php:ro
-      # - ${DATA_ROOT:-./data}/config/extensions/Cargo:/var/www/html/extensions/Cargo:ro
-      # - ${DATA_ROOT:-./data}/config/extensions/SearchDigest:/var/www/html/extensions/SearchDigest:ro
+      - ${DATA_ROOT:-./data}/config/LocalSettings.php:/var/www/html/LocalSettings.php:ro
+      - ${DATA_ROOT:-./data}/config/extensions/Cargo:/var/www/html/extensions/Cargo:ro
+      - ${DATA_ROOT:-./data}/config/extensions/SearchDigest:/var/www/html/extensions/SearchDigest:ro
+      - ${DATA_ROOT:-./data}/config/extensions/TemplateStyles:/var/www/html/extensions/TemplateStyles:ro
