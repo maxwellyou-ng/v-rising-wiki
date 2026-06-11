@@ -23,8 +23,9 @@ ssh -i ~/.ssh/hetzner_vrising deploy@5.78.219.66
 ```
 
 Repo lives at `/home/deploy/vrising-wiki` on the VPS. Commands that touch the
-live wiki (imports, maintenance scripts, docker compose) run there via this
-SSH connection — assume this when generating commands.
+live wiki (imports, maintenance scripts, docker compose) run there — assume
+the user is already SSH'd in unless they say otherwise. Write commands as if
+already on the VPS; don't prepend `ssh -i ~/.ssh/hetzner_vrising deploy@5.78.219.66 "..."` unless explicitly needed.
 
 ## Phases
 

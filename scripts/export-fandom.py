@@ -22,27 +22,32 @@ import time
 import urllib.parse
 import urllib.request
 
-EXPORT_URL = "https://vrising.fandom.com/wiki/Special:Export"
-USER_AGENT = "v-rising-wiki-migration/1.0 (https://wiki.v-ris.ing; hi@maxwellyou.ng)"
+API_URL = "https://vrising.fandom.com/api.php"
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; v-rising-wiki-migration/1.0; +https://wiki.v-ris.ing)",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+    "Referer": "https://vrising.fandom.com/wiki/Special:Export",
+}
 BATCH_SIZE = 50
-DELAY = 1.0  # seconds between batches
+DELAY = 2.0  # seconds between batches
 RETRIES = 3
 
 
 def export_batch(titles: list) -> bytes:
-    # NOTE: do NOT include "curonly" or "templates" keys at all — MediaWiki's
-    # Special:Export treats their mere presence (even empty) as checked, and
-    # curonly would silently drop edit history.
+    # Use the MediaWiki API endpoint — less aggressively blocked than Special:Export.
+    # action=query&export=1 returns full XML with history by default (no curonly).
     data = urllib.parse.urlencode(
         {
-            "pages": "\n".join(titles),
-            "history": "1",      # full revision history (CC BY-SA attribution)
-            "wpDownload": "1",
-            "title": "Special:Export",
+            "action": "query",
+            "format": "xml",
+            "export": "1",
+            "exportnowrap": "1",
+            "titles": "|".join(titles),
         }
     ).encode()
     req = urllib.request.Request(
-        EXPORT_URL, data=data, headers={"User-Agent": USER_AGENT}
+        API_URL, data=data, headers=HEADERS
     )
     last_err = None
     for attempt in range(1, RETRIES + 1):
