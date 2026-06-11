@@ -23,17 +23,22 @@ Produces `pages.txt`, `exports/*.xml` (full edit history — required for
 CC BY-SA attribution), and `images-import/` (~2,600 files). Re-runnable;
 finished batches and downloaded images are skipped.
 
-## 2. Copy to the VPS and import XML
+## 2. Import XML
+
+Run step 1 on the VPS itself (preferred) so `exports/` and `images-import/`
+land directly in `~/vrising-wiki`. If you ran it elsewhere, rsync first:
 
 ```bash
-rsync -av exports/ images-import/ wiki-vps:/opt/v-rising-wiki/migration/
+rsync -av -e "ssh -i ~/.ssh/hetzner_vrising" exports/ images-import/ \
+  deploy@5.78.219.66:/home/deploy/vrising-wiki/
 ```
 
-On the VPS (stdin piping — there is no import mount in the compose file):
+On the VPS (`ssh -i ~/.ssh/hetzner_vrising deploy@5.78.219.66`), stdin piping —
+there is no import mount in the compose file:
 
 ```bash
-cd /opt/v-rising-wiki
-for f in migration/exports/*.xml; do
+cd ~/vrising-wiki
+for f in exports/*.xml; do
   docker compose exec -T mediawiki php maintenance/run.php importDump --quiet < "$f"
 done
 docker compose exec mediawiki php maintenance/run.php rebuildrecentchanges
@@ -44,7 +49,7 @@ Use `importDump.php` — **not** Special:Import (web importer fails on large fil
 ## 3. Import images
 
 ```bash
-docker compose cp migration/images-import mediawiki:/tmp/images-import
+docker compose cp images-import mediawiki:/tmp/images-import
 docker compose exec mediawiki php maintenance/run.php importImages \
   --comment "Imported from vrising.fandom.com (CC BY-SA)" /tmp/images-import
 docker compose exec mediawiki rm -rf /tmp/images-import

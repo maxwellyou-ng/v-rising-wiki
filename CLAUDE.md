@@ -11,6 +11,16 @@ Stand up a self-hosted MediaWiki instance as an independent alternative to the V
 Live at https://wiki.v-ris.ing. Phase 1 fully complete: stack deployed, all
 extensions active, anti-spam running, backup/restore tested, nightly cron set.
 
+## VPS access
+
+```bash
+ssh -i ~/.ssh/hetzner_vrising deploy@5.78.219.66
+```
+
+Repo lives at `/home/deploy/vrising-wiki` on the VPS. Commands that touch the
+live wiki (imports, maintenance scripts, docker compose) run there via this
+SSH connection — assume this when generating commands.
+
 ## Phases
 
 ### Phase 1 — Deploy to Hetzner VPS ✅ COMPLETE
