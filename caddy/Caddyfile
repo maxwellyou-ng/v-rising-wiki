@@ -1,8 +1,14 @@
 # Caddy handles Let's Encrypt automatically.
 
 wiki.v-ris.ing {
-	reverse_proxy mediawiki:80
 	encode gzip
+
+	@wiki {
+		path_regexp wiki ^/wiki/(.+)$
+	}
+	rewrite @wiki /index.php?title={re.wiki.1}&{query}
+
+	reverse_proxy mediawiki:80
 }
 
 v-ris.ing, www.v-ris.ing {
