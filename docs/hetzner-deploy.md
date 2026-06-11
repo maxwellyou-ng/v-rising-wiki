@@ -49,7 +49,7 @@ tarball, prunes after 14 days):
 ```bash
 sudo mkdir -p /backups && sudo chown deploy /backups
 crontab -e   # add:
-# 0 3 * * * cd /home/deploy/vrising-wiki && ./scripts/backup.sh >> /var/log/wiki-backup.log 2>&1
+# 0 2 * * * cd /home/deploy/vrising-wiki && ./scripts/backup.sh >> /var/log/wiki-backup.log 2>&1
 ```
 
 Ship `/backups` off the VPS — a Hetzner Storage Box (~€4/mo, BX11) with rsync or

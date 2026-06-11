@@ -1,64 +1,83 @@
-# Go-Live Checklist (human steps)
+# Phase 2 — Content Migration Checklist
 
-Everything in this repo is ready — compose stack, Caddy config, docs, scripts
-(all tested). What remains needs *you*: accounts, money, DNS, and clicking
-through the installer. Roughly 1–2 hours total.
+Phase 1 is complete (wiki live at https://wiki.v-ris.ing, backup tested).
+This checklist covers migrating content from the V Rising Fandom wiki.
 
-## 1. Push this repo to GitHub (~2 min)
+**Scope (from the Fandom API, 2026-06-10):** 5,865 pages (1,359 articles),
+2,619 images, 34,323 edits.
 
-Create an empty repo on github.com, then locally:
+**Status:** migration scripts written and validated (`scripts/list-pages.py`,
+`scripts/export-fandom.py`, `scripts/fetch-images.py`, stdlib-only). The
+remaining steps need a machine with open internet access (your Mac or the VPS)
+and sysop/SSH access.
+
+## 1. Run the migration scripts ⬅ next human step
+
+From the repo root, on your Mac or the VPS (not inside a container):
 
 ```bash
-git remote add origin git@github.com:<you>/v-rising-wiki.git
-git push -u origin main
+./scripts/run-migration.sh
 ```
 
-## 2. Buy the VPS (~10 min)
+Produces `pages.txt`, `exports/*.xml` (full edit history — required for
+CC BY-SA attribution), and `images-import/` (~2,600 files). Re-runnable;
+finished batches and downloaded images are skipped.
 
-Hetzner Cloud → new project → new server: **CX22**, Ubuntu 24.04, add your SSH
-key. ~€4/mo. Note the IP.
+## 2. Copy to the VPS and import XML
 
-## 3. Point DNS (~5 min)
+```bash
+rsync -av exports/ images-import/ wiki-vps:/opt/v-rising-wiki/migration/
+```
 
-At your domain registrar: A record `wiki.yourdomain.com` → the VPS IP.
-Do this *before* deploying — Caddy needs the DNS to resolve to issue the TLS cert.
+On the VPS (stdin piping — there is no import mount in the compose file):
 
-## 4. Deploy (~30 min)
+```bash
+cd /opt/v-rising-wiki
+for f in migration/exports/*.xml; do
+  docker compose exec -T mediawiki php maintenance/run.php importDump --quiet < "$f"
+done
+docker compose exec mediawiki php maintenance/run.php rebuildrecentchanges
+```
 
-SSH in and follow `docs/hetzner-deploy.md` top to bottom: harden the box,
-install Docker, clone your repo, set passwords in `.env`, set your real domain
-in `caddy/Caddyfile`, `docker compose up -d`.
+Use `importDump.php` — **not** Special:Import (web importer fails on large files).
 
-## 5. Run the MediaWiki installer (~15 min)
+## 3. Import images
 
-Follow `docs/first-run-setup.md`: web installer (your admin account, CC BY-SA
-4.0 license), place `LocalSettings.php`, run `scripts/post-install.sh`, append
-the generated snippet, enable the mounts, run `update.php`.
+```bash
+docker compose cp migration/images-import mediawiki:/tmp/images-import
+docker compose exec mediawiki php maintenance/run.php importImages \
+  --comment "Imported from vrising.fandom.com (CC BY-SA)" /tmp/images-import
+docker compose exec mediawiki rm -rf /tmp/images-import
+```
 
-**One choice to make**: the anti-spam snippet includes two V Rising-themed
-captcha questions for account creation. Review/replace them in the snippet —
-custom questions only work if they're not googleable in 5 seconds.
+Expect redirects, duplicates, and SVGs that need cleanup —
+`images-manifest.json` (written by the fetch script) has names/sizes/sha1s
+for cross-checking.
 
-## 6. Test backup AND restore (~20 min)
+## 4. Add attribution notice
 
-`docs/first-run-setup.md` §4. Do not skip — a backup you've never restored
-doesn't exist. Then add the cron line for `scripts/backup.sh` and (recommended)
-order a Hetzner Storage Box to ship backups off the VPS.
+Follow `config-snippets/attribution.md`: sitenotice wikitext, footer hook for
+`LocalSettings.php`, and license config check. CC BY-SA requires this before
+the imported content is public-facing.
 
-## 7. Open the doors
+## 5. Port templates and Lua modules
 
-The wiki is now live and editable by anyone who creates an account (anonymous
-editing is off, account creation is on, captcha-gated). To invite collaborators:
-send them the URL — they self-register. Make trusted people admins at
-`Special:UserRights` (add to `sysop`).
+After import, identify broken templates (red links on heavily-templated pages).
+Fandom templates often depend on custom CSS or JS that needs to be rebuilt.
+Priority order:
+1. Infobox templates (bosses, items, abilities)
+2. Navigation templates
+3. Cargo table declarations
 
-Quick sanity checks before announcing anywhere:
-- `Special:Version` lists all extensions
-- Create a second (non-admin) test account and make an edit
-- Job queue drains (`Special:Statistics`)
-- An image upload works
+## 6. Verify
+
+- Spot-check 10–20 article pages for broken templates or missing images
+- Check `Special:BrokenRedirects` and `Special:WantedPages`
+- Run `Special:Statistics` — page/file counts should be near 5,865 / 2,619;
+  job queue should drain to 0 after ~10 minutes (jobrunner container)
+- Confirm full edit history on a few imported pages (history tab)
 
 ## What's deliberately NOT done yet
 
-Phase 2 (Fandom content migration) starts only after step 6 passes. That's the
-next session of work — export tooling, `importDump.php`, image fetching.
+Phase 3 (skin/theming, Cargo schemas for game entities, CommentStreams) starts
+only after the content migration is verified.
