@@ -11,6 +11,11 @@ Stand up a self-hosted MediaWiki instance as an independent alternative to the V
 Live at https://wiki.v-ris.ing. Phase 1 fully complete: stack deployed, all
 extensions active, anti-spam running, backup/restore tested, nightly cron set.
 
+Migration scripts (`scripts/list-pages.py`, `export-fandom.py`,
+`fetch-images.py`, `run-migration.sh`) are written and on the VPS. **See the
+Progress checklist at the top of `GO-LIVE.md` for exactly where the migration
+stands and what's next** — keep that checklist updated as steps complete.
+
 ## VPS access
 
 ```bash

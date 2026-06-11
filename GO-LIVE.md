@@ -6,16 +6,22 @@ This checklist covers migrating content from the V Rising Fandom wiki.
 **Scope (from the Fandom API, 2026-06-10):** 5,865 pages (1,359 articles),
 2,619 images, 34,323 edits.
 
-**Status:** migration scripts written and validated (`scripts/list-pages.py`,
-`scripts/export-fandom.py`, `scripts/fetch-images.py`, stdlib-only). The
-remaining steps need a machine with open internet access (your Mac or the VPS)
-and sysop/SSH access.
+## Progress (2026-06-10)
 
-## 1. Run the migration scripts ⬅ next human step
+- [x] Migration scripts written, validated, committed (stdlib-only)
+- [x] Pushed to GitHub; VPS repo pulled to `7256b15` (live Caddyfile/compose
+      edits were redundant with incoming commits; stash verified + dropped)
+- [ ] **Step 1 in progress** — `run-migration.sh` launched on the VPS in
+      tmux session `migration` (`tmux attach -t migration` to check).
+      When done, verify counts below, then continue from step 2
+- [ ] Steps 2–6 below
 
-From the repo root, on your Mac or the VPS (not inside a container):
+## 1. Run the migration scripts
+
+On the VPS, from `~/vrising-wiki` (not inside a container), in tmux:
 
 ```bash
+tmux new -s migration   # or: tmux attach -t migration
 ./scripts/run-migration.sh
 ```
 
