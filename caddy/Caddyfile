@@ -1,6 +1,10 @@
-# Replace wiki.example.com with your domain. Caddy handles Let's Encrypt automatically.
+# Caddy handles Let's Encrypt automatically.
 
-wiki.example.com {
+wiki.v-ris.ing {
 	reverse_proxy mediawiki:80
 	encode gzip
+}
+
+v-ris.ing, www.v-ris.ing {
+	redir https://wiki.v-ris.ing{uri} permanent
 }
