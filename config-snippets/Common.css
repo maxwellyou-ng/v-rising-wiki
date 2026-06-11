@@ -1,0 +1,65 @@
+/* ===================================================
+   V Rising Wiki — Common.css
+   Live at: MediaWiki:Common.css
+   Applies in all skins; uses tokens defined in Citizen.css
+   =================================================== */
+
+/* --- Tables --- */
+.wikitable {
+  background: var(--color-surface-1);
+  border-collapse: collapse;
+  border: 1px solid var(--color-surface-4);
+  color: var(--color-base);
+}
+.wikitable th {
+  background: var(--color-surface-3);
+  border: 1px solid var(--color-surface-4);
+  padding: 6px 10px;
+  color: var(--color-base);
+}
+.wikitable td {
+  border: 1px solid var(--color-surface-4);
+  padding: 5px 10px;
+}
+.wikitable tr:nth-child(even) td {
+  background: var(--color-surface-2);
+}
+
+/* --- Thumbnails / images --- */
+.thumb {
+  border: 1px solid var(--color-surface-4);
+  background: var(--color-surface-1);
+  padding: 4px;
+}
+.thumbcaption {
+  color: var(--color-base--subtle);
+  font-size: 0.85em;
+  padding-top: 4px;
+}
+
+/* --- Attribution notice (CC BY-SA) --- */
+#mw-content-text .vr-attribution {
+  font-size: 0.8em;
+  color: var(--color-base--subtle);
+  border-top: 1px solid var(--color-surface-4);
+  margin-top: 2em;
+  padding-top: 0.5em;
+}
+
+/* --- Redlinks --- */
+a.new {
+  color: var(--color-link--new);
+}
+
+/* --- Visited links --- */
+a:visited {
+  color: var(--color-link--visited);
+}
+
+/* --- Category links at page bottom --- */
+#catlinks {
+  background: var(--color-surface-1);
+  border: 1px solid var(--color-surface-4);
+  padding: 6px 12px;
+  font-size: 0.9em;
+}

@@ -1,0 +1,77 @@
+/* ===================================================
+   V Rising — Citizen skin token overrides
+   Live at: MediaWiki:Citizen.css
+   Dark theme (default) + light theme
+   =================================================== */
+
+/* Dark theme */
+[data-mw-skin-citizen-theme="dark"],
+:root {
+  --color-surface-0: #0d0d0f;
+  --color-surface-1: #13131a;
+  --color-surface-2: #1a1a24;
+  --color-surface-3: #22222f;
+  --color-surface-4: #2a2a3a;
+
+  --color-base: #e8e4dc;
+  --color-base--subtle: #a89f94;
+  --color-base--placeholder: #6b6560;
+
+  --color-primary: #a0162a;
+  --color-primary--hover: #c01c34;
+  --color-primary--active: #7a1020;
+
+  --color-link: #c45c6a;
+  --color-link--visited: #9a4a6a;
+  --color-link--new: #e07060;
+
+  --color-accent: #b8942a;
+  --color-accent--subtle: #7a6018;
+
+  --color-destructive: #cf3a3a;
+  --color-warning: #c4842a;
+  --color-success: #3a8a4a;
+}
+
+/* Light theme */
+[data-mw-skin-citizen-theme="light"] {
+  --color-surface-0: #f5f0e8;
+  --color-surface-1: #ede8dc;
+  --color-surface-2: #e4ddd0;
+  --color-surface-3: #d8d0c0;
+  --color-surface-4: #ccc3b0;
+
+  --color-base: #1a1614;
+  --color-base--subtle: #4a4038;
+  --color-base--placeholder: #8a7e74;
+
+  --color-primary: #8a1020;
+  --color-primary--hover: #a81428;
+  --color-primary--active: #6a0c18;
+
+  --color-link: #8a1020;
+  --color-link--visited: #6a3050;
+  --color-link--new: #c04030;
+
+  --color-accent: #8a6a10;
+  --color-accent--subtle: #b08820;
+}
+
+/* ===================================================
+   V Rising semantic variables (used by templates)
+   =================================================== */
+:root {
+  /* Rarity colors (matches in-game) */
+  --vr-rarity-common: #c8c8c8;
+  --vr-rarity-uncommon: #4a9e4a;
+  --vr-rarity-rare: #4a6abe;
+  --vr-rarity-epic: #9a3abe;
+  --vr-rarity-legendary: #d4841a;
+
+  /* Infobox */
+  --vr-infobox-bg: var(--color-surface-2);
+  --vr-infobox-header-bg: var(--color-primary);
+  --vr-infobox-header-text: #f0e8e0;
+  --vr-infobox-border: var(--color-surface-4);
+  --vr-infobox-label: var(--color-base--subtle);
+}

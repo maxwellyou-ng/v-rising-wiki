@@ -6,15 +6,16 @@ Stand up a self-hosted MediaWiki instance as an independent alternative to the V
 
 ## Current status
 
-**Phase 3 — Design and configuration**
+**Phase 3 — Design and configuration (in progress)**
 
-Live at https://wiki.v-ris.ing. Phase 1 fully complete: stack deployed, all
-extensions active, anti-spam running, backup/restore tested, nightly cron set.
+Live at https://wiki.v-ris.ing. Phases 1 and 2 complete. **See `PHASE3.md`
+for the Phase 3 progress checklist and what's next.**
 
-Migration scripts (`scripts/list-pages.py`, `export-fandom.py`,
-`fetch-images.py`, `run-migration.sh`) are written and on the VPS. **See the
-Progress checklist at the top of `GO-LIVE.md` for exactly where the migration
-stands and what's next** — keep that checklist updated as steps complete.
+URL pattern: clean `/w/` URLs (`$wgArticlePath = '/w/$1'`, Caddy rewrite on
+`^/w/(.+)$`). Use `/w/` not `/wiki/` in all links going forward.
+
+On-wiki CSS is mirrored to `config-snippets/` in this repo — edit there first,
+then paste to the wiki page.
 
 ## VPS access
 
@@ -38,7 +39,7 @@ already on the VPS; don't prepend `ssh -i ~/.ssh/hetzner_vrising deploy@5.78.219
 - Nightly backup cron running at 2am (scripts/backup.sh)
 - Backup/restore tested before content work began
 
-### Phase 2 — Content migration from Fandom (current phase)
+### Phase 2 — Content migration from Fandom ✅ COMPLETE
 - **Text**: enumerate all pages via `Special:AllPages`/API, export in batches from `https://vrising.fandom.com/wiki/Special:Export` (XML). The exporter caps pages and revisions per request — batching is mandatory
 - Import with CLI `importDump.php`, **not** Special:Import (web importer fails on large files / PHP upload limits)
 - Preserve edit history (required for CC BY-SA attribution); also add a site-wide attribution notice pointing at the source wiki
@@ -81,6 +82,7 @@ Bundled with 1.43:
 Installed separately:
 - `Cargo` 3.7 — structured data/database for game entities
 - `SearchDigest` 1.5.1 — surfaces failed searches
+- `Citizen` 3.17.0 — skin (bind-mounted at `data/config/skins/Citizen`)
 
 ## Backups
 
