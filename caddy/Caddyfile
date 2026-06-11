@@ -4,7 +4,7 @@ wiki.v-ris.ing {
 	encode gzip
 
 	@wiki {
-		path_regexp wiki ^/wiki/(.+)$
+		path_regexp wiki ^/w/(.+)$
 	}
 	rewrite @wiki /index.php?title={re.wiki.1}&{query}
 

@@ -11,10 +11,9 @@ This checklist covers migrating content from the V Rising Fandom wiki.
 - [x] Migration scripts written, validated, committed (stdlib-only)
 - [x] Pushed to GitHub; VPS repo pulled to `7256b15` (live Caddyfile/compose
       edits were redundant with incoming commits; stash verified + dropped)
-- [ ] **Step 1 in progress** — `run-migration.sh` launched on the VPS in
-      tmux session `migration` (`tmux attach -t migration` to check).
-      When done, verify counts below, then continue from step 2
-- [ ] Steps 2–6 below
+- [x] Steps 1–6 complete (2026-06-11)
+- [x] Clean `/w/` URLs working (wgArticlePath + Caddy rewrite)
+- [x] CC BY-SA attribution live (sitenotice, footer hook, MediaWiki messages)
 
 ## 1. Run the migration scripts
 
@@ -92,3 +91,12 @@ Priority order:
 
 Phase 3 (skin/theming, Cargo schemas for game entities, CommentStreams) starts
 only after the content migration is verified.
+
+## Known gaps / future to-dos
+
+- **Full edit history**: The API export (`action=query&export=1`) only captures
+  the latest revision per page. Full editor history was not preserved.
+  To fix: retry `Special:Export` with `history=1` (was blocked by 403 during
+  migration — try with a logged-in session cookie or from a residential IP).
+  Re-import with `importDump.php --no-updates` to merge without overwriting
+  current content. Until then, footer attribution covers CC BY-SA.

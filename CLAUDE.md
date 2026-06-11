@@ -6,7 +6,7 @@ Stand up a self-hosted MediaWiki instance as an independent alternative to the V
 
 ## Current status
 
-**Phase 2 — Content migration from Fandom**
+**Phase 3 — Design and configuration**
 
 Live at https://wiki.v-ris.ing. Phase 1 fully complete: stack deployed, all
 extensions active, anti-spam running, backup/restore tested, nightly cron set.
