@@ -14,19 +14,29 @@
 - [x] Main page shell — entry-point card grid
       (wikitext at `Main_Page`, TemplateStyles at
       `Template:Main_Page/styles.css`)
-- [ ] Branding assets — logo/wordmark, favicon, OpenGraph image
-      (`$wgLogos`, `$wgFavicon` in LocalSettings.php; game-styled original art,
-      not Stunlock sprites)
+- [x] Branding assets (2026-07-03) — original fanged-V icon + wordmark SVGs,
+      favicon, OG image in `assets/branding/`, served from
+      `data/images/branding/`; `$wgLogos`/`$wgFavicon`/`$wgSitename`
+      ("V Rising Wiki") wired in LocalSettings.php
 
 ## Stage 2 — Polish (after template porting)
 
-- [ ] Infobox system — base template + per-entity variants
-      (boss, weapon, gear, recipe, ability, creature)
-      TemplateStyles + Cargo-backed; rarity coloring via `--vr-rarity-*` tokens
-- [ ] Port broken templates — priority order:
-      1. Infobox templates (currently rendering raw XML on article pages)
-      2. Navigation templates
-      3. Cargo table declarations
+- [x] Infobox system — `Module:Infobox` + per-entity wrappers (2026-07-03)
+      (item, structure, equipment, ability, weapon, boss, enemy, ore node…)
+      TemplateStyles at `Template:Infobox/styles.css`, Cargo tables per type
+      (items, structures, equipment, abilities, weapons, bosses, enemies);
+      rarity coloring via `--vr-rarity-*` tokens still TODO
+- [x] Port broken templates (2026-07-03) — all Variables/DPL/PortableInfobox
+      dependencies removed; Lua ports in `wiki-content/` (repo mirror,
+      `scripts/push-wiki-content.sh` syncs to the wiki):
+      - ItemFrame/ItemBox, Ability/AbilityFrame → Module:ItemFrame/AbilityIcon
+      - Recipe/LocationFinder → Module:GameData (parses /data pages, no LST)
+      - LootDrop/List Loot Sources → Cargo `loot_drops` (was DPL)
+      - Screenshots → Module:Screenshots (needs TabberNeue — see below)
+      - `$wgPFEnableStringFunctions = true` for `{{#replace:}}` et al.
+- [ ] TabberNeue extension — bind mount is in docker-compose.yml and the
+      REL1_43 clone step is documented; needs `docker compose up -d` +
+      `wfLoadExtension( 'TabberNeue' )` (blocked on operator action)
 - [ ] Navboxes — consistent footer navboxes across entity types
 - [ ] Cargo query result styling — sortable list/table pages
 - [ ] Light theme audit — full pass, WCAG AA contrast check
@@ -39,6 +49,23 @@
       - Extend AbuseFilter + ConfirmEdit to comment namespace
       - Style against design tokens
 - [ ] Collaborator review round
+
+## SEO / discoverability (2026-07-03)
+
+- [x] robots.txt served by Caddy; legacy `/wiki/` → `/w/` 301
+- [x] Sitemap: `scripts/generate-sitemap.sh` → `/images/sitemap/`, daily cron
+- [ ] Meta descriptions / OpenGraph tags — needs WikiSEO + PageImages +
+      TextExtracts (REL1_43 bind mounts, same operator step as TabberNeue)
+- [ ] Submit sitemap to Google Search Console
+
+## Known follow-ups
+
+- Search index was empty after CLI import — if search results look thin,
+  re-run `maintenance/run.php rebuildtextindex`
+- LocationFinder map links still point at the Fandom interactive map
+  (Map:Vardoran) — no local equivalent yet
+- Old Fandom template copies (`ItemFrameOld`, `AbilityFrameTest*`,
+  `TemplateTester`, `Test2`) still exist; delete when convenient
 
 ## On-wiki CSS locations
 
