@@ -114,12 +114,7 @@ function p.recipe(frame)
 	return table.concat(out, '\n')
 end
 
-function p.locations(frame)
-	local args = frame:getParent().args
-	local name = first(args, 1)
-	if name == '' then
-		name = mw.title.getCurrentTitle().text
-	end
+function p._locations(name)
 	local locations = record('Template:LocationFinder/data', 'Item_' .. name, 'Item_')
 
 	local out = {}
@@ -132,6 +127,15 @@ function p.locations(frame)
 		end
 	end
 	return table.concat(out, '<br>')
+end
+
+function p.locations(frame)
+	local args = frame:getParent().args
+	local name = first(args, 1)
+	if name == '' then
+		name = mw.title.getCurrentTitle().text
+	end
+	return p._locations(name)
 end
 
 return p

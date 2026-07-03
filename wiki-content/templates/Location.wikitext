@@ -1,0 +1,2 @@
+<includeonly>{{#invoke:Infobox|location}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Locations]]}}</includeonly><noinclude>Location infobox, implemented in [[Module:Infobox]].
+[[Category:Infobox templates| ]]</noinclude>

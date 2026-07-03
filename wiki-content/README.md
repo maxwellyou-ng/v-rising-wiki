@@ -28,6 +28,17 @@ Edit here first, commit, then push to the live wiki from the VPS:
 | templates/Colors.wikitext | Template:Colors |
 | templates/Navbox_Weapons.wikitext | Template:Navbox Weapons |
 | templates/Screenshots.wikitext | Template:Screenshots |
+| modules/Infobox.lua | Module:Infobox |
+| templates/Infobox_styles.css | Template:Infobox/styles.css |
+| templates/ItemInfobox.wikitext | Template:ItemInfobox |
+| templates/StructureInfobox.wikitext | Template:StructureInfobox |
+| templates/EquipmentInfobox.wikitext | Template:EquipmentInfobox |
+| templates/AbilityInfobox.wikitext | Template:AbilityInfobox |
+| templates/WeaponInfobox.wikitext | Template:WeaponInfobox |
+| templates/Boss_Infobox.wikitext | Template:Boss Infobox |
+| templates/Enemy_Infobox.wikitext | Template:Enemy Infobox |
+| templates/OreNodeInfobox.wikitext | Template:OreNodeInfobox |
+| templates/Journal.wikitext, Location, Event, Game, QuestTemplate, Titlebox, Box_with_Title, Simple_Window | matching Template: pages |
 
 Notes:
 

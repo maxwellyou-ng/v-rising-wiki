@@ -1,0 +1,2 @@
+{{#invoke:Infobox|quest}}<noinclude>Quest infobox, implemented in [[Module:Infobox]].
+[[Category:Infobox templates| ]]</noinclude>

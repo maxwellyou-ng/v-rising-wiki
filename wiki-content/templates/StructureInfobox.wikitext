@@ -1,0 +1,29 @@
+<includeonly>{{#invoke:Infobox|structure}}{{#ifeq: {{NAMESPACENUMBER}} | 0 |{{#cargo_store:_table=structures
+|name={{{title|{{PAGENAME}}}}}
+|build_category={{{build_category|}}}
+|room={{{room|}}}
+|resources={{{resources|}}}
+|unlocked_by={{{unlocked_by|Default}}}
+|dimensions={{{dimensions|}}}
+|description={{{description|}}}
+}}[[Category:Structures]]}}</includeonly><noinclude>
+{{#cargo_declare:_table=structures|name=String|build_category=String|room=String|resources=Wikitext|unlocked_by=Wikitext|dimensions=String|description=Wikitext}}
+Structure infobox, implemented in [[Module:Infobox]] and stored in the Cargo table <code>structures</code>.
+
+Example usage:
+<pre>
+{{StructureInfobox
+  | title=Castle Heart
+  | image=Structure CastleHeart.png
+  | build_category=Fundamentals
+  | room=None
+  | resources=30 [[Blood Essence]] <br> 240 [[Stone]]
+  | unlocked_by=Default
+  | dimensions=Tile
+}}
+</pre>
+<templatedata>
+{"params":{"title":{"suggested":true},"image":{"suggested":true},"description":{"suggested":true},"room":{"suggested":true},"resources":{"suggested":true},"unlocked_by":{"suggested":true}, "dimensions":{"suggested":true}},"sets":[],"maps":{}}
+</templatedata>
+[[Category:Infobox templates| ]]
+</noinclude>

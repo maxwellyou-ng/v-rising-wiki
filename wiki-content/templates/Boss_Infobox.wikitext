@@ -1,0 +1,33 @@
+<includeonly>{{#invoke:Infobox|boss}}{{#if:{{{description|}}}|{{Quote|{{{description}}}}}
+|'''''Move the description into the description parameter, thanks.'''''}}{{#ifeq: {{NAMESPACENUMBER}} | 0 |{{#cargo_store:_table=bosses
+|name={{{title|{{PAGENAME}}}}}
+|level={{{level|}}}
+|location={{{location|}}}
+|unit_id={{{unit_id|}}}
+|voice_actor={{{voice_actor|}}}
+|unlocked_spells={{{unlocked_spells|}}}
+|unlocked_vampirepowers={{{unlocked_vampirepowers|}}}
+|unlocked_structures={{{unlocked_structures|}}}
+|unlocked_recipes={{{unlocked_recipes|}}}
+}}[[Category:V Blood Carriers]] }}</includeonly><noinclude>
+{{#cargo_declare:_table=bosses|name=String|level=String|location=Wikitext|unit_id=String|voice_actor=String|unlocked_spells=Wikitext|unlocked_vampirepowers=Wikitext|unlocked_structures=Wikitext|unlocked_recipes=Wikitext}}
+V Blood boss infobox, implemented in [[Module:Infobox]] and stored in the Cargo table <code>bosses</code>.
+
+Example usage:
+<pre>
+{{Boss Infobox
+  | title=Example
+  | image=Example
+  | level=Example
+  | location=Example
+  | unlocked_spells=Example
+  | unlocked_structures=Example
+  | unlocked_recipes=Example
+  | possibe_recipe_drops=Example
+}}
+</pre>
+<templatedata>
+{"params":{"title":{"suggested":true},"description":{"suggested":true},"image":{"suggested":true},"level":{"suggested":true},"location":{"suggested":true},"unlocked_spells":{"suggested":true},"unlocked_structures":{"suggested":true},"unlocked_recipes":{"suggested":true}},"sets":[],"maps":{}}
+</templatedata>
+[[Category:Infobox templates| ]]
+</noinclude>

@@ -1,0 +1,27 @@
+<includeonly>{{#invoke:Infobox|enemy}}{{#ifeq: {{NAMESPACENUMBER}} | 0 |{{#cargo_store:_table=enemies
+|name={{{title|{{PAGENAME}}}}}
+|level={{{level|}}}
+|blood_type={{{blood_type|}}}
+|location={{{location|}}}
+|unit_id={{{unit_id|}}}
+}}[[Category:Enemies]] }}</includeonly><noinclude>
+{{#cargo_declare:_table=enemies|name=String|level=String|blood_type=String|location=Wikitext|unit_id=String}}
+Enemy infobox, implemented in [[Module:Infobox]] and stored in the Cargo table <code>enemies</code>.
+
+Example usage:
+<pre>
+{{Enemy Infobox
+  | title=Example
+  | image=Example
+  | level=Example
+  | blood_type=Example
+  | location=Example
+  | unit_id=Example
+  | description=Example
+}}
+</pre>
+<templatedata>
+{"params":{"title":{"suggested":true},"image":{"suggested":true},"level":{"suggested":true},"blood_type":{"suggested":true},"location":{"suggested":true},"unit_id":{"suggested":true},"description":{"suggested":true}},"sets":[],"maps":{}}
+</templatedata>
+[[Category:Infobox templates| ]]
+</noinclude>

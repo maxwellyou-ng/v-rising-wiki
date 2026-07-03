@@ -1,0 +1,17 @@
+<includeonly>{{#invoke:Infobox|oreNode}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Ore Nodes]] }}</includeonly><noinclude>
+Ore node infobox, implemented in [[Module:Infobox]].
+
+'''Example usage:'''
+<pre>
+{{OreNodeInfobox
+  | title=Copper Ore
+  | smallImage=Node_CopperSmall.png
+  | smallSize=Small
+  | smallDrops=[[Copper Ore]]
+  | largeImage=Node_CopperLarge.png
+  | largeSize=Large
+  | largeDrops=[[Copper Ore]]
+}}
+</pre>
+[[Category:Infobox templates| ]]
+</noinclude>

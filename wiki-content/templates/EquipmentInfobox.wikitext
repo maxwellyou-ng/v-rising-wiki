@@ -1,0 +1,36 @@
+<includeonly>{{#invoke:Infobox|equipment}}{{#ifeq: {{NAMESPACENUMBER}} | 0 |{{#cargo_store:_table=equipment
+|name={{{title|{{PAGENAME}}}}}
+|category={{{category|}}}
+|type={{{type|}}}
+|gear_level={{{gear_level|}}}
+|stats={{{stats|}}}
+|set_bonus={{{set_bonus|}}}
+|durability={{{durability|}}}
+|bloodbound={{{bloodbound|Yes}}}
+|salvageable={{{salvageable|Yes}}}
+}}[[Category:Equipment]]{{Categoryswitch|{{{type|Armour}}}}}<!--
+-->{{#if:{{{category|}}}|{{Categoryswitch|{{{category|}}}}}}}<!--
+-->{{#if:{{{category2|}}}|{{Categoryswitch|{{{category2|}}}}}}}<!--
+-->}}</includeonly><noinclude>
+{{#cargo_declare:_table=equipment|name=String|category=String|type=String|gear_level=String|stats=Wikitext|set_bonus=Wikitext|durability=String|bloodbound=String|salvageable=Wikitext}}
+Equipment infobox, implemented in [[Module:Infobox]] and stored in the Cargo table <code>equipment</code>.
+
+Example usage:
+<pre>
+{{EquipmentInfobox
+| title = Example
+| image = Example
+| category = Blood-Bound
+| category2 = Armour
+| type  = Weapon/Armour/Jewelry/Cloak
+| description = Example
+| stats = +18 Max Health <br> +12.5 Spell Power
+| set_bonus = (2) Increase Max Health by 8. <br> (4) Increase physical power by 2.
+| bloodbound = Yes
+| gear_level = 35
+| durability = 147
+| salvageable = 5 [[Iron Ingot]]
+}}
+</pre>
+[[Category:Infobox templates| ]]
+</noinclude>

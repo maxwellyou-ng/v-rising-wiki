@@ -1,0 +1,2 @@
+{{#invoke:Infobox|titlebox}}<noinclude>Minimal titled box, implemented in [[Module:Infobox]].
+[[Category:Infobox templates| ]]</noinclude>

@@ -1,0 +1,2 @@
+<includeonly>{{#invoke:Infobox|event}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Events]]}}</includeonly><noinclude>Event infobox, implemented in [[Module:Infobox]].
+[[Category:Infobox templates| ]]</noinclude>

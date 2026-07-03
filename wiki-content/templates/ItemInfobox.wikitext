@@ -1,0 +1,34 @@
+<includeonly>{{#invoke:Infobox|item}}{{#ifeq: {{NAMESPACENUMBER}} | 0 |{{#cargo_store:_table=items
+|name={{{title|{{PAGENAME}}}}}
+|category={{{category|}}}
+|station={{{station|}}}
+|bloodbound={{{bloodbound|No}}}
+|teleportable={{{teleportable|No}}}
+|salvageable={{{salvageable|Yes}}}
+|stack_size={{{stack_size|{{{stack|200}}}}}}
+|description={{{description|}}}
+}}[[Category:Items]]<!--
+-->{{#if:{{{category|}}}|{{Categoryswitch|{{{category|}}}}}|[[Category:Uncategorized Items]]}}<!--
+-->{{#if:{{{category2|}}}|{{Categoryswitch|{{{category2|}}}}}}}<!--
+-->}}<!--
+-->{{#if:{{{type|}}}|[[Category:{{{type|}}}]]}}<!--
+--></includeonly><noinclude>
+{{#cargo_declare:_table=items|name=String|category=String|station=Page|bloodbound=String|teleportable=String|salvageable=String|stack_size=String|description=Wikitext}}
+Item infobox, implemented in [[Module:Infobox]] and stored in the Cargo table <code>items</code>.
+
+'''Example usage:'''
+<pre>
+{{ItemInfobox
+  | title=Example
+  | image=Example
+  | category=Alchemy
+  | station=Simple Workbench
+  | bloodbound=No
+  | teleportable=No
+  | salvageable=Yes
+  | stack_size=200
+  | description=Example
+}}
+</pre>
+[[Category:Infobox templates| ]]
+</noinclude>

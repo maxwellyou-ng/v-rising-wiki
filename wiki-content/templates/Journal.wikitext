@@ -1,0 +1,2 @@
+<includeonly>{{#invoke:Infobox|journal}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Quests]]}}</includeonly><noinclude>Journal quest infobox, implemented in [[Module:Infobox]].
+[[Category:Infobox templates| ]]</noinclude>

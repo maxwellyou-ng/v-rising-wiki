@@ -1,0 +1,38 @@
+<includeonly>{{#invoke:Infobox|ability}}{{#ifeq: {{NAMESPACENUMBER}} | 0 |{{#cargo_store:_table=abilities
+|name={{{title|{{PAGENAME}}}}}
+|school={{{school|}}}
+|class={{{class|}}}
+|type={{{type|}}}
+|range={{{range|}}}
+|cast_time={{{castTime|}}}
+|cooldown={{{cooldown|}}}
+|charges={{{charges|}}}
+|recast_time={{{RecastTime|}}}
+|requirements={{{requirements|}}}
+|description={{{description|}}}
+}}}}__NOTOC__
+{{#switch:{{{class|}}}|Vampire Power=[[Category:Vampire Powers]]|Passive=[[Category:Passives]]|[[Category:{{{school}}} Spells|{{#switch:{{#count:{{{requirements|}}}|1}}|6=1|{{#switch:{{#count:{{{requirements|}}}|2}}|7=2|{{#switch:{{#count:{{{requirements|}}}|3}}|9=3|<nowiki />}}}}}}]]}}<!--Defines the Category based on a combination of class, passive and school parameter inputs. If School is defined, also uses requirements parameter to determine keysort.--></includeonly><noinclude>
+{{#cargo_declare:_table=abilities|name=String|school=String|class=String|type=String|range=String|cast_time=String|cooldown=String|charges=String|recast_time=String|requirements=Wikitext|description=Wikitext}}
+Ability infobox, implemented in [[Module:Infobox]] and stored in the Cargo table <code>abilities</code>.
+==Usage==
+'''ability''' - name of the ability. This name will be used to search for image. Defaults to PAGENAME. For further info read [[Template:AbilityFrame]]<br>
+'''description''' - in-game ability description<br>
+'''requirements''' - requirements to unlock this ability. E.g. '''Defeat Keely the Frost Archer'''<br>
+'''school''' - Magic School it belongs to, eg. Blood, Frost.<br>
+'''class''' - Must be set to "Basic Spell", "Travel Spell", "Ultimate Spell" or "Vampire Power". This parameter is very important and case sensitive.<br>
+'''type''' - type of the ability. Type can be seen in ability description when you hover over '''equiped''' ability on hotbar UI. Currently known types are: Projectile, Target Area, Dash, Channeling.<br>
+'''castTime''' - ability cast time<br>
+'''cooldown''' - ability cooldown<br>
+
+==Example==
+{{AbilityInfobox
+| ability=Shadowbolt
+| description=A shadow projectile that deals 200% magic damage and inflicts 1s fading snare.
+| requirements=Default Spell
+| school=
+| class=Basic
+| type=Projectile
+| cooldown=7s
+| charges=1
+| castTime=1.2s}}
+[[Category:Infobox templates| ]]</noinclude>

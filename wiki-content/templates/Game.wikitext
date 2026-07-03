@@ -1,0 +1,2 @@
+<includeonly>{{#invoke:Infobox|game}}</includeonly><noinclude>Game infobox, implemented in [[Module:Infobox]].
+[[Category:Infobox templates| ]]</noinclude>

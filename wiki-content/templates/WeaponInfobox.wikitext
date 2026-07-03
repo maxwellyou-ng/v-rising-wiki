@@ -1,0 +1,51 @@
+<includeonly>{{#invoke:Infobox|weapon}}{{#ifeq: {{NAMESPACENUMBER}} | 0 |{{#cargo_store:_table=weapons
+|name={{{title|{{PAGENAME}}}}}
+|weapon_type={{{weapon_type|}}}
+|gear_level={{{gear_level|}}}
+|physical_power={{{physical_power|}}}
+|stats={{{stats|}}}
+|durability={{{durability|}}}
+|salvageable={{{salvageable|}}}
+|structure={{{structure|}}}
+}}[[Category:Items]][[Category:Weapons]] }}</includeonly><noinclude>
+{{#cargo_declare:_table=weapons|name=String|weapon_type=String|gear_level=String|physical_power=String|stats=Wikitext|durability=String|salvageable=Wikitext|structure=Page}}
+Weapon infobox, implemented in [[Module:Infobox]] and stored in the Cargo table <code>weapons</code>.
+
+See [[Template:WeaponInfobox/Skills|/Skills]] for the automatic Skill linking part of the template.<br>
+See [[Template:WeaponInfobox/Resource|/Resource]] for the automatic resource node linking part of the template.
+
+Example usage:
+<pre>
+{{WeaponInfobox
+| title = Copper Sword
+| image =
+| description = An all-round weapon that deals slash damage and has a greater effect on vegetation and thickets.
+| structure = Crafting
+| weapon_type = Sword
+| gear_level = 9
+| physical_power = 8.5
+| stats = +25% Physical Damage to Vegetation
+| durability = 1085
+| salvageable = 12 [[Copper Ingot]]<br/>9 [[Plank]]
+}}
+</pre>
+<templatedata>
+{
+	"params": {
+		"weapon_type": {"suggested": true, "type": "string"},
+		"gear_level": {"suggested": true},
+		"physical_power": {"type": "number", "required": true, "suggested": true},
+		"durability": {"type": "number", "required": true, "suggested": true},
+		"stats": {"type": "string", "suggested": true},
+		"title": {"suggested": false},
+		"image": {"suggested": false},
+		"description": {"suggested": true},
+		"structure": {"type": "wiki-page-name", "suggested": true},
+		"salvageable": {"type": "wiki-page-name", "suggested": true}
+	},
+	"sets": [],
+	"paramOrder": ["title", "image", "description", "structure", "weapon_type", "gear_level", "physical_power", "stats", "durability", "salvageable"]
+}
+</templatedata>
+[[Category:Infobox templates| ]]
+</noinclude>

@@ -1,0 +1,70 @@
+/* Template:Infobox/styles.css — shared TemplateStyles for Module:Infobox.
+   Colors come from the --vr-infobox-* tokens in MediaWiki:Citizen.css. */
+.vr-infobox {
+	float: right;
+	clear: right;
+	width: 290px;
+	margin: 0 0 1em 1em;
+	background: var(--vr-infobox-bg, #1a1a1e);
+	border: 1px solid var(--vr-infobox-border, #3a3a40);
+	border-radius: 4px;
+	font-size: 0.875em;
+	line-height: 1.4;
+	overflow: hidden;
+}
+.vr-infobox-title {
+	background: var(--vr-infobox-header-bg, #6d1a21);
+	color: var(--vr-infobox-header-text, #f2e6d0);
+	font-weight: bold;
+	font-size: 1.15em;
+	text-align: center;
+	padding: 8px 10px;
+}
+.vr-infobox-image {
+	text-align: center;
+	padding: 8px;
+}
+.vr-infobox-image img {
+	max-width: 100%;
+	height: auto;
+}
+.vr-infobox-caption {
+	color: var(--color-base--subtle, #a9a9b3);
+	font-size: 0.85em;
+	padding-top: 4px;
+}
+.vr-infobox-header {
+	background: var(--vr-infobox-header-bg, #6d1a21);
+	color: var(--vr-infobox-header-text, #f2e6d0);
+	font-weight: bold;
+	text-align: center;
+	padding: 4px 10px;
+}
+.vr-infobox-header a {
+	color: inherit;
+}
+.vr-infobox-row {
+	display: flex;
+	border-top: 1px solid var(--vr-infobox-border, #3a3a40);
+}
+.vr-infobox-label {
+	flex: 0 0 40%;
+	padding: 5px 8px;
+	font-weight: bold;
+	color: var(--vr-infobox-label, #c9a86a);
+}
+.vr-infobox-value {
+	flex: 1;
+	padding: 5px 8px;
+	overflow-wrap: anywhere;
+}
+.vr-infobox-row--full .vr-infobox-value {
+	text-align: center;
+}
+@media (max-width: 719px) {
+	.vr-infobox {
+		float: none;
+		width: 100%;
+		margin: 0 0 1em 0;
+	}
+}
