@@ -3,7 +3,7 @@
 |school={{{school|}}}
 |class={{{class|}}}
 |type={{{type|}}}
-|range={{{range|}}}
+|dash_range={{{range|}}}
 |cast_time={{{castTime|}}}
 |cooldown={{{cooldown|}}}
 |charges={{{charges|}}}
@@ -12,7 +12,7 @@
 |description={{{description|}}}
 }}}}__NOTOC__
 {{#switch:{{{class|}}}|Vampire Power=[[Category:Vampire Powers]]|Passive=[[Category:Passives]]|[[Category:{{{school}}} Spells|{{#switch:{{#count:{{{requirements|}}}|1}}|6=1|{{#switch:{{#count:{{{requirements|}}}|2}}|7=2|{{#switch:{{#count:{{{requirements|}}}|3}}|9=3|<nowiki />}}}}}}]]}}<!--Defines the Category based on a combination of class, passive and school parameter inputs. If School is defined, also uses requirements parameter to determine keysort.--></includeonly><noinclude>
-{{#cargo_declare:_table=abilities|name=String|school=String|class=String|type=String|range=String|cast_time=String|cooldown=String|charges=String|recast_time=String|requirements=Wikitext|description=Wikitext}}
+{{#cargo_declare:_table=abilities|name=String|school=String|class=String|type=String|dash_range=String|cast_time=String|cooldown=String|charges=String|recast_time=String|requirements=Wikitext|description=Wikitext}}
 Ability infobox, implemented in [[Module:Infobox]] and stored in the Cargo table <code>abilities</code>.
 ==Usage==
 '''ability''' - name of the ability. This name will be used to search for image. Defaults to PAGENAME. For further info read [[Template:AbilityFrame]]<br>
