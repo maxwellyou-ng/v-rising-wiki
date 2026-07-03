@@ -53,3 +53,7 @@ push "Template:Box with Title"     wiki-content/templates/Box_with_Title.wikitex
 push "Template:Simple Window"      wiki-content/templates/Simple_Window.wikitext
 
 echo "Done. Job queue will refresh transcluding pages (jobrunner container)."
+echo "NOTE: web workers cache templates in APCu, which CLI edits cannot purge."
+echo "For the changes to render, now run:"
+echo "  docker compose restart mediawiki"
+echo "  docker compose exec -T mediawiki php maintenance/run.php purgeParserCache --age 1"

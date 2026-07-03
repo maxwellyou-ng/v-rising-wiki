@@ -9,6 +9,8 @@ Edit here first, commit, then push to the live wiki from the VPS:
 
 ```bash
 ./scripts/push-wiki-content.sh          # pushes every file below
+docker compose restart mediawiki        # web APCu caches templates; CLI edits can't purge it
+docker compose exec -T mediawiki php maintenance/run.php purgeParserCache --age 1
 ```
 
 | File | Wiki page |
