@@ -1,0 +1,14 @@
+<includeonly>{{#cargo_query:tables=loot_drops
+|fields=_pageName
+|where=item="{{{1|{{PAGENAME}}}}}"
+|group by=_pageName
+|order by=_pageName
+|format=ul
+|intro=
+==Drops From==
+|default=}}</includeonly><noinclude>This template is used on Item pages in combination with [[Template:LootDrop]] on NPC pages. Without it, it cannot function.
+
+LootDrop is used on NPC pages to list item drops, recording each drop in the Cargo table <code>loot_drops</code>.
+
+This template queries Cargo to dynamically fetch and link to all NPC pages recorded by LootDrop.
+[[Category:Templates| ]]</noinclude>

@@ -56,6 +56,22 @@ a:visited {
   color: var(--color-link--visited);
 }
 
+/* --- Fandom responsive utility classes ---
+   Imported templates (ItemFrame, Ability, ItemBox, ...) use these class
+   names, which Fandom's skin defined. .hidden/.nomobile show only on wide
+   screens; .mobileonly only on narrow ones. */
+@media (min-width: 720px) {
+  .mobileonly {
+    display: none !important;
+  }
+}
+@media (max-width: 719px) {
+  .nomobile,
+  .hidden {
+    display: none !important;
+  }
+}
+
 /* --- Category links at page bottom --- */
 #catlinks {
   background: var(--color-surface-1);

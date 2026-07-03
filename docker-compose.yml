@@ -48,6 +48,7 @@ services:
       - ${DATA_ROOT:-./data}/config/extensions/Cargo:/var/www/html/extensions/Cargo:ro
       - ${DATA_ROOT:-./data}/config/extensions/SearchDigest:/var/www/html/extensions/SearchDigest:ro
       - ${DATA_ROOT:-./data}/config/extensions/TemplateStyles:/var/www/html/extensions/TemplateStyles:ro
+      - ${DATA_ROOT:-./data}/config/extensions/TabberNeue:/var/www/html/extensions/TabberNeue:ro
       - ${DATA_ROOT:-./data}/config/skins/Citizen:/var/www/html/skins/Citizen:ro
 
   # Continuous job runner — MediaWiki defers link tables / Cargo rebuilds to the
@@ -75,4 +76,5 @@ services:
       - ${DATA_ROOT:-./data}/config/extensions/Cargo:/var/www/html/extensions/Cargo:ro
       - ${DATA_ROOT:-./data}/config/extensions/SearchDigest:/var/www/html/extensions/SearchDigest:ro
       - ${DATA_ROOT:-./data}/config/extensions/TemplateStyles:/var/www/html/extensions/TemplateStyles:ro
+      - ${DATA_ROOT:-./data}/config/extensions/TabberNeue:/var/www/html/extensions/TabberNeue:ro
       - ${DATA_ROOT:-./data}/config/skins/Citizen:/var/www/html/skins/Citizen:ro

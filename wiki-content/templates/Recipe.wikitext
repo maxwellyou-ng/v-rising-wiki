@@ -1,0 +1,21 @@
+<includeonly>{{#invoke:GameData|recipe}}</includeonly><noinclude>
+
+==Usage==
+<nowiki>{{Recipe|Item|Structure|Quantity}}</nowiki>
+
+Item parameter doesn't need to be defined in most cases, as it defaults to page name.
+
+Likewise for Quantity parameter, as the product is rarely above 1.
+
+Implemented in [[Module:GameData]], which reads the data page directly.
+
+===Examples===
+<nowiki>{{Recipe|Blood Essence|Blood Press|10}}</nowiki>
+{{Recipe|Blood Essence|Blood Press|10}}
+<nowiki>{{Recipe|Vermin Salve|Crafting}}</nowiki>
+{{Recipe|Vermin Salve|Crafting}}
+
+==Data==
+Data is stored on [[Template:Recipe/data]].
+[[Category:Templates| ]]
+</noinclude>

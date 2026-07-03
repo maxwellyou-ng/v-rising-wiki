@@ -1,0 +1,27 @@
+<includeonly>{{#invoke:AbilityIcon|abilityFrame}}</includeonly><noinclude>
+==Ability Frame==
+Simple template for inserting ability icons in frame (icon only, no text link). Implemented in [[Module:AbilityIcon]].
+Not every ability is added yet, so if icons of abilities that you want to use is missing please upload icons that respects format described below.
+
+==Parameters==
+'''abilityName''' or '''1st unnamed parameter''' - ''[required]'' name of the ability to display. Filename is created from this parameter by adding <code>Ability_</code> in front and <code>.png</code> at the end. <br>
+For example <code><nowiki>{{AbilityFrame|Shadowbolt}}</nowiki></code> will take file with the name <code>Ability_Shadowbolt.png</code> <br>
+'''size''' or '''2nd unnamed parameter''' - ''[optional]'' size of the box in pixels. Defaults to <code>25</code>.<br>
+'''frameName''' or '''3rd unname parameter''' - ''[optional]'' frame of the ability icon. Possible values are <code>normal</code>, <code>circle</code>, <code>travel</code> and <code>ultimate</code>. Defaults to <code>normal</code>. <br>
+'''link''' - ''[optional]'' if this paramter is defined, clicking the icon will link to the icon's image page, rather than the ability page.
+
+==Examples and ability names==
+===Examples===
+<code><nowiki>{{AbilityFrame|Shadowbolt}}</nowiki></code><br>{{AbilityFrame|Shadowbolt}}
+<code><nowiki>{{AbilityFrame|Shadowbolt|128}}</nowiki></code><br>{{AbilityFrame|Shadowbolt|128}}
+<code><nowiki>{{AbilityFrame|Shadowbolt|128|ultimate}}</nowiki></code><br>{{AbilityFrame|Shadowbolt|128|ultimate}}
+<code><nowiki>{{AbilityFrame|Shadowbolt|128|travel}}</nowiki></code><br>{{AbilityFrame|Shadowbolt|128|travel}}
+"Ultimate and travel icons looks smaller because of frame margins, but general icon size will still be declared size (128 in this case)"
+<code><nowiki>{{AbilityFrame|BloodHunger|128|circle}}</nowiki></code><br>{{AbilityFrame|BloodHunger|128|circle}}
+===Ability Names===
+If ability has sub-ability (e.g. Recast, or additional abilities from Bear Form) just add name of the sub ability at the end: <br>
+- Recast
+<code><nowiki>{{AbilityFrame|VeilOfIllusionRecast|128|travel}}</nowiki></code><br>{{AbilityFrame|VeilOfIllusionRecast|128|travel}}
+- Bear Form Smash
+<code><nowiki>{{AbilityFrame|BearFormSmash|128|normal}}</nowiki></code><br>{{AbilityFrame|BearFormSmash|128|normal}}
+[[Category:Templates| ]]</noinclude>

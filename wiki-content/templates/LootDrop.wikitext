@@ -1,0 +1,8 @@
+<includeonly>{{#cargo_store:_table=loot_drops|item={{{1|}}}|quantity={{{2|0}}}}}{{ItemFrame|{{{1|}}}|{{{2|0}}}|discountable=N|type={{{type|Item}}}}}[[Category:Drops loot {{#replace:{{#replace:{{{1|}}}}}|'|}}]]</includeonly><noinclude>
+{{#cargo_declare:_table=loot_drops|item=String|quantity=String}}
+This template is used on NPC pages to list item drops. It's used in combination with [[Template:List Loot Sources]] on Item pages.
+
+LootDrop works similar to [[Template:ItemFrame]] in terms of linking, but also records the drop in the Cargo table <code>loot_drops</code> (and keeps the legacy <code>Drops loot ...</code> category).
+
+List Loot Sources queries Cargo to dynamically fetch and link to all NPC pages that use LootDrop for the item.
+[[Category:Templates| ]]</noinclude>

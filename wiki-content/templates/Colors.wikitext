@@ -1,0 +1,34 @@
+<includeonly><div>{{#invoke:ColorsListHandler|coloredSpans|{{{Colors|{{{1|}}}}}}|{{{Customs|{{{2|}}}}}}}}</div></includeonly>
+<noinclude>
+==Colors==
+
+A simple template that returns a div with span(s) of color(s) separated by " / ".
+
+Possible arguments for the template are:
+*Colors or 1 (does the same thing)
+*Customs or 2 (does the same thing)
+
+Colors can have "all" as argument:<br>
+<code><nowiki>{{Colors|All}}</nowiki></code>
+{{Colors|All}}
+Colors can also have a specifict color:<br>
+<code><nowiki>{{Colors|Red}}</nowiki></code>
+{{Colors|Red}}
+Colors can also have Colors separated by commas:<br>
+<code><nowiki>{{Colors|Red, Blue, Purple}}</nowiki></code>
+{{Colors|Red, Blue, Purple}}
+Customs need a specifict structure, (name_displayed, color, index).<br>
+<code><nowiki>{{Colors|Customs=(red, red, 1),(blue, green, 2)}}</nowiki></code>
+{{Colors|Customs=(red, red, 1),(blue, green, 2)}}
+Using Customs, you can insert custom colors in between normal ones using the third parameter (the index).<br>
+<code><nowiki>{{Colors|pink, purple|Customs=(red, red, 1),(blue, green, 5),(yellow, orange, 3)}}</nowiki></code>
+{{Colors|pink, purple|Customs=(red, red, 1),(blue, green, 5),(yellow, orange, 3)}}
+Custom colors don't need an index, the third parameter is optional so it could look like this: (name_displayed, color).<br>
+Please note that Custom colors that don't have index will be added at the end in the order they were entered.<br>
+The color can be the color name or its HEX code [https://www.google.com/search?q=google+color+picker Google color picker].<br>
+<code><nowiki>{{Colors|pink, purple|Customs=(red, #c5d918, 1),(test2, orange)}}</nowiki></code>
+{{Colors|pink, purple|Customs=(red, #c5d918, 1),(test2, orange)}}
+Lastly, you can use a combination of the all keyword and custom, but do note that all adds 12 colors in the same way as if you had entered them all in the Colors argument.<br>
+<code><nowiki>{{Colors|All|Customs=(red, #c5d918, 2),(test2, orange)}}</nowiki></code>
+{{Colors|All|Customs=(red, #c5d918, 2),(test2, orange)}}
+</noinclude>

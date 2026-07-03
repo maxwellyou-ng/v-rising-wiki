@@ -1,0 +1,29 @@
+<includeonly>{{#invoke:AbilityIcon|ability}}</includeonly><noinclude>
+==Ability==
+Simple template for inserting ability icons in frame, followed by a text link. Implemented in [[Module:AbilityIcon]].
+Not every ability is added yet, so if icons of abilities that you want to use is missing please upload icons that respects format described below.
+
+==Parameters==
+'''abilityName''' or '''1st unnamed parameter''' - ''[required]'' name of the ability to display. Filename is created from this parameter by adding <code>Ability_</code> in front and <code>.png</code> at the end. <br>
+For example <code><nowiki>{{Ability|Shadowbolt}}</nowiki></code> will take file with the name <code>Ability_Shadowbolt.png</code> <br>
+'''size''' or '''2nd unnamed parameter''' - ''[optional]'' size of the box in pixels. Defaults to <code>27</code>.<br>
+'''frameName''' or '''3rd unname parameter''' - ''[optional]'' frame of the ability icon. Possible values are <code>normal</code>, <code>circle</code>, <code>travel</code> and <code>ultimate</code>. Defaults to <code>normal</code>. <br>
+
+==Examples and ability names==
+===Examples===
+<code><nowiki>{{Ability|Shadowbolt}}</nowiki></code><br>{{Ability|Shadowbolt}}
+
+<code><nowiki>{{Ability|Shadowbolt|60}}</nowiki></code><br>{{Ability|Shadowbolt|60}}
+
+<code><nowiki>{{Ability|Shadowbolt|60|ultimate}}</nowiki></code><br>{{Ability|Shadowbolt|60|ultimate}}
+
+<code><nowiki>{{Ability|Shadowbolt|60|travel}}</nowiki></code><br>{{Ability|Shadowbolt|60|travel}}
+
+<code><nowiki>{{Ability|Dominate|60|circle}}</nowiki></code><br>{{Ability|Dominate|60|circle}}
+
+"Ultimate and travel icons looks smaller because of frame margins, but general icon size will still be declared size (60 in this case)"
+===Ability Names===
+If ability has sub-ability (e.g. Recast, or additional abilities from Bear Form), use the Sub Parameter:<br>{{Ability|VeilOfIllusion|sub=VeilOfIllusionRecast}} <code><nowiki>{{Ability|VeilOfIllusion|sub=VeilOfIllusionRecast}}</nowiki></code><br>
+{{Ability|Bear Form|sub=Smash}} <code><nowiki>{{Ability|Bear Form|sub=Smash}}</nowiki></code>
+[[Category:Templates| ]]
+</noinclude>

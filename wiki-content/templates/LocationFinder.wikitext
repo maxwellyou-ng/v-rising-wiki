@@ -1,0 +1,17 @@
+<includeonly>{{#invoke:GameData|locations}}</includeonly><noinclude>
+
+==Usage==
+<nowiki>{{LocationFinder}} OR {{LocationFinder|Item Name}}</nowiki>
+
+Item parameter doesn't need to be defined in most cases, as it defaults to page name.
+
+Implemented in [[Module:GameData]], which reads the data page directly. The location links point at the interactive map on the source wiki, which has not been migrated.
+
+===Example===
+<nowiki>{{LocationFinder|Bone}}</nowiki>
+{{LocationFinder|Bone}}
+
+==Data==
+Data is stored on [[Template:LocationFinder/data]].
+[[Category:Templates| ]]
+</noinclude>

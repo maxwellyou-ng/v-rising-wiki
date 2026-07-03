@@ -1,0 +1,71 @@
+<includeonly>{{#invoke:ItemFrame|itemFrame}}</includeonly><noinclude>
+===Item Frame===
+A simple template for inserting linked images of items. Implemented in [[Module:ItemFrame]].
+
+The frame/border is a separate image so item images should be added ''without'' a background. It also allows for the border to be changed independently.
+
+The image is linked from the item name without spaces. '''''If the image file contains spaces a redirect will be needed for that image to work correctly.'''''
+
+Images for specific item types also have diffrent prefixes. While most images will be prefixed by `Item_` not all are. At the time of writing the prefixes are the following:
+
+* Item
+* Structure
+* Weapon
+* Armour
+* Jewelry
+* Jewel
+* Gem
+* Head
+* Cloak
+
+For additional/future images [[Special:ListFiles|current files]] should be checked.
+
+=== Examples ===
+{{ItemFrame|Bone|12}}<code><nowiki> {{ItemFrame|Bone|12}}</nowiki></code><br>
+{{ItemFrame|Bone|12|discountable=N}}<code><nowiki> {{ItemFrame|Bone|12|discountable=N}}</nowiki></code><br>
+{{ItemFrame|Lumber|size=64}}<code><nowiki> {{ItemFrame|Lumber|size=64}}</nowiki></code><br>
+{{ItemFrame|Plant Fibre|size=64}}<code><nowiki> {{ItemFrame|Plant Fibre|size=64}}</nowiki></code><br>
+{{ItemFrame|Iron Sword|size=64|type=Weapon}}<code><nowiki> {{ItemFrame|Iron Sword|size=64|type=Weapon}}</nowiki></code><br>
+{{ItemFrame|Dawnthorn Chestguard|size=64|type=Armour}}<code><nowiki> {{ItemFrame|Dawnthorn Chestguard|size=64|type=Armour}}</nowiki></code>
+<templatedata>
+{
+	"params": {
+		"1": {
+			"description": "Item name, used for image/page link. When used as the image name all spaces will be stripped.",
+			"type": "wiki-page-name",
+			"required": true
+		},
+		"2": {
+			"description": "The amount of the item you want to be displayed next to the image.",
+			"example": "18",
+			"type": "number",
+			"suggested": true
+		},
+		"discountable": {
+			"description": "Flag to hide discount quantity for recipes with no discount bonus",
+			"example": "N",
+			"type": "string",
+			"suggested": true
+		},
+		"type": {
+			"description": "The type of item in question. Defaults to Item if undefined.",
+			"example": "Item, Structure, Weapon, Armour, Cloak, Head, Jewelry, Jewel, Gem",
+			"type": "string",
+			"default": "Item"
+		},
+		"size": {
+			"description": "The size of the image and its borders in pixels",
+			"type": "number",
+			"default": "30",
+			"suggested": true
+		}
+	},
+	"paramOrder": [
+		"1",
+		"2",
+		"discountable",
+		"type",
+		"size"
+	]
+}
+</templatedata>[[Category:Templates| ]]</noinclude>

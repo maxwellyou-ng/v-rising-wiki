@@ -1,0 +1,11 @@
+<includeonly>{{#invoke:ItemFrame|itemBox}}</includeonly><noinclude>
+==Item Box==
+Template for inserting rows of items. Implemented in [[Module:ItemFrame]].
+=== Examples ===
+
+===Bone Weapons===
+{{ItemBox|Bone Sword|type=Weapon}} {{ItemBox|Bone Spear|type=Weapon}}  {{ItemBox|Bone Axes|type=Weapon}} {{ItemBox|Bone Mace|type=Weapon}} {{Clear|Left}}
+
+===Iron Weapons===
+{{ItemBox|Iron Sword|type=Weapon}} {{ItemBox|Iron Spear|type=Weapon}}  {{ItemBox|Iron Axes|type=Weapon}} {{ItemBox|Iron Mace|type=Weapon}} {{ItemBox|Iron Crossbow|type=Weapon}}
+</noinclude>

@@ -1,0 +1,5 @@
+{{#invoke:Screenshots|main}}<noinclude>
+Male/Female armour screenshot tab panels. Implemented in [[Module:Screenshots]]; requires Extension:TabberNeue.
+
+Defaults to the page name (with " Armour Set" stripped); pass an explicit name as the first parameter to override.
+[[Category:Templates]]</noinclude>
