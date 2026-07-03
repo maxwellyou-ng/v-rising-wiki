@@ -13,7 +13,7 @@
 -->}}<!--
 -->{{#if:{{{type|}}}|[[Category:{{{type|}}}]]}}<!--
 --></includeonly><noinclude>
-{{#cargo_declare:_table=items|name=String|category=String|station=Page|bloodbound=String|teleportable=String|salvageable=String|stack_size=String|description=Wikitext}}
+{{#cargo_declare:_table=items|name=String|category=String|station=Page|bloodbound=String|teleportable=String|salvageable=Wikitext|stack_size=String|description=Wikitext}}
 Item infobox, implemented in [[Module:Infobox]] and stored in the Cargo table <code>items</code>.
 
 '''Example usage:'''
