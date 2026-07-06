@@ -1,0 +1,56 @@
+{{Patch
+| name     = Patch 1.0
+| date     = May 8, 2024
+| official = https://blog.stunlock.com/v-rising-1-0-patch-notes/
+| prev     = Secrets of Gloomrot
+| next     = Patch 1.1
+}}
+'''Patch 1.0''' (version 1.0.0.79266, released May 8, 2024) took [[V Rising]] out of Early Access. Its headline feature is the [[Ruins of Mortium]] endgame biome and the confrontation with [[Dracula the Immortal King]], alongside a major engine upgrade and the ''Legacy of Castlevania'' collaboration.
+
+==Additions==
+* New endgame biome: [[Ruins of Mortium]], with dynamic conflict events — skirmishes against Dracula's Legion and [[Rift Incursions]] that award [[Stygian Shard]]s and exclusive gear.
+* Six new [[V Blood Carriers]]: [[Finn the Fisherman]], [[General Elena the Hollow]], [[General Cassius the Betrayer]], [[General Valencia the Depraved]], [[Simon Belmont the Vampire Hunter]] and [[Dracula the Immortal King]].
+* Two new weapon types: [[Longbow]] and [[Whip]].
+* [[Legendary Artifact Weapons]] — named endgame weapons with unique weapon-skill modifications.
+* Vampire passives: 18 passive buffs across the six spell schools, unlocked at the Stygian Altar.
+* Legendary [[Jewels]] with four spell mods, dropping from endgame bosses and Rift Incursions.
+* Difficulty modes: '''Relaxed''' and '''Brutal''' added alongside Normal.
+* [[Castle Relocation]] — move an entire castle to a new plot, including a relocation stash.
+* Cargo Travelers — lootable caravans travelling the roads of Vardoran.
+* Draculin [[Blood Types|blood type]], drained from Dracula's Legion units.
+* ''Legacy of Castlevania'' collaboration content, including the Simon Belmont encounter.
+
+==Changes==
+* Major engine upgrade to Unity 2022 / DOTS 1.1 with substantial client and server performance improvements.
+* World pass over every biome: new locations (including [[Dracula's Demise]]), extra Waygates in [[Farbane Woods]], road networks connected to Ruins of Mortium, updated lighting.
+* Ancestral weapon acquisition reworked: Rare (blue) ancestral weapons drop from [[V Blood Carriers]] and Rift Incursions rather than crafting alone.
+* Magic sources gain on-hit effects per spell school from tier 6, with fewer raw attribute bonuses.
+* All veils grant 5% maximum-health healing on the following primary attack.
+* 100% blood quality effect bonus reduced to 25% from 30%.
+* [[Spellbook]] visual update, more gamepad-friendly.
+* [[Soul Shard]]s can only be repaired through Rift Incursions.
+
+==Fixes==
+See the [https://blog.stunlock.com/v-rising-1-0-patch-notes/ official notes] for the full list of fixes shipped with the release build.
+
+==Hotfixes==
+===1.0.1 — May 10, 2024===
+Rendering and server-setting fixes. ([https://store.steampowered.com/news/app/1604030/view/4179980671848648523 notes])
+===1.0.2 — May 14–15, 2024===
+Prison cell and Siege Golem map fixes; a rare crash fix the following day. ([https://store.steampowered.com/news/app/1604030/view/4179980671865841130 notes])
+===1.0.4 — May 22, 2024===
+Dracula Brutal-difficulty balance and a blood exploit fix. ([https://store.steampowered.com/news/app/1604030/view/4192366833801557439 notes])
+===1.0.5 — May 29–30, 2024===
+Co-op V Blood balance, new gamepad layout, performance improvements; small gamepad follow-up. ([https://store.steampowered.com/news/app/1604030/view/4165345869840228308 notes])
+===1.0.6 — June 4, 2024===
+First spell and jewel balance pass. ([https://store.steampowered.com/news/app/1604030/view/4165345869861690479 notes])
+===1.0.7 — June 13, 2024===
+Autosave improvements and crash fixes. ([https://store.steampowered.com/news/app/1604030/view/6020830277266340851 notes])
+===1.0.8 — June 24 / July 5, 2024===
+Bat Form Soul Shard toggle and crash fixes; Ukrainian language support in 1.0.8.81074. ([https://store.steampowered.com/news/app/1604030/view/4204754268652035823 notes])
+===1.0.9 — September 17 / October 3, 2024===
+Spell balance, quality of life and gamepad improvements; Continue-button QoL in 1.0.9.1. ([https://store.steampowered.com/news/app/1604030/view/7449605597527317156 notes])
+===1.0.10 — October 21 / December 3, 2024===
+New ''Legacy of Castlevania'' items; official trusted server provider support in 1.0.10.2. ([https://store.steampowered.com/news/app/1604030/view/4534653721996183146 notes])
+
+{{Navbox Patches}}

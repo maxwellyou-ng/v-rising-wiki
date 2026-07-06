@@ -53,6 +53,7 @@ push "Template:Box with Title"     wiki-content/templates/Box_with_Title.wikitex
 push "Template:Simple Window"      wiki-content/templates/Simple_Window.wikitext
 
 push "Template:Navbox"             wiki-content/templates/Navbox.wikitext
+push "Template:Navbox Patches"     wiki-content/templates/Navbox_Patches.wikitext
 push "Template:Patch"              wiki-content/templates/Patch.wikitext
 push "Template:Tl"                 wiki-content/templates/Tl.wikitext
 push "Template:Stub"               wiki-content/templates/Stub.wikitext
@@ -64,6 +65,12 @@ push "Armours"                     wiki-content/pages/Armours.wikitext
 push "Consumables"                 wiki-content/pages/Consumables.wikitext
 push "Structures"                  wiki-content/pages/Structures.wikitext
 push "V Blood Carriers"            wiki-content/pages/V_Blood_Carriers.wikitext
+push "Patch 1.0"                   wiki-content/pages/Patch_1.0.wikitext
+push "Patch 1.1"                   wiki-content/pages/Patch_1.1.wikitext
+push "Secrets of Gloomrot"         wiki-content/pages/Secrets_of_Gloomrot.wikitext
+push "Bloodfeast"                  wiki-content/pages/Bloodfeast.wikitext
+push "Early Access Release"        wiki-content/pages/Early_Access_Release.wikitext
+push "Patch Notes"                 wiki-content/pages/Patch_Notes.wikitext
 push "Project:Style guide"         wiki-content/pages/Style_guide.wikitext
 push "VRW:STYLE"                   wiki-content/pages/VRW_STYLE.wikitext
 

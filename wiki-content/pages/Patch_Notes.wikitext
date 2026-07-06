@@ -1,0 +1,130 @@
+This page indexes every update [[V Rising]] has received, newest first. Major updates have their own articles with curated notes: [[Patch 1.1]] (''Invaders of Oakveil''), [[Patch 1.0]], [[Secrets of Gloomrot]], [[Bloodfeast]] and the [[Early Access Release]].
+
+[[File:Stunlock Studios Logo.png|25px|link=Stunlock Studios]] [[Stunlock Studios]] has [https://blog.stunlock.com/dev-update-32-the-next-era/ announced] that there will be no more major expansions to the game, only intermittent balance and bug fixes as the studio shifts its focus to developing a '''new game''' also set in the world of [[V Rising]].
+
+==Version index==
+{| class="fandom-table" style="width: 44em; text-align: center; white-space:nowrap;"
+! style="width: 25%;"|Patch / Version
+! style="width: 25%;"|Date
+! style="width: 50%;"|Summary
+|-
+||[https://store.steampowered.com/news/app/1604030/view/679625078232581352 1.1 Spring Patch]<br><onlyinclude>1.1.13.0</onlyinclude>|| May 26th 2026 ||  style="white-space:normal;" | Balance Update & Weapon Bugfixes
+|-
+||[https://store.steampowered.com/news/app/1604030/view/498341245287923742 1.1 Hotfix #10]<br><onlyinclude>1.1.10.0</onlyinclude>|| December 17th 2025 ||  style="white-space:normal;" | Wall Collision Detection Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/496083100136112688 1.1 October Patch]<br>1.1.10.0|| October 15th 2025 ||  style="white-space:normal;" | Major Balance Update & New Admin Ban Commands
+|-
+||[https://store.steampowered.com/news/app/1604030/view/605284704070926555 1.1 Hotfix #9]<br>1.1.9.0|| June 12th 2025 ||  style="white-space:normal;" | Kill Prisoner Confirmation & Improved Bag Sorting Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/801188751558574623 1.1 Hotfix #8]<br>1.1.8.0|| May 16th 2025 ||  style="white-space:normal;" |Music Box & Weapon Q Rotation Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/527594344812644519 1.1 Hotfix #7]<br>1.1.7.0|| May 13th 2025 ||  style="white-space:normal;" |Corrupted Blood Balance Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/527594344812643945 1.1 Hotfix #6]<br>1.1.6. || May 9th 2025 ||  style="white-space:normal;" |Clipping & Arena Health Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/527594344812642362 1.1 Hotfix #5]<br>1.1.5.0|| May 7th 2025 ||  style="white-space:normal;" |Vampire Horse, Dusk Caller, Claws Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/527593710989346215 1.1 Hotfix #4]<br>1.1.4.0|| May 6th 2025 ||  style="white-space:normal;" |Server Side Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/527593710989345258/ 1.1 Hotfix #3]<br>1.1.3.0|| May 5th 2025 ||  style="white-space:normal;" |Optimizations, Repair State, Gaius Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/527593710989344823 1.1 Hotfix #2]<br>1.1.1.0|| April 30th 2025 ||  style="white-space:normal;" |Adam & DLC Hotfix
+|-
+||[https://steamcommunity.com/app/1604030/discussions/0/591769935510785096/ 1.1 Hotfix #1]<br>1.1.0.1|| April 29th 2025 ||  style="white-space:normal;" |Server Select & DLC Hotfix
+|-
+||[[Patch 1.1|Update 1.1: Invaders of Oakveil]]<br>1.1.0.0|| April 28th 2025 ||  style="white-space:normal;" |New biome, Combat stat rework, spell passive rework, Blood overhaul, Weapon & Jewel fusion, 3 new weapons, 7 new V Bloods, Crafting from storage, Horse Stables system, Castle Arena, New customization & more. 
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4460348137459942413 1.0 Hotfix #9.3]<br>1.0.10.2|| December 3rd 2024 ||  style="white-space:normal;" |Official Trusted Server Provider Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4534653721996183146 1.0 Hotfix #9.2]<br>1.0.10.0|| October 21st 2024 ||  style="white-space:normal;" |Legacy of Castlevania New Items Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4672012242386012744 1.0 Hotfix #9.1]<br>1.0.9.1|| October 3rd 2024 ||  style="white-space:normal;" |Continue Button Quality of Life Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/7449605597527317156 1.0 Hotfix #9]<br>1.0.9.0|| September 17th 2024 ||  style="white-space:normal;" |Spells Balance, Quality of Life & Gamepad Improvements Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4267805297669038326 1.0 Hotfix #8.1]<br>1.0.8.81074|| July 5th 2024 ||  style="white-space:normal;" |Ukrainian Language Support Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4204754268652035823 1.0 Hotfix #8]<br>1.0.8.80861|| June 24th 2024 ||  style="white-space:normal;" |Bat Form Soul Shard Toggle & Crashes Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/6020830277266340851 1.0 Hotfix #7]<br>1.0.7.80689|| June 13th 2024 ||  style="white-space:normal;" |Autosave improvements & Crash Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4165345869861690479 1.0 Hotfix #6]<br>1.0.6.80389|| June 4th 2024 ||  style="white-space:normal;" |First Spell & Jewel Balance Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4165345869840228308 1.0 Hotfix #5.1]<br>1.0.5.80235|| May 30th 2024 ||  style="white-space:normal;" |Small Game Pad Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4165345869840228308 1.0 Hotfix #5]<br>1.0.5.80235|| May 29th 2024 ||  style="white-space:normal;" |Coop V Blood Balance, New Game Pad Layout & Performance Improvement Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4192366833801557439 1.0 Hotfix #4]<br>1.0.4.79918|| May 22nd 2024 || Dracula Brutal Balance & Blood Exploit Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4179980671865841130 1.0 Hotfix #3]<br>1.0.2.79436|| May 15th 2024 || Rare crash Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4179980671865841130 1.0 Hotfix #2]<br>1.0.2.79436|| May 14th 2024 || Prison Cell & Siege Golem Map Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4179980671848648523 1.0 Hotfix #1]<br>1.0.1.79311|| May 10th 2024 || Rendering & Server Setting Hotfix
+|-
+||[[Patch 1.0|Update 1.0]]<br>1.0.0.79266|| May 8th 2024 || style="white-space:normal;" |Major engine & performance upgrade, spellbook update, 2 new weapons, artifact weapons, new endgame zone, dynamic events, castle relocation, game difficulty modes & more. 
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3741987211202695512 Secrets of Gloomrot Hotfix #11]<br>0.6.10.62832|| October 25th 2023 || Coffin PvP Exploit Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3671051077332087175 Secrets of Gloomrot Hotfix #10]<br>0.6.10.60262|| September 4th 2023 || DDoS Protection Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3642897872733608318 Secrets of Gloomrot Hotfix #9]<br>0.6.9.58268|| June 29th 2023 || New Console Commands, Ice Block Nerf &<br>Spell Memory Leak Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/6054574297194808572 Secrets of Gloomrot Hotfix #8]<br>0.6.7.57981|| June 15th 2023 || AoE Hotfix Revert.
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3657533302488647084 Secrets of Gloomrot Hotfix #7]<br>0.6.7.57927|| June 14th 2023 || Staircase Exploit, Minor Balance & AoE Hotfix. 
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3682301832793677634 Secrets of Gloomrot Hotfix #6]<br>0.6.5.57575|| June 1st 2023 || Significant memory leak improvements,<br>Sinister Evolution Wallpaper clipping Hotfix.
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3699189696777692940 Secrets of Gloomrot Hotfix #5]<br>0.6.5.57444|| May 26th 2023 || Weapon Swap Exploit Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3699189696773715956 Secrets of Gloomrot Hotfix #4]<br>0.6.5.57417|| May 25th 2023 || Castle Performance, Blood Rage Exploit Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3684552363769028116 Secrets of Gloomrot Hotfix #3]<br>0.6.1.57247|| May 20th 2023 || Crafting UI Missing Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3684552363765867614 Secrets of Gloomrot Hotfix #2]<br>0.6.1.57225|| May 19th 2023 || Private Server Auto-Save Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3684552363762166186 Secrets of Gloomrot Hotfix #1]<br>0.6.1.57189|| May 18th 2023 || Crashes, Memory Leak & Castle Height Hotfix.
+|-
+||[[Secrets of Gloomrot|Update #1: Secrets of Gloomrot]]<br>0.6.0.57108|| May 17th 2023 || style="white-space:normal;" |Spells Rework & Jewel system, 2 new weapons, new biome, map updates, multi-floor castle territories, Shapeshifting updates, trade hub updates & more. 
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3671031422428735395 Hotfix 17]<br>0.5.48238|| January 26th 2023 || Minor PvP Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3391799999999373599 Hotfix 16]<br>0.5.45194|| October 31st 2022 || Fallen Angel Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3391799999984873129 Hotfix 15]<br>0.5.45123|| October 27th 2022 || Mad Hunt Hotfix
+|-
+||[[Bloodfeast|Halloween Update: Bloodfeast]]<br>0.5.44979|| October 24th 2022 || Mad Hunt Game Preset, Halloween Update.
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3296095971048833286 Hotfix 13]<br>0.5.43954|| September 28th 2022 || Siege Golem Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3395173894702519583 Hotfix 12]<br>0.5.43630|| September 20th 2022 || Save File Update
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3252182704432180726 Hotfix 11]<br>0.5.43163|| August 25th 2022 || Building Exploits Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3399674324100780328 Hotfix 10]<br>0.5.42584|| August 10th 2022 || Servant Exploits Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3320856891267488493 Hotfix 9]<br>0.5.42236|| July 8th 2022 || LAN DLC Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3320856891267488493 Hotfix 8]<br>0.5.42236|| July 6th 2022 || Scheduled Server Wipe
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3320856891245612392 Hotfix 7]<br>0.5.42236|| June 30th 2022 || Steam Cloud Support
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3320856891220270028 Hotfix 6]<br>0.5.42236|| June 23rd 2022 || Basic Resource Teleportable Hotfix
+|-
+||[https://store.steampowered.com/news/app/1604030/view/4822806821988384686 Hotfix 5]<br>0.5.42050|| June 16th 2022 || 1st Balance Update
+|-
+||[https://store.steampowered.com/news/app/1604030/view/3326485122216671067 Hotfix 4]<br>0.5.41821|| June 9th 2022 || Server & Social Panel Optimizations
+|-
+|[https://store.steampowered.com/news/app/1604030/view/3294958655399932645 Hotfix 3]<br>0.5.41669|| May 31st 2022 || Razer Hood / Cloak now dropable
+|-
+|[https://store.steampowered.com/news/app/1604030/view/3294958655395719327 Hotfix 2]<br>0.5.41591|| May 30th 2022 || Graphics Settings Optimizations
+|-
+|[https://store.steampowered.com/news/app/1604030/view/3294958655377836605 Hotfix 1]<br>0.5.41448|| May 25th 2022 || LAN / Offline Mode
+|-
+|[https://store.steampowered.com/news/app/1604030/view/3218396837686301547 Hotfix 0]<br>0.5.41237|| May 19th 2022 || Server Optimizations
+|-
+|[[Early Access Release]]<br>0.5.41188|| May 17th 2022 || Early Access Release
+|}
+*See the [[:Category:Removed|Removed Category]] for removed content from the early access version of V Rising.
+{{Navbox Patches}}

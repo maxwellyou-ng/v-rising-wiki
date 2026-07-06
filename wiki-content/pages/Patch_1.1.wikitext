@@ -1,0 +1,56 @@
+{{Patch
+| name     = Patch 1.1
+| date     = April 28, 2025
+| official = https://blog.stunlock.com/v-rising-1-1-patch-notes/
+| prev     = Patch 1.0
+}}
+'''Patch 1.1''' — ''Invaders of Oakveil'' (version 1.1.0.0, released April 28, 2025) is the first major update after release. Its headline feature is the [[Oakveil Woodlands]] biome, alongside three new weapon types, a combat stat rework and castle social features.
+
+==Additions==
+* New biome: [[Oakveil Woodlands]], connected to [[Silverlight Hills]] and [[Gloomrot North]], with the new Oakveil Shoreline coastal area.
+* Seven new [[V Blood Carriers]]: [[Sir Erwin the Gallant Cavalier]], [[Gaius the Cursed Champion]], [[Stavros the Carver]], [[Jakira the Shadow Huntress]], [[Lucile the Venom Alchemist]], [[Dantos the Forgebinder]] and [[Megara the Serpent Queen]].
+* Three new weapon types: [[Claws]], [[Daggers]] and [[Twinblade]].
+* Castle Arena and [[Dueling Banner]] — build an arena or place a banner for player contests.
+* [[Stables]] — capture, keep and customize vampire horses.
+* Fusion Forge — fuse Reforged or Shattered Ancestral weapons; unlocked by defeating [[Dantos the Forgebinder]].
+* Corrupted enemies in Oakveil (wolves, bears, man traps, deer, treants, crows) and the Corrupted blood mechanic.
+* Elixir of the Prowler and other new consumables.
+* Large castle decoration sets: arena wallpapers, stable fences and signposts, table settings and more.
+
+==Changes==
+* Combat stat rework: attributes on jewels and Ancestral weapons now roll in 5 tiers instead of a random 0–100% range.
+* Passive rework: passive slots unlock by defeating specific V Bloods; the Stygian Altar now works like research, teaching passives from scrolls dropped by Blood Souls.
+* Blood system overhaul and spell passive rework.
+* Crafting can draw materials directly from castle storage.
+* Denser dynamic clouds over several boss arenas, making daytime fights more practical.
+
+==Fixes==
+See the [https://blog.stunlock.com/v-rising-1-1-patch-notes/ official notes] for the full list of fixes shipped with the update.
+
+==Hotfixes==
+===1.1.0.1 — April 29, 2025===
+Server select and DLC fixes. ([https://steamcommunity.com/app/1604030/discussions/0/591769935510785096/ notes])
+===1.1.1 — April 30, 2025===
+[[Adam the Firstborn|Adam]] and DLC fixes. ([https://store.steampowered.com/news/app/1604030/view/527593710989344823 notes])
+===1.1.3 — May 5, 2025===
+Optimizations, repair state and [[Gaius the Cursed Champion|Gaius]] fixes. ([https://store.steampowered.com/news/app/1604030/view/527593710989345258/ notes])
+===1.1.4 — May 6, 2025===
+Server-side fixes. ([https://store.steampowered.com/news/app/1604030/view/527593710989346215 notes])
+===1.1.5 — May 7, 2025===
+Vampire horse, Dusk Caller and [[Claws]] fixes. ([https://store.steampowered.com/news/app/1604030/view/527594344812642362 notes])
+===1.1.6 — May 9, 2025===
+Clipping and arena health fixes. ([https://store.steampowered.com/news/app/1604030/view/527594344812643945 notes])
+===1.1.7 — May 13, 2025===
+Corrupted blood balance. ([https://store.steampowered.com/news/app/1604030/view/527594344812644519 notes])
+===1.1.8 — May 16, 2025===
+Music box and weapon Q-rotation fixes. ([https://store.steampowered.com/news/app/1604030/view/801188751558574623 notes])
+===1.1.9 — June 12, 2025===
+Kill-prisoner confirmation and improved bag sorting. ([https://store.steampowered.com/news/app/1604030/view/605284704070926555 notes])
+===October Patch (1.1.10) — October 15, 2025===
+Major balance update and new admin ban commands. ([https://store.steampowered.com/news/app/1604030/view/496083100136112688 notes])
+===Hotfix #10 — December 17, 2025===
+Wall collision detection fix. ([https://store.steampowered.com/news/app/1604030/view/498341245287923742 notes])
+===Spring Patch (1.1.13) — May 26, 2026===
+Balance update and weapon bug fixes. ([https://store.steampowered.com/news/app/1604030/view/679625078232581352 notes])
+
+{{Navbox Patches}}

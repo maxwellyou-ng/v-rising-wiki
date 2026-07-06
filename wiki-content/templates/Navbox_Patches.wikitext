@@ -1,0 +1,13 @@
+<includeonly>{{Navbox
+| title  = [[Patch Notes|Game updates]]
+| group1 = Release
+| list1  = [[Patch 1.0]]&nbsp;•&nbsp;[[Patch 1.1]]
+| group2 = Early Access
+| list2  = [[Early Access Release]]&nbsp;•&nbsp;[[Bloodfeast]]&nbsp;•&nbsp;[[Secrets of Gloomrot]]
+| below  = [[Patch Notes|Full version index]]
+}}</includeonly><noinclude>
+Footer navbox for game-update articles, built on the generic [[Template:Navbox]]. Add new patches to the Release row as they ship, newest last; hotfixes stay as sections inside their parent patch article, not separate pages.
+
+Place at the very bottom of every patch article and on [[Patch Notes]].
+[[Category:Navbox templates| ]]
+</noinclude>

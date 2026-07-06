@@ -43,6 +43,7 @@ docker compose exec -T mediawiki php maintenance/run.php purgeParserCache --age 
 | templates/Journal.wikitext, Location, Event, Game, QuestTemplate, Titlebox, Box_with_Title, Simple_Window | matching Template: pages |
 | templates/Navbox.wikitext | Template:Navbox (generic footer navbox, `.vr-navbox-*` classes) |
 | templates/Patch.wikitext | Template:Patch (patch infobox, declares Cargo table `patches`) |
+| templates/Navbox_Patches.wikitext | Template:Navbox Patches (game-update footer navbox) |
 | templates/Tl.wikitext | Template:Tl (template-link helper for docs) |
 | templates/Stub.wikitext | Template:Stub |
 | templates/Outdated.wikitext | Template:Outdated (takes last-verified patch) |
@@ -51,6 +52,8 @@ docker compose exec -T mediawiki php maintenance/run.php purgeParserCache --age 
 | pages/Consumables.wikitext | Consumables (all-consumables Cargo table + crafting details) |
 | pages/Structures.wikitext | Structures (all-structures Cargo table; replaced the raw Fandom data dump, old revision in page history) |
 | pages/V_Blood_Carriers.wikitext | V Blood Carriers (all-bosses Cargo table + by-act table) |
+| pages/Patch_1.0.wikitext, Patch_1.1, Secrets_of_Gloomrot, Bloodfeast, Early_Access_Release | patch articles (Template:Patch infobox feeds Cargo `patches`; hotfixes are sections, not pages) |
+| pages/Patch_Notes.wikitext | Patch Notes (version index hub; major rows link to the patch articles) |
 | pages/Style_guide.wikitext | Project:Style guide |
 | pages/VRW_STYLE.wikitext | VRW:STYLE (shortcut redirect) |
 

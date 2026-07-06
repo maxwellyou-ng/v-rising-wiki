@@ -1,0 +1,10 @@
+{{Stub}}{{Patch
+| name     = Bloodfeast
+| date     = October 24, 2022
+| official = https://store.steampowered.com/news/app/1604030/view/3427828161922594931
+| prev     = Early Access Release
+| next     = Secrets of Gloomrot
+}}
+'''Bloodfeast''' (version 0.5.44979, released October 24, 2022) was the Halloween update during Early Access, officially titled ''Halloween Update: Bloodfeast''. It added the Mad Hunt game preset and seasonal Halloween content.
+
+{{Navbox Patches}}

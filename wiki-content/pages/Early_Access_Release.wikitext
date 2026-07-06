@@ -1,0 +1,9 @@
+{{Stub}}{{Patch
+| name     = Early Access Release
+| date     = May 17, 2022
+| official = https://store.steampowered.com/news/app/1604030/view/3213892775484456329
+| next     = Bloodfeast
+}}
+The '''Early Access Release''' of [[V Rising]] (version 0.5.41188, May 17, 2022) launched the game on Steam Early Access with the biomes [[Farbane Woods]], [[Dunley Farmlands]], [[Hallowed Mountains]], [[Silverlight Hills]] and [[Cursed Forest]]. Seventeen numbered hotfixes shipped during the 0.5 era — see the [[Patch Notes]] index for the individual Steam announcements.
+
+{{Navbox Patches}}
