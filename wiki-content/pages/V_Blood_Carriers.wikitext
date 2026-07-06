@@ -1,0 +1,357 @@
+{{Quote|V Blood units are a cornerstone of the V Rising experience, truly terrifying specimens of both monsters and men that stalk the lands of Vardoran.<br>They are the apex predators of the wilderness. They are the stalwart champions who will try to stand against the vampiric tide and challenge our rule. The pillars of society, leaders, and symbols of strength that dominate the civilized world.<ref>[https://blog.stunlock.com/v-rising-dev-update-9-secrets-of-v-blood/ Dev Update #9: Secrets of V Blood]</ref>}}
+<span class="nomobile"><br></span>This page lists all '''V Blood Carriers'''. for a list of all non-V Blood [[Enemies]], see its respective page.<br>
+Tracking V Bloods is done through the V Blood Menu (default key K) after completing the [[Journal]] quest [[Getting Ready for the Hunt]]. At 50% health, V Bloods spawn at least 3 '''Blood Orbs''', restoring 7.5% max health on pick-up.
+
+On '''Relaxed Difficulty''' they have 20% less health & deal 40% less damage. On '''Brutal Difficulty''' they have 25% more health, deal 70% more damage, are 3 levels higher and often have more abilities and combat behaviours.
+
+==All V Blood carriers==
+Every V Blood carrier on the wiki, drawn automatically from each boss page's infobox. Click a column header to sort — by level for hunt order, or scan the unlock columns to find who grants a spell or recipe.
+<div class="vr-table-scroll">
+{{#cargo_query:tables=bosses
+|fields=_pageName=V Blood carrier,level=Level,location=Location,unlocked_spells=Unlocked spells,unlocked_recipes=Unlocked recipes
+|order by=level,_pageName
+|limit=100
+|format=table
+}}
+</div>
+
+==By act==
+{| class="sortable article-table" style="font-size:99%; border-top: 1px solid grey"
+|-
+! style="border-bottom: 1px solid grey"|V Blood Carrier
+! style="border-bottom: 1px solid grey"|Level
+! style="border-bottom: 1px solid grey"|Location
+! style="border-bottom: 1px solid grey"|Region
+|- style="font-size:117%; font-family: 'Cinzel', serif; background-color: rgba(136, 10, 18, 0.18); border-top: 2px solid grey; border-bottom: 2px solid grey; padding:2px"
+| colspan="6" |<center style="margin-right:58px">Act I</center>
+|-
+|[[Alpha the White Wolf]]
+|<center>16</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=81 Wolf Den]<br>[https://vrising.fandom.com/wiki/Map:Vardoran?marker=81 Roads of Farbane Woods]
+|[[Farbane Woods]]
+|-
+|[[Keely the Frost Archer]]
+|<center>20</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=82 Bandit Trapper Camp]
+|[[Farbane Woods]]
+|-
+|[[Errol the Stonebreaker]]
+|<center>20</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=63 Bandit Copper Mine]
+|[[Farbane Woods]]
+|-
+|[[Rufus the Foreman]]
+|<center>20</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=64 Bandit Logging Camp]
+|[[Farbane Woods]]
+|-
+|[[Grayson the Armourer]]
+|<center>27</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=65 Bandit Armory]
+|[[Farbane Woods]]
+|-
+|[[Goreswine the Ravager]]
+|<center>27</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=66 Desecrated Graveyard]<br>[https://vrising.fandom.com/wiki/Map:Vardoran?marker=112 Infested Graveyard]<br>[https://vrising.fandom.com/wiki/Map:Vardoran?marker=66 Roads of Farbane Woods]
+|[[Farbane Woods]]
+|-
+|[[Lidia the Chaos Archer]]
+|<center>30</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=98 Roads of Farbane Woods]
+|[[Farbane Woods]]
+|-
+|[[Clive the Firestarter]]
+|<center>30</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=67 Bandit Sulphur Quarry]
+|[[Farbane Woods]]
+|-
+|[[Nibbles the Putrid Rat]]
+|<center>30</center>
+|[[Vermin Nest]]
+|[[Farbane Woods]]
+|-
+|[[Finn the Fisherman]]
+|<center>32</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=68 Fishing Lake]
+|[[Farbane Woods]]
+|-
+|[[Polora the Feywalker]]
+|<center>35</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=69 Gleaming Meadows]
+|[[Farbane Woods]]
+|-
+|[[Kodia the Ferocious Bear]]
+|<center>35</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=70 Bear Cave]
+|[[Farbane Woods]]
+|-
+|[[Nicholaus the Fallen]]
+|<center>35</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=71 Forgotten Cemetery]
+|[[Farbane Woods]]
+|- style="border-bottom: 1px solid grey"
+| style="border-bottom: 1px solid grey"|[[Quincey the Bandit King]]
+| style="border-bottom: 1px solid grey; text-align:center"|37
+| style="border-bottom: 1px solid grey"|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=72 Bandit Stronghold]
+| style="border-bottom: 1px solid grey"|[[Farbane Woods]]
+|- style="font-size:117%; font-family: 'Cinzel', serif; background-color: rgba(136, 10, 18, 0.18); border-top: 2px solid grey; border-bottom: 2px solid grey; padding:2px"
+| colspan="5" |<center style="margin-right:54px">Act II</center>
+|-
+|[[Beatrice the Tailor]]
+|<center>40</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=73 Dawnbreak Village]
+|[[Dunley Farmlands]]
+|-
+|[[Vincent the Frostbringer]]
+|<center>44</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=90 Militia Encampment]<br>[https://vrising.fandom.com/wiki/Map:Vardoran?marker=90 Roads of Dunley Farmlands]
+|[[Dunley Farmlands]]
+|-
+|[[Christina the Sun Priestess]]
+|<center>44</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=90 Dawnbreak Village]<br>[https://vrising.fandom.com/wiki/Map:Vardoran?marker=113 Mosswick Village]<br>[https://vrising.fandom.com/wiki/Map:Vardoran?marker=90 Roads of Dunley Farmlands]
+|[[Dunley Farmlands]]
+|-
+|[[Tristan the Vampire Hunter]]
+|<center>44</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=95 Roads of Farbane Woods]
+|[[Farbane Woods]]
+|-
+|[[Sir Erwin the Gallant Cavalier]]
+|<center>46</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=107 Horse Racing Track]
+|[[Dunley Farmlands]]
+|-
+|[[Kriig the Undead General]]
+|<center>47</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=74 Haunted Iron Mine]
+|[[Dunley Farmlands]]
+|-
+|[[Leandra the Shadow Priestess]]
+|<center>47</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=75 Church of the Damned]
+|[[Dunley Farmlands]]
+|-
+|[[Maja the Dark Savant]]
+|<center>47</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=76 The Forbidden Tower]
+|[[Dunley Farmlands]]
+|-
+|[[Bane the Shadowblade]]
+|<center>50</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=97 Roads of Dunley Farmlands]
+|[[Dunley Farmlands]]
+|-
+|[[Grethel the Glassblower]]
+|<center>50</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=77 Quartz Quarry]
+|[[Dunley Farmlands]]
+|-
+|[[Meredith the Bright Archer]]
+|<center>50</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=88 Haunted Iron Mine]
+|[[Dunley Farmlands]]
+|-
+|[[Terah the Geomancer]]
+|<center>53</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=78 Bedrock Pass]
+|[[Dunley Farmlands]]
+|-
+|[[Frostmaw the Mountain Terror]]
+|<center>53</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=83 Roads of Hallowed Mountains]
+|[[Hallowed Mountains]]
+|-
+|[[General Elena the Hollow]]
+|<center>53</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=84 Roads of Ruins of Mortium]
+|[[Ruins of Mortium]]
+|-
+|[[Gaius the Cursed Champion]]
+|<center>55</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=106 The Colosseum]
+|[[Dunley Farmlands]]
+|-
+|[[General Cassius the Betrayer]]
+|<center>57</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=85 Roads of Ruins of Mortium]
+|[[Ruins of Mortium]]
+|-
+|[[Jade the Vampire Hunter]]
+|<center>57</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=96 Roads of Dunley Farmlands]
+|[[Dunley Farmlands]]
+|-
+|[[Raziel the Shepherd]]
+|<center>57</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=79 Dunley Monastery]
+|[[Dunley Farmlands]]
+|-
+| style="border-bottom: 1px solid grey"|[[Octavian the Militia Captain]]
+| style="border-bottom: 1px solid grey; text-align:center"|58
+| style="border-bottom: 1px solid grey"|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=80 Bastion of Dunley]
+| style="border-bottom: 1px solid grey"|[[Dunley Farmlands]]
+|- style="font-size:117%; font-family: 'Cinzel', serif; background-color: rgba(136, 10, 18, 0.18); border-top: 2px solid grey; border-bottom: 2px solid grey; padding:2px"
+| colspan="5" |<center style="margin-right:54px">Act III</center>
+|-
+|[[Ziva the Engineer]]
+|<center>60</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=57 Trancendum Machine Factory]
+|[[Gloomrot South]]
+|-
+|[[Domina the Blade Dancer]]
+|<center>60</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=56 Rustlock Village]
+|[[Gloomrot South]]
+|-
+|[[Angram the Purifier]]
+|<center>61</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=55 Pools of Rebirth]
+|[[Gloomrot South]]
+|-
+|[[Ungora the Spider Queen]]
+|<center>63</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=54 Spider Cave]
+|[[Cursed Forest]]
+|-
+|[[Ben the Old Wanderer]]
+|<center>63</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=87 Roads of Cursed Forest]
+|[[Cursed Forest]]
+|-
+|[[Foulrot the Soultaker]]
+|<center>63</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=62 Ancient Village]
+|[[Cursed Forest]]
+|-
+|[[Albert the Duke of Balaton]]
+|<center>64</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=53 Swamp of Greed]
+|[[Cursed Forest]]
+|-
+|[[Willfred the Village Elder]]
+|<center>64</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=52 Gracefall Village]
+|[[Dunley Farmlands]]
+|-
+| style="border-bottom: 1px solid grey"|[[Cyril the Cursed Smith]]
+| style="border-bottom: 1px solid grey"|<center>65</center>
+| style="border-bottom: 1px solid grey"|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=61 Cursed Village]
+| style="border-bottom: 1px solid grey"|[[Cursed Forest]]
+|- style="font-size:117%; font-family: 'Cinzel', serif; background-color: rgba(136, 10, 18, 0.18); border-top: 2px solid grey; border-bottom: 2px solid grey; padding:2px"
+| colspan="5" |<center style="margin-right:54px">Act IV</center>
+|-
+|[[Sir Magnus the Overseer]]
+|<center>66</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=48 Sacred Silver Mine]
+|[[Silverlight Hills]]
+|-
+|[[Baron du Bouchon the Sommelier]]
+|<center>70</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=51 Brighthaven Vineyards]
+|[[Silverlight Hills]]
+|-
+|[[Morian the Stormwing Matriarch]]
+|<center>70</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=60 Harpy Nest]
+|[[Silverlight Hills]]
+|-
+|[[Mairwyn the Elementalist]]
+|<center>70</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=59 Emberleaf Grove]
+|[[Silverlight Hills]]
+|-
+|[[Henry Blackbrew the Doctor]]
+|<center>74</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=47 Trancendum Laboratories]
+|[[Gloomrot North]]
+|-
+|[[Jakira the Shadow Huntress]]
+|<center>75</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=101 Roads of Oakveil Woodlands]
+|[[Oakveil Woodlands]]
+|-
+|[[Stavros the Carver]]
+|<center>75</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=102 Carvers Logging Outpost]
+|[[Oakveil Woodlands]]
+|-
+|[[Lucile the Venom Alchemist]]
+|<center>76</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=103 Venom Mixing Outpost]
+|[[Oakveil Woodlands]]
+|-
+|[[Matka the Curse Weaver]]
+|<center>76</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=58 Nest of the Curse Weaver]
+|[[Cursed Forest]]
+|-
+|[[Terrorclaw the Ogre]]
+|<center>76</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=50 Frozen Cave]
+|[[Hallowed Mountains]]
+|-
+|[[Azariel the Sunbringer]]
+|<center>79</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=46 Brighthaven Cathedral]
+|[[Silverlight Hills]]
+|-
+|[[Voltatia the Power Master]]
+|<center>79</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=37 Trancendum Power Plant]
+|[[Gloomrot North]]
+|-
+|[[Simon Belmont the Vampire Hunter]]
+|<center>80+</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=93 Roads of Vardoran]
+|[[Farbane Woods]]<br>[[Dunley Farmlands]]<br>[[Silverlight Hills]]
+|-
+|[[Dantos the Forgebinder]]
+|<center>82</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=104 Venom Blades Bastion]
+|[[Oakveil Woodlands]]
+|-
+|[[Lord Styx the Night Champion]]
+|<center>84</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=45 Dracula's Demise]
+|[[Gloomrot South]]
+|-
+|[[Gorecrusher the Behemoth]]
+|<center>84</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=49 Lair of the Behemoth]<br>[https://vrising.fandom.com/wiki/Map:Vardoran?marker=49 Roads of Cursed Forest]
+|[[Cursed Forest]]
+|-
+|[[General Valencia the Depraved]]
+|<center>84</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=86 North Fortress Ruins]
+|[[Ruins of Mortium]]
+|-
+|[[Solarus the Immaculate]]
+|<center>86</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=42 Fortress of Light]
+|[[Silverlight Hills]]
+|-
+|[[Talzur the Winged Horror]]
+|<center>86</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=43 The Dreaded Peak]
+|[[Farbane Woods]]
+|-
+|[[Adam the Firstborn]]
+|<center>88</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=41 Doctor Blackbrew's Castle]
+|[[Gloomrot North]]
+|-
+|[[Megara the Serpent Queen]]
+|<center>88</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=105 Venom Blades Bastion]
+|[[Oakveil Woodlands]]
+|-
+|[[Dracula the Immortal King]]
+|<center>91</center>
+|[https://vrising.fandom.com/wiki/Map:Vardoran?marker=44 Dracula's Castle]
+|[[Ruins of Mortium]]
+|}
+<references />
+[[Category:V Blood Carriers| ]]
+[[Category:Enemies]]
+[[fr:Sang V]]

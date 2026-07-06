@@ -47,6 +47,10 @@ docker compose exec -T mediawiki php maintenance/run.php purgeParserCache --age 
 | templates/Stub.wikitext | Template:Stub |
 | templates/Outdated.wikitext | Template:Outdated (takes last-verified patch) |
 | pages/Weapons.wikitext | Weapons (overview page with Cargo all-weapons table) |
+| pages/Armours.wikitext | Armours (all-equipment Cargo table + tabber set details) |
+| pages/Consumables.wikitext | Consumables (all-consumables Cargo table + crafting details) |
+| pages/Structures.wikitext | Structures (all-structures Cargo table; replaced the raw Fandom data dump, old revision in page history) |
+| pages/V_Blood_Carriers.wikitext | V Blood Carriers (all-bosses Cargo table + by-act table) |
 | pages/Style_guide.wikitext | Project:Style guide |
 | pages/VRW_STYLE.wikitext | VRW:STYLE (shortcut redirect) |
 
@@ -59,7 +63,8 @@ Notes:
 - `Template:Screenshots` needs Extension:TabberNeue (bind-mounted like Cargo).
 - Whenever a `#cargo_declare` changes, re-run
   `cargoRecreateData.php --table <name>` after pushing (weapons went
-  numeric and patches was created this way on 2026-07-05).
+  numeric and patches was created this way on 2026-07-05; equipment
+  gear_level/durability went numeric 2026-07-06).
 - `Template:Navbox`, `Template:Stub`, `Template:Outdated`, and the Weapons
   page's `vr-table-scroll` wrapper depend on the `.vr-navbox-*` /
   `.vr-banner` / table CSS added to `config-snippets/Common.css` — paste

@@ -12,7 +12,7 @@
 -->{{#if:{{{category|}}}|{{Categoryswitch|{{{category|}}}}}}}<!--
 -->{{#if:{{{category2|}}}|{{Categoryswitch|{{{category2|}}}}}}}<!--
 -->}}</includeonly><noinclude>
-{{#cargo_declare:_table=equipment|name=String|category=String|type=String|gear_level=String|stats=Wikitext|set_bonus=Wikitext|durability=String|bloodbound=String|salvageable=Wikitext}}
+{{#cargo_declare:_table=equipment|name=String|category=String|type=String|gear_level=Integer|stats=Wikitext|set_bonus=Wikitext|durability=Integer|bloodbound=String|salvageable=Wikitext}}
 Equipment infobox, implemented in [[Module:Infobox]] and stored in the Cargo table <code>equipment</code>.
 
 Example usage:

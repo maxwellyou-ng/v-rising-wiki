@@ -1,0 +1,15 @@
+:''This page is a sortable list of every structure. For a guided, room-by-room tour of building your castle, see [[Castle Building]].''
+This page lists every '''structure''' you can place in your castle — production stations, walls, floors, furniture, lighting and more. Structures are unlocked through the [[Journal]], by defeating [[V Blood Carriers]], or researched at the [[Research Desk]].
+
+==All structures==
+Every structure on the wiki, drawn automatically from each structure page's infobox. Click a column header to sort — by room to see what belongs together, or by name to find a specific station.
+<div class="vr-table-scroll">
+{{#cargo_query:tables=structures
+|fields=_pageName=Structure,room=Room,unlocked_by=Unlocked by,resources=Build cost
+|order by=room,_pageName
+|limit=600
+|format=table
+}}
+</div>
+
+[[Category:Structures| ]]

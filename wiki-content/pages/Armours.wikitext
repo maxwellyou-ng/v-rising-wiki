@@ -1,0 +1,952 @@
+This page lists all '''armour''' and other wearable equipment: armour sets, cloaks, bags and jewelry. Chest pieces, leggings, boots and gloves raise your [[Gear Level]] and grant stat bonuses; matching pieces add a set bonus.
+
+==All armour and equipment==
+Every piece of equipment on the wiki, drawn automatically from each page's infobox. Click a column header to sort — by gear level to see progression, or by type to compare jewelry and bags. Set details and crafting costs are in the sections below.
+<div class="vr-table-scroll">
+{{#cargo_query:tables=equipment
+|fields=_pageName=Equipment,type=Type,gear_level=Gear level,stats=Stats,set_bonus=Set bonus,durability=Durability
+|order by=gear_level DESC,_pageName
+|limit=200
+|format=table
+}}
+</div>
+
+==Armour Sets==
+{{#tag:tabber|
+Tier 1=
+<div style="display:none">
+==Tier 1 Armours==
+</div>
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Boneguard Armour Set|<span style="color: var(--theme-page-text-color)">Boneguard Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear Level''': {{Blue|1}}</span></center>
+{{!}}[[File:Armour BoneguardChestguard.png|0x80px|link=Boneguard Armour Set]]
+{{!}}[[File:Armour BoneguardLeggings.png|0x80px|link=Boneguard Armour Set]]
+{{!}}[[File:Armour BoneguardBoots.png|0x80px|link=Boneguard Armour Set]]
+{{!}}[[File:Armour BoneguardGloves.png|0x80px|link=Boneguard Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}27
+{{!}}25
+{{!}}20
+{{!}}17
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' <nowiki>|</nowiki> {{ItemFrame|By Hand|type=Structure}}
+{{!}}-
+{{!}} colspan="3" {{!}}Chest & Leggings: {{ItemFrame|Bone|32|discountable=n}}<br>Boots & Gloves: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div style="display: inline-block; vertical-align: top;">{{ItemFrame|Bone|16|discountable=n}}<br>{{ItemFrame|Rugged Hide|32|discountable=n}}</div>
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 347
+{{!}}}
+{{!}}-{{!}}
+Tier 2=
+<div style="display:none">
+==Tier 2 Armours==
+</div>
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Plated Boneguard Armour Set|<span style="color: var(--theme-page-text-color)">Plated Boneguard Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear Level''': {{Blue|2}}</span></center>
+{{!}}[[File:Armour PlatedBoneguardChestguard.png|0x80px|link=Plated Boneguard Armour Set]]
+{{!}}[[File:Armour PlatedBoneguardLeggings.png|0x80px|link=Plated Boneguard Armour Set]]
+{{!}}[[File:Armour PlatedBoneguardBoots.png|0x80px|link=Plated Boneguard Armour Set]]
+{{!}}[[File:Armour PlatedBoneguardGloves.png|0x80px|link=Plated Boneguard Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}43
+{{!}}38
+{{!}}32
+{{!}}25
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 406
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Bonus Max Health by {{Blue|'''6%'''}}.<br>(4) Increases Bonus Physical Power by {{Blue|'''1%'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Simple Workbench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Boneguard Chestguard|1|display=Boneguard Armour Piece|type=Armour}}<br>{{ItemFrame|Rugged Hide|64}}
+{{!}}}
+{{!}}-{{!}}
+Tier 3=
+<div style="display:none">
+==Tier 3 Armours==
+</div>
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Nightstalker Armour Set|<span style="color: var(--theme-page-text-color)">Nightstalker Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear Level''': {{Blue|3}}</span></center>
+{{!}}[[File:Armour NightstalkerVest.png|0x80px|link=Nightstalker Armour Set]]
+{{!}}[[File:Armour NightstalkerLeggings.png|0x80px|link=Nightstalker Armour Set]]
+{{!}}[[File:Armour NightstalkerBoots.png|0x80px|link=Nightstalker Armour Set]]
+{{!}}[[File:Armour NightstalkerGloves.png|0x80px|link=Nightstalker Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}65
+{{!}}55
+{{!}}47
+{{!}}37
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Simple Workbench|type=structure}}
+{{!}}-
+{{!}} colspan="3" {{!}}{{ItemFrame|Leather|8}}<br>{{ItemFrame|Coarse Thread|4}}
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 490
+{{!}}}
+{{!}}-{{!}}
+Tier 4=
+<div style="display:none">
+==Tier 4 Armours==
+</div>
+{{#tag:tabber|
+Grim Ranger=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Grim Ranger Armour Set|<span style="color: var(--theme-page-text-color)">Grim Ranger Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|4}}</span></center>
+{{!}}[[File:Armour GrimRangerVest.png|0x80px|link=Grim Ranger Armour Set]]
+{{!}}[[File:Armour GrimRangerLeggings.png|0x80px|link=Grim Ranger Armour Set]]
+{{!}}[[File:Armour GrimRangerBoots.png|0x80px|link=Grim Ranger Armour Set]]
+{{!}}[[File:Armour GrimRangerGloves.png|0x80px|link=Grim Ranger Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}90
+{{!}}76
+{{!}}65
+{{!}}51
+{{!}}- style="text-align:center"
+{{!}}'''Bonus Physical Power''':
+{{!}}1.2%
+{{!}}1.2%
+{{!}}1.2%
+{{!}}1.2%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 602
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Weapon Skill Power by {{Blue|'''6%'''}}.<br>(4) Increase Gear Level by {{Blue|'''1'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Simple Workbench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Nightstalker Chestguard|1|display=Nightstalker Armour Piece|type=Armour}}<br>{{ItemFrame|Leather|4}}<br>{{ItemFrame|Coarse Thread|4}}<br>{{ItemFrame|Copper Ingot|8}}
+{{!}}-
+{{!}} colspan="5" {{!}}Guaranteed recipe drop from [[Grayson the Armourer]], and a chance to drop from Level 20 - 40 [[V Blood Carriers]], [[fishing]] & chests in [[Farbane Woods]]. <br>Also sold at the [[Vendors#Shady Book Dealer|Shady Book Dealer]] for {{ItemFrame|Copper Coin|40|discountable=N}}s.
+{{!}}}
+{{!}}-{{!}}
+Marauder=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Marauder Armour Set|<span style="color: var(--theme-page-text-color)">Marauder Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|4}}</span></center>
+{{!}}[[File:Armour MarauderVest.png|0x80px|link=Marauder Armour Set]]
+{{!}}[[File:Armour MarauderLeggings.png|0x80px|link=Marauder Armour Set]]
+{{!}}[[File:Armour MarauderBoots.png|0x80px|link=Marauder Armour Set]]
+{{!}}[[File:Armour MarauderGloves.png|0x80px|link=Marauder Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}90
+{{!}}76
+{{!}}65
+{{!}}51
+{{!}}- style="text-align:center"
+{{!}}'''Weapon Attack Speed:'''
+{{!}}1.8%
+{{!}}1.8%
+{{!}}1.8%
+{{!}}1.8%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 602
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Primary Attack Leech by {{Blue|'''3%'''}}.<br>(4) Increase Gear Level by {{Blue|'''1'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Simple Workbench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Nightstalker Chestguard|1|display=Nightstalker Armour Piece|type=Armour}}<br>{{ItemFrame|Leather|4}}<br>{{ItemFrame|Coarse Thread|4}}<br>{{ItemFrame|Copper Ingot|8}}
+{{!}}-
+{{!}} colspan="5" {{!}}Guaranteed recipe drop from [[Grayson the Armourer]], and a chance to drop from Level 20 - 40 [[V Blood Carriers]], [[fishing]] & chests in [[Farbane Woods]]. <br>Also sold at the [[Vendors#Shady Book Dealer|Shady Book Dealer]] for {{ItemFrame|Copper Coin|40|discountable=N}}s.
+{{!}}}
+{{!}}-{{!}}
+Shadewalker=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Shadewalker Armour Set|<span style="color: var(--theme-page-text-color)">Shadewalker Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|4}}</span></center>
+{{!}}[[File:Armour ShadewalkerVest.png|0x80px|link=Shadewalker Armour Set]]
+{{!}}[[File:Armour ShadewalkerLeggings.png|0x80px|link=Shadewalker Armour Set]]
+{{!}}[[File:Armour ShadewalkerBoots.png|0x80px|link=Shadewalker Armour Set]]
+{{!}}[[File:Armour ShadewalkerGloves.png|0x80px|link=Shadewalker Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}90
+{{!}}76
+{{!}}65
+{{!}}51
+{{!}}- style="text-align:center"
+{{!}}'''Physical Critical Chance''':
+{{!}}2%
+{{!}}2%
+{{!}}2%
+{{!}}2%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 602
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Movement Speed by {{Blue|'''3%'''}}.<br>(4) Increase Gear Level by {{Blue|'''1'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Simple Workbench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Nightstalker Chestguard|1|display=Nightstalker Armour Piece|type=Armour}}<br>{{ItemFrame|Leather|4}}<br>{{ItemFrame|Coarse Thread|4}}<br>{{ItemFrame|Copper Ingot|8}}
+{{!}}-
+{{!}} colspan="5" {{!}}Guaranteed recipe drop from [[Grayson the Armourer]], and a chance to drop from Level 20 - 40 [[V Blood Carriers]], [[fishing]] & chests in [[Farbane Woods]]. <br>Also sold at the [[Vendors#Shady Book Dealer|Shady Book Dealer]] for {{ItemFrame|Copper Coin|40|discountable=N}}s.
+{{!}}}
+{{!}}-{{!}}
+Warlock=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Warlock Armour Set|<span style="color: var(--theme-page-text-color)">Warlock Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|4}}</span></center>
+{{!}}[[File:Armour WarlockVest.png|0x80px|link=Warlock Armour Set]]
+{{!}}[[File:Armour WarlockLeggings.png|0x80px|link=Warlock Armour Set]]
+{{!}}[[File:Armour WarlockBoots.png|0x80px|link=Warlock Armour Set]]
+{{!}}[[File:Armour WarlockGloves.png|0x80px|link=Warlock Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}90
+{{!}}76
+{{!}}65
+{{!}}51
+{{!}}- style="text-align:center"
+{{!}}'''Bonus Spell Power''':
+{{!}}1.8%
+{{!}}1.8%
+{{!}}1.8%
+{{!}}1.8%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 602
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Spell Cooldown Rate by {{Blue|'''4%'''}}.<br>(4) Increase Gear Level by {{Blue|'''1'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Simple Workbench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Nightstalker Chestguard|1|display=Nightstalker Armour Piece|type=Armour}}<br>{{ItemFrame|Leather|4}}<br>{{ItemFrame|Coarse Thread|4}}<br>{{ItemFrame|Copper Ingot|8}}
+{{!}}-
+{{!}} colspan="5" {{!}}Guaranteed recipe drop from [[Grayson the Armourer]], and a chance to drop from Level 20 - 40 [[V Blood Carriers]], [[fishing]] & chests in [[Farbane Woods]]. <br>Also sold at the [[Vendors#Shady Book Dealer|Shady Book Dealer]] for {{ItemFrame|Copper Coin|40|discountable=N}}s.
+{{!}}}
+}}
+{{!}}-{{!}}
+Tier 5=
+<div style="display:none">
+==Tier 5 Armours==
+</div>
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Hollowfang Armour Set|<span style="color: var(--theme-page-text-color)">Hollowfang Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|5}}</span></center>
+{{!}}[[File:Armour HollowfangChestguard.png|0x80px|link=Hollowfang Armour Set]]
+{{!}}[[File:Armour HollowfangLeggings.png|0x80px|link=Hollowfang Armour Set]]
+{{!}}[[File:Armour HollowfangBoots.png|0x80px|link=Hollowfang Armour Set]]
+{{!}}[[File:Armour HollowfangGloves.png|0x80px|link=Hollowfang Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}119
+{{!}}101
+{{!}}86
+{{!}}67
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 742
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increase Bonus Physical Power by {{Blue|'''3%'''}} and Bonus Spell Power by {{Blue|'''3%'''}}.<br>(4) Increase Damage Reduction by {{Blue|'''2%'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Cotton Yarn|12}}<br>{{ItemFrame|Wool Thread|8}}
+{{!}}-
+{{!}} colspan="5" {{!}}Recipe unlocked by slaying [[Quincey the Bandit King]]
+{{!}}}
+{{!}}-{{!}}
+Tier 6=
+<div style="display:none">
+==Tier 6 Armours==
+</div>
+{{#tag:tabber|
+Duskwatcher=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Duskwatcher Armour Set|<span style="color: var(--theme-page-text-color)">Duskwatcher Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|6}}</span></center>
+{{!}}[[File:Armour DuskwatcherChestguard.png|0x80px|link=Duskwatcher Armour Set]]
+{{!}}[[File:Armour DuskwatcherLeggings.png|0x80px|link=Duskwatcher Armour Set]]
+{{!}}[[File:Armour DuskwatcherBoots.png|0x80px|link=Duskwatcher Armour Set]]
+{{!}}[[File:Armour DuskwatcherGloves.png|0x80px|link=Duskwatcher Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}152
+{{!}}128
+{{!}}109
+{{!}}84
+{{!}}- style="text-align:center"
+{{!}}'''Physical Critical Chance''':
+{{!}}2%
+{{!}}2%
+{{!}}2%
+{{!}}2%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 914
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Movement Speed by {{Blue|'''3%'''}}.<br>(3) Increase Gear Level by {{Blue|'''1'''}}.<br>(4) Increases Veil Cooldown Rate by {{Blue|'''4%'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Hollowfang Chestguard|1|display=Hollowfang Armour Piece|type=Armour}}<br>{{ItemFrame|Iron Ingot|4}}<br>{{ItemFrame|Thick Leather|8}}
+{{!}}-
+{{!}} colspan="5" {{!}}Guaranteed recipe drop from [[Bane the Shadowblade|Bane]], [[Octavian the Militia Captain|Octavian]], [[Angram the Purifier|Angram]].<br>Chance to drop from Level 44 - 65 [[V Blood Carriers]] or from [[fishing]] and chests across [[Dunley Farmlands]], [[Ruins of Mortium]] & [[Gloomrot South]].<br>Also sold at the [[Vendors#Dunley Farmlands|Rural Book Merchant]] for {{ItemFrame|Silver Coin|48|discountable=N}}s.
+{{!}}}
+{{!}}-{{!}}
+Crimson Templar=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Crimson Templar Armour Set|<span style="color: var(--theme-page-text-color)">Crimson Templar Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|6}}</span></center>
+{{!}}[[File:Armour CrimsonTemplarChestguard.png|0x80px|link=Crimson Templar Armour Set]]
+{{!}}[[File:Armour CrimsonTemplarLeggings.png|0x80px|link=Crimson Templar Armour Set]]
+{{!}}[[File:Armour CrimsonTemplarBoots.png|0x80px|link=Crimson Templar Armour Set]]
+{{!}}[[File:Armour CrimsonTemplarGloves.png|0x80px|link=Crimson Templar Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}152
+{{!}}128
+{{!}}109
+{{!}}84
+{{!}}- style="text-align:center"
+{{!}}'''Weapon Attack Speed''':
+{{!}}1.8%
+{{!}}1.8%
+{{!}}1.8%
+{{!}}1.8%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 914
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Primary Attack Leech by {{Blue|'''3%'''}}.<br>(3) Increase Gear Level by {{Blue|'''1'''}}.<br>(4) Increases Damage Reduction by {{Blue|'''3%'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Hollowfang Chestguard|1|display=Hollowfang Armour Piece|type=Armour}}<br>{{ItemFrame|Iron Ingot|4}}<br>{{ItemFrame|Thick Leather|8}}
+{{!}}-
+{{!}} colspan="5" {{!}}Guaranteed recipe drop from [[Bane the Shadowblade|Bane]], [[Octavian the Militia Captain|Octavian]], [[Angram the Purifier|Angram]].<br>Chance to drop from Level 44 - 65 [[V Blood Carriers]] or from [[fishing]] and chests across [[Dunley Farmlands]], [[Ruins of Mortium]] & [[Gloomrot South]].<br>Also sold at the [[Vendors#Dunley Farmlands|Rural Book Merchant]] for {{ItemFrame|Silver Coin|48|discountable=N}}s.
+{{!}}}
+{{!}}-{{!}}
+Blood Hunter=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Blood Hunter Armour Set|<span style="color: var(--theme-page-text-color)">Blood Hunter Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|6}}</span></center>
+{{!}}[[File:Armour BloodHunterChestguard.png|0x80px|link=Blood Hunter Armour Set]]
+{{!}}[[File:Armour BloodHunterLeggings.png|0x80px|link=Blood Hunter Armour Set]]
+{{!}}[[File:Armour BloodHunterBoots.png|0x80px|link=Blood Hunter Armour Set]]
+{{!}}[[File:Armour BloodHunterGloves.png|0x80px|link=Blood Hunter Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}152
+{{!}}128
+{{!}}109
+{{!}}84
+{{!}}- style="text-align:center"
+{{!}}'''Bonus Physical Power''':
+{{!}}1.2%
+{{!}}1.2%
+{{!}}1.2%
+{{!}}1.2%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 914
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Weapon Skill Power by {{Blue|'''6%'''}}.<br>(3) Increase Gear Level by {{Blue|'''1'''}}.<br>(4) Increases Weapon Cooldown Rate by {{Blue|'''4%'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Hollowfang Chestguard|1|display=Hollowfang Armour Piece|type=Armour}}<br>{{ItemFrame|Iron Ingot|4}}<br>{{ItemFrame|Thick Leather|8}}
+{{!}}-
+{{!}} colspan="5" {{!}}Guaranteed recipe drop from [[Bane the Shadowblade|Bane]], [[Octavian the Militia Captain|Octavian]], [[Angram the Purifier|Angram]].<br>Chance to drop from Level 44 - 65 [[V Blood Carriers]] or from [[fishing]] and chests across [[Dunley Farmlands]], [[Ruins of Mortium]] & [[Gloomrot South]].<br>Also sold at the [[Vendors#Dunley Farmlands|Rural Book Merchant]] for {{ItemFrame|Silver Coin|48|discountable=N}}s.
+{{!}}}
+{{!}}-{{!}}
+Dark Magus=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Dark Magus Armour Set|<span style="color: var(--theme-page-text-color)">Dark Magus Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|6}}</span></center>
+{{!}}[[File:Armour DarkMagusChestguard.png|0x80px|link=Dark Magus Armour Set]]
+{{!}}[[File:Armour DarkMagusLeggings.png|0x80px|link=Dark Magus Armour Set]]
+{{!}}[[File:Armour DarkMagusBoots.png|0x80px|link=Dark Magus Armour Set]]
+{{!}}[[File:Armour DarkMagusGloves.png|0x80px|link=Dark Magus Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}152
+{{!}}128
+{{!}}109
+{{!}}84
+{{!}}- style="text-align:center"
+{{!}}'''Bonus Spell Power''':
+{{!}}1.5%
+{{!}}1.5%
+{{!}}1.5%
+{{!}}1.5%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 914
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Spell Cooldown Rate by {{Blue|'''4%'''}}.<br>(3) Increase Gear Level by {{Blue|'''1'''}}.<br>(4) Increases Spell Leech by {{Blue|'''3%'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Hollowfang Chestguard|1|display=Hollowfang Armour Piece|type=Armour}}<br>{{ItemFrame|Iron Ingot|4}}<br>{{ItemFrame|Thick Leather|8}}
+{{!}}-
+{{!}} colspan="5" {{!}}Guaranteed recipe drop from [[Bane the Shadowblade|Bane]], [[Octavian the Militia Captain|Octavian]], [[Angram the Purifier|Angram]].<br>Chance to drop from Level 44 - 65 [[V Blood Carriers]] or from [[fishing]] and chests across [[Dunley Farmlands]], [[Ruins of Mortium]] & [[Gloomrot South]].<br>Also sold at the [[Vendors#Dunley Farmlands|Rural Book Merchant]] for {{ItemFrame|Silver Coin|48|discountable=N}}s.
+{{!}}}
+}}
+{{!}}-{{!}}
+Tier 7=
+<div style="display:none">
+==Tier 7 Armours==
+</div>
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Dawnthorn Armour Set|<span style="color: var(--theme-page-text-color)">Dawnthorn Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|7}}</span></center>
+{{!}}[[File:Armour DawnthornChestguard.png|0x80px|link=Dawnthorn Armour Set]]
+{{!}}[[File:Armour DawnthornLeggings.png|0x80px|link=Dawnthorn Armour Set]]
+{{!}}[[File:Armour DawnthornBoots.png|0x80px|link=Dawnthorn Armour Set]]
+{{!}}[[File:Armour DawnthornGloves.png|0x80px|link=Dawnthorn Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}187
+{{!}}156
+{{!}}134
+{{!}}103
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 1119
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increase Movement Speed by {{Blue|'''3%'''}}.<br>(4) Increase Gear Level by {{Blue|'''1'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Pristine Leather|12}}<br>{{ItemFrame|Silk|8}}
+{{!}}-
+{{!}} colspan="5" {{!}}Recipe unlocked by slaying [[Angram the Purifier]]
+{{!}}}
+{{!}}-{{!}}
+Tier 8=
+<div style="display:none">
+==Tier 8 Armours==
+</div>
+{{#tag:tabber|
+Shadowmoon=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Shadowmoon Armour Set|<span style="color: var(--theme-page-text-color)">Shadowmoon Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|8}}</span></center>
+{{!}}[[File:Armour ShadowmoonChestguard.png|0x80px|link=Shadowmoon Armour Set]]
+{{!}}[[File:Armour ShadowmoonLeggings.png|0x80px|link=Shadowmoon Armour Set]]
+{{!}}[[File:Armour ShadowmoonBoots.png|0x80px|link=Shadowmoon Armour Set]]
+{{!}}[[File:Armour ShadowmoonGloves.png|0x80px|link=Shadowmoon Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}224
+{{!}}187
+{{!}}160
+{{!}}123
+{{!}}- style="text-align:center"
+{{!}}'''Physical Critical Chance''':
+{{!}}2%
+{{!}}2%
+{{!}}2%
+{{!}}2%
+{{!}}- style="text-align:center"
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 1359
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Movement Speed by {{Blue|'''3%'''}}.<br>(3) Increase Veil Cooldown Rate by {{Blue|'''6%'''}}.<br>(4) Increases Gear Level by {{Blue|'''1'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Dawnthorn Chestguard|1|display=Dawnthorn Armour Piece|type=Armour}}<br>{{ItemFrame|Ghost Yarn|8}}<br>{{ItemFrame|Primal Blood Essence|1}}
+{{!}}-
+{{!}} colspan="5" {{!}}Chance to drop from Level 66+ [[V Blood Carriers]], [[fishing]] or chests across [[Silverlight Hills]], [[Cursed Forest]], [[Gloomrot North]] & [[Oakveil Woodlands]].<br>Also sold at the [[Vendors#Silverlight Hills|City Book Vendor]] for {{ItemFrame|Goldsun Coin|160|discountable=N}}s.
+{{!}}}
+{{!}}-{{!}}
+Grim Knight=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Grim Knight Armour Set|<span style="color: var(--theme-page-text-color)">Grim Knight Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|8}}</span></center>
+{{!}}[[File:Armour GrimKnightChestguard.png|0x80px|link=Grim Knight Armour Set]]
+{{!}}[[File:Armour GrimKnightLeggings.png|0x80px|link=Grim Knight Armour Set]]
+{{!}}[[File:Armour GrimKnightBoots.png|0x80px|link=Grim Knight Armour Set]]
+{{!}}[[File:Armour GrimKnightGloves.png|0x80px|link=Grim Knight Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}224
+{{!}}187
+{{!}}160
+{{!}}123
+{{!}}- style="text-align:center"
+{{!}}'''Weapon Attack Speed''':
+{{!}}1.8%
+{{!}}1.8%
+{{!}}1.8%
+{{!}}1.8%
+{{!}}- style="text-align:center"
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 1359
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Primary Attack Leech by {{Blue|'''4%'''}}.<br>(3) Increase Damage Reduction by {{Blue|'''3%'''}}.<br>(4) Increases Gear Level by {{Blue|'''1'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Dawnthorn Chestguard|1|display=Dawnthorn Armour Piece|type=Armour}}<br>{{ItemFrame|Ghost Yarn|8}}<br>{{ItemFrame|Primal Blood Essence|1}}
+{{!}}-
+{{!}} colspan="5" {{!}}Chance to drop from Level 66+ [[V Blood Carriers]], [[fishing]] or chests across [[Silverlight Hills]], [[Cursed Forest]], [[Gloomrot North]] & [[Oakveil Woodlands]].<br>Also sold at the [[Vendors#Silverlight Hills|City Book Vendor]] for {{ItemFrame|Goldsun Coin|160|discountable=N}}s.
+{{!}}}
+{{!}}-{{!}}
+Dread Plate=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Dread Plate Armour Set|<span style="color: var(--theme-page-text-color)">Dread Plate Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|8}}</span></center>
+{{!}}[[File:Armour DreadPlateChestguard.png|0x80px|link=Dread Plate Armour Set]]
+{{!}}[[File:Armour DreadPlateLeggings.png|0x80px|link=Dread Plate Armour Set]]
+{{!}}[[File:Armour DreadPlateBoots.png|0x80px|link=Dread Plate Armour Set]]
+{{!}}[[File:Armour DreadPlateGloves.png|0x80px|link=Dread Plate Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}224
+{{!}}187
+{{!}}160
+{{!}}123
+{{!}}- style="text-align:center"
+{{!}}'''Bonus Physical Power''':
+{{!}}1.2%
+{{!}}1.2%
+{{!}}1.2%
+{{!}}1.2%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 1359
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Weapon Skill Power by {{Blue|'''7%'''}}.<br>(3) Increase Weapon Cooldown Rate by {{Blue|'''6%'''}}.<br>(4) Increases Gear Level by {{Blue|'''1'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Dawnthorn Chestguard|1|display=Dawnthorn Armour Piece|type=Armour}}<br>{{ItemFrame|Ghost Yarn|8}}<br>{{ItemFrame|Primal Blood Essence|1}}
+{{!}}-
+{{!}} colspan="5" {{!}}Chance to drop from Level 66+ [[V Blood Carriers]], [[fishing]] or chests across [[Silverlight Hills]], [[Cursed Forest]], [[Gloomrot North]] & [[Oakveil Woodlands]].<br>Also sold at the [[Vendors#Silverlight Hills|City Book Vendor]] for {{ItemFrame|Goldsun Coin|160|discountable=N}}s.
+{{!}}}
+{{!}}-{{!}}
+Maleficer Scholar=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Maleficer Scholar Armour Set|<span style="color: var(--theme-page-text-color)">Maleficer Scholar Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|8}}</span></center>
+{{!}}[[File:Armour MaleficerScholarChestguard.png|0x80px|link=Maleficer Scholar Armour Set]]
+{{!}}[[File:Armour MaleficerScholarLeggings.png|0x80px|link=Maleficer Scholar Armour Set]]
+{{!}}[[File:Armour MaleficerScholarBoots.png|0x80px|link=Maleficer Scholar Armour Set]]
+{{!}}[[File:Armour MaleficerScholarGloves.png|0x80px|link=Maleficer Scholar Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}224
+{{!}}187
+{{!}}160
+{{!}}123
+{{!}}- style="text-align:center"
+{{!}}'''Bonus Spell Power''':
+{{!}}1.5%
+{{!}}1.5%
+{{!}}1.5%
+{{!}}1.5%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 1359
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Spell Cooldown Rate by {{Blue|'''5%'''}}.<br>(3) Increase Spell Leech by {{Blue|'''4%'''}}.<br>(4) Increases Gear Level by {{Blue|'''1'''}}.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Dawnthorn Chestguard|1|display=Dawnthorn Armour Piece|type=Armour}}<br>{{ItemFrame|Ghost Yarn|8}}<br>{{ItemFrame|Primal Blood Essence|1}}
+{{!}}-
+{{!}} colspan="5" {{!}}Chance to drop from Level 66+ [[V Blood Carriers]], [[fishing]] or chests across [[Silverlight Hills]], [[Cursed Forest]], [[Gloomrot North]] & [[Oakveil Woodlands]].<br>Also sold at the [[Vendors#Silverlight Hills|City Book Vendor]] for {{ItemFrame|Goldsun Coin|160|discountable=N}}s.
+{{!}}}
+}}
+{{!}}-{{!}}
+Tier 9=
+<div style="display:none">
+==Tier 9 Armours==
+</div>
+{{#tag:tabber|
+Dracula's Shadow=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Dracula's Shadow Armour Set|<span style="color: var(--theme-page-text-color)">Dracula's Shadow Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|9}}</span></center>
+{{!}}[[File:Armour DraculasShadowChestguard.png|0x80px|link=Dracula's Shadow Armour Set]]
+{{!}}[[File:Armour DraculasShadowLeggings.png|0x80px|link=Dracula's Shadow Armour Set]]
+{{!}}[[File:Armour DraculasShadowBoots.png|0x80px|link=Dracula's Shadow Armour Set]]
+{{!}}[[File:Armour DraculasShadowGloves.png|0x80px|link=Dracula's Shadow Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}262
+{{!}}218
+{{!}}188
+{{!}}144
+{{!}}- style="text-align:center"
+{{!}}'''Physical Critical Chance''':
+{{!}}2%
+{{!}}2%
+{{!}}2%
+{{!}}2%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 1359
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Movement Speed by {{Blue|'''4%'''}}.<br>(3) Increases Veil Cooldown Rate by {{Blue|'''7%'''}}.<br>(4) Gain {{Blue|'''12%'''}} Physical Critical Chance and {{Blue|'''6%'''}} movement speed for {{Blue|'''4s'''}} after using a Veil.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Shadowmoon Chestguard|1|display=Shadowmoon Armour Piece|type=Armour}}<br>{{ItemFrame|Shadow Weave|12}}<br>{{ItemFrame|Bat Leather|12}}
+{{!}}-
+{{!}} colspan="5" {{!}}Armour piece recipes unlock by slaying [[Adam the Firstborn]], [[Megara the Serpent Queen]], [[Solarus the Immaculate]] & [[Talzur the Winged Horror|Winged Horror]] respectively.
+{{!}}}
+{{!}}-{{!}}
+Dracula's Grim=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Dracula's Grim Armour Set|<span style="color: var(--theme-page-text-color)">Dracula's Grim Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|9}}</span></center>
+{{!}}[[File:Armour DraculasGrimChestguard.png|0x80px|link=Dracula's Grim Armour Set]]
+{{!}}[[File:Armour DraculasGrimLeggings.png|0x80px|link=Dracula's Grim Armour Set]]
+{{!}}[[File:Armour DraculasGrimBoots.png|0x80px|link=Dracula's Grim Armour Set]]
+{{!}}[[File:Armour DraculasGrimGloves.png|0x80px|link=Dracula's Grim Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}262
+{{!}}218
+{{!}}188
+{{!}}144
+{{!}}- style="text-align:center"
+{{!}}'''Weapon Attack Speed''':
+{{!}}1.8%
+{{!}}1.8%
+{{!}}1.8%
+{{!}}1.8%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 1359
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Primary Attack Leech by {{Blue|'''5%'''}}.<br>(3) Increase Damage Reduction by {{Blue|'''4%'''}}.<br>(4) Veil attacks heal for {{Blue|'''1%'''}} additional max health and gain {{Blue|'''10%'''}} attack speed for {{Blue|'''4s'''}} after using a Veil.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Grim Knight Chestguard|1|display=Grim Knight Armour Piece|type=Armour}}<br>{{ItemFrame|Shadow Weave|12}}<br>{{ItemFrame|Bat Leather|12}}
+{{!}}-
+{{!}} colspan="5" {{!}}Armour piece recipes unlock by slaying [[Adam the Firstborn]], [[Megara the Serpent Queen]], [[Solarus the Immaculate]] & [[Talzur the Winged Horror|Winged Horror]] respectively.
+{{!}}}
+{{!}}-{{!}}
+Dracula's Dread=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Dracula's Dread Armour Set|<span style="color: var(--theme-page-text-color)">Dracula's Dread Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|9}}</span></center>
+{{!}}[[File:Armour DraculasDreadChestguard.png|0x80px|link=Dracula's Dread Armour Set]]
+{{!}}[[File:Armour DraculasDreadLeggings.png|0x80px|link=Dracula's Dread Armour Set]]
+{{!}}[[File:Armour DraculasDreadBoots.png|0x80px|link=Dracula's Dread Armour Set]]
+{{!}}[[File:Armour DraculasDreadGloves.png|0x80px|link=Dracula's Dread Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}262
+{{!}}218
+{{!}}188
+{{!}}144
+{{!}}- style="text-align:center"
+{{!}}'''Bonus Physical Power''':
+{{!}}1.2%
+{{!}}1.2%
+{{!}}1.2%
+{{!}}1.2%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 1359
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Weapon Skill Power by {{Blue|'''9%'''}}.<br>(3) Increase Weapon Cooldown Rate by {{Blue|'''7%'''}}.<br>(4) Veil attacks deal {{Blue|'''30%'''}} bonus damage.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Dread Plate Chestguard|1|display=Dread Plate Armour Piece|type=Armour}}<br>{{ItemFrame|Shadow Weave|12}}<br>{{ItemFrame|Bat Leather|12}}
+{{!}}-
+{{!}} colspan="5" {{!}}Armour piece recipes unlock by slaying [[Adam the Firstborn]], [[Megara the Serpent Queen]], [[Solarus the Immaculate]] & [[Talzur the Winged Horror|Winged Horror]] respectively.
+{{!}}}
+{{!}}-{{!}}
+Dracula's Maleficer=
+{{(!}} class="article-table" style="width:600px"
+! colspan="5" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"{{!}}[[Dracula's Maleficer Armour Set|<span style="color: var(--theme-page-text-color)">Dracula's Maleficer Armour</span>]]
+{{!}}-
+{{!}}- style="text-align:center"
+{{!}}<center><span style="font-size:115%">'''Gear&nbsp;Level''':&nbsp;{{Blue|9}}</span></center>
+{{!}}[[File:Armour DraculasMaleficerChestguard.png|0x80px|link=Dracula's Maleficer Armour Set]]
+{{!}}[[File:Armour DraculasMaleficerLeggings.png|0x80px|link=Dracula's Maleficer Armour Set]]
+{{!}}[[File:Armour DraculasMaleficerBoots.png|0x80px|link=Dracula's Maleficer Armour Set]]
+{{!}}[[File:Armour DraculasMaleficerGloves.png|0x80px|link=Dracula's Maleficer Armour Set]]
+{{!}}- style="text-align:center"
+{{!}}'''Max Health''':
+{{!}}262
+{{!}}218
+{{!}}188
+{{!}}144
+{{!}}- style="text-align:center"
+{{!}}'''Bonus Spell Power''':
+{{!}}1.5%
+{{!}}1.5%
+{{!}}1.5%
+{{!}}1.5%
+{{!}}-
+{{!}} colspan="3" {{!}}'''Set Bonus'''
+{{!}} colspan="2" style="text-align:right; vertical-align:top" {{!}}'''Durability''': 1359
+{{!}}-
+{{!}} colspan="5"{{!}}(2) Increases Spell Cooldown Rate by {{Blue|'''6%'''}}.<br>(3) Increase Spell Leech by {{Blue|'''4%'''}}.<br>(4) Gain {{Blue|'''15%'''}} Spell Critical Chance for {{Blue|'''4s'''}} after using a Veil.
+{{!}}-
+{{!}} colspan="5" {{!}}'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+{{!}}-
+{{!}} colspan="5" {{!}}{{ItemFrame|Maleficer Scholar Chestguard|1|display=Maleficer Scholar Armour Piece|type=Armour}}<br>{{ItemFrame|Shadow Weave|12}}<br>{{ItemFrame|Bat Leather|12}}
+{{!}}-
+{{!}} colspan="5" {{!}}Armour piece recipes unlock by slaying [[Adam the Firstborn]], [[Megara the Serpent Queen]], [[Solarus the Immaculate]] & [[Talzur the Winged Horror|Winged Horror]] respectively.
+{{!}}}
+}}
+{{#ifeq:{{PAGENAME}}|Equipment|
+{{!}}-{{!}}
+Cosmetic=<div style="margin-top:8px"></div><div style="display:none"><!--This code is for displaying the cosmetic tab on the Equipment page only-->
+==Cosmetic Sets==
+</div>
+{{#lsth:Armours|Cosmetic Armour Sets}}|
+}}
+}}<noinclude><div style="display:none">[[{{PAGENAME}}#top|<big>'''↑ Return to Top'''</big>]]</div></noinclude>
+==Cloaks==
+Loot Drop Cloaks can only be found in Regular / [[Golden Chests]], or more commonly in [[Carriage]]s. (10% chance)
+{| class="article-table"
+! colspan="3" style="text-align:center; border-block: 1px solid grey"|Tier 1 Cloaks
+|-
+| colspan="3" style="border:none"|<center><!--
+-->[[File:Cloak_DarkLeatherMantle.png|0x70px|link=Dark Leather Mantle]]<!--
+-->[[File:Cloak_VampireHuntersMantle.png|0x70px|link=Vampire Hunter's Mantle]]<!--
+-->[[File:Cloak_RazerSerpentWrap.png|0x70px|link=Razer Serpent Wrap]]<!--
+-->[[File:Cloak_TattersOfTheUndead.png|0x70px|link=Tatters Of The Undead]]<!--
+-->[[File:Cloak_BloodstainedDrape.png|0x70px|link=Bloodstained Drape]]<!--
+-->[[File:Cloak_ChaosStitchedDrape.png|0x70px|link=Chaos Stitched Drape]]<!--
+-->[[File:Cloak_GlacialStitchedDrape.png|0x70px|link=Glacial Stitched Drape]]</center>
+|-
+| colspan="3" style="text-align:center; border-bottom: 1px solid grey"|Loot Drop <nowiki>|</nowiki> [[Farbane Woods]] <nowiki>|</nowiki> Drop Rate: 7.5%
+|-
+| colspan="3" style="text-align:center; border:none"|<center>[[File:Cloak_TravellersWrap.png|0x70px|link=Traveller's Wrap]] [[File:Cloak_RazerSerpentWrap.png|0x70px|link=Razer Serpent Wrap]] [[File:Cloak_ImmortalKingsDrape.png|0x70px|link=Immortal King's Drape]] [[File:Cloak_ChemicalSoakedDrape.png|0x70px|link=Chemical Soaked Drape]]</center>
+|-
+| colspan="3" style="text-align:center; border-bottom: 1px solid grey"|Craftable at the {{ItemFrame|Simple Workbench|type=structure}} after slaying [[Keely the Frost Archer]]
+|-
+|'''Crafting Costs''' (With Floor Bonus)
+| colspan="2" style="text-align:left" |'''Tier 1 Stats'''
+|-
+| style="vertical-align:top; border-bottom: 1px solid grey" |{{ItemFrame|Cloth|4}}<br>{{ItemFrame|Leather|4}}
+| colspan="2" style="text-align:left; border-bottom: 1px solid grey" | +12 Max Health<br>+15 Sun Resistance Rating
+|-
+! colspan="3" style="text-align:center; border-block: 1px solid grey"|Tier 2 Cloaks
+|-
+| colspan="3" style="border:none"|<center><!--
+-->[[File:Cloak_ManaShawl.png|0x70px|link=Mana Shawl]]<!--
+-->[[File:Cloak_HermitsShawl.png|0x70px|link=Hermit's Shawl]]<!--
+-->[[File:Cloak_BeatricesScarf.png|0x70px|link=Beatrice's Scarf]]<!--
+-->[[File:Cloak_WarTornWineCloak.png|0x70px|link=War Torn Wine Cloak]]<!--
+-->[[File:Cloak_CardinalsCloak.png|0x70px|link=Cardinal's Cloak]]<!--
+-->[[File:Cloak_RazerSerpentCloak.png|0x70px|link=Razer Serpent Cloak]]<!--
+-->[[File:Cloak Thousand-StitchCloak.png|0x70px|link=Thousand-Stitch Cloak]]<!--
+-->[[File:Cloak_AshfolkCrystalIceCloak.png|0x70px|link=Ashfolk Crystal Ice Cloak]]<!--
+-->[[File:Cloak_AshfolkWildfireDrape.png|0x70px|link=Ashfolk Wildfire Drape]]<!--
+-->[[File:Cloak_TokiFeatheredCape.png|0x70px|link=Toki Feathered Cape]]<!--
+-->[[File:Cloak PurpleFeatheredCape.png|0x70px|link=Purple Feathered Cape]]</center>
+|-
+| colspan="3" style="text-align:center; border-bottom: 1px solid grey"|Loot Drop <nowiki>|</nowiki> [[Dunley Farmlands]], [[Ruins of Mortium]], [[Gloomrot South]] <nowiki>|</nowiki> Drop Rate: 7.5%
+|-
+| colspan="3" style="border:none"|<center>[[File:Cloak_HuntersCloak.png|0x70px|link=Hunter's Cloak]] [[File:Cloak_RazerSerpentCloak.png|0x70px|link=Razer Serpent Cloak]] [[File:Cloak_ImmortalKingsCloak.png|0x70px|link=Immortal King's Cloak]] [[File:Cloak_ChemicalSoakedCloak.png|0x70px|link=Chemical Soaked Cloak]]</center>
+|-
+| colspan="3" style="text-align:center; border-bottom: 1px solid grey" |Craftable at the {{ItemFrame|Tailoring Bench|type=structure}} after slaying [[Beatrice the Tailor]]
+|-
+|'''Crafting Costs''' (With Floor Bonus) 
+| colspan="2" style="text-align:left" |'''Tier 2 Stats'''
+|-
+| style="vertical-align:top; border-bottom: 1px solid grey" |{{ItemFrame|Cotton Yarn|8}}
+| colspan="2" style="text-align:left; border-bottom: 1px solid grey" | +18 Max Health<br>+15 Sun Resistance Rating<br>+15 Garlic Resistance Rating<br>+15 Silver Resistance Rating
+|-
+! colspan="3" style="text-align:center; border-block: 1px solid grey"|Tier 3 Cloaks
+|-
+| colspan="3" style="text-align:center; border:none"|<center><!--
+-->[[File:Cloak RoyalVeilOfTheJester.png|0x70px|link=Royal Veil Of The Jester]]<!--
+-->[[File:Cloak_RoyalMantleOfAshfolkKings.png|0x70px|link=Royal Mantle Of Ashfolk Kings]]<!--
+-->[[File:Cloak_RazerSerpentMantle.png|0x70px|link=Razer Serpent Mantle]]<!--
+-->[[File:Cloak_CrimsonWard.png|0x70px|link=Crimson Ward]]<!--
+-->[[File:Cloak TailOfTheArchfiend.png|0x70px|link=Tail Of The Archfiend]]</center>
+|-
+| colspan="3" style="text-align:center; border-bottom: 1px solid grey"|Loot Drop <nowiki>|</nowiki> [[Cursed Forest]], [[Silverlight Hills]], [[Cursed Forest]], [[Gloomrot North]], [[Oakveil Woodlands]] <nowiki>|</nowiki> Drop Rate: 5%
+|-
+| colspan="3" style="border:none"|<center>[[File:Cloak_PhantomsVeil.png|0x70px|link=Phantom's Veil]] [[File:Cloak_RazerSerpentMantle.png|0x70px|link=Razer Serpent Mantle]] [[File:Cloak_ImmortalKingsMantle.png|0x70px|link=Immortal King's Mantle]] [[File:Cloak_ChemicalSoakedRegalia.png|0x70px|link=Chemical Soaked Regalia]] </center>
+|-
+| colspan="3" style="text-align:center; border-bottom: 1px solid grey"" |Craftable at the {{ItemFrame|Tailoring Bench|type=structure}} after slaying [[Sir Magnus the Overseer]]
+|-
+|'''Crafting Costs''' (With Floor Bonus)
+| colspan="2" style="text-align:left" |'''Tier 3 Stats'''
+|-
+| style="vertical-align:top; border-bottom: 1px solid grey" |{{ItemFrame|Silk|12}}<br>{{ItemFrame|Spectral Dust|8}} 
+| colspan="2" style="text-align:left; border-bottom: 1px solid grey" | +24 Max Health<br>+15 Sun Resistance Rating<br>+15 Garlic Resistance Rating<br>+15 Silver Resistance Rating<br>+15 Fire Resistance Rating<br>+15 Holy Resistance Rating
+|-
+! colspan="3" style="text-align:center; border-block: 1px solid grey"|Special Cloaks
+|-
+| colspan="3" style="text-align:center; border:none"|[[File:Cloak ShroudoftheForest.png|0x70px|link=Shroud of the Forest]]
+|-
+| colspan="3" style="text-align:center; border-bottom: 1px solid grey"" |Craftable {{ItemFrame|By Hand|type=structure}} and at the {{ItemFrame|Tailoring Bench|type=structure}} after slaying [[Ben the Old Wanderer]]
+|-
+|'''Crafting Costs''' (With Floor Bonus)
+| colspan="2" style="text-align:left" |'''Stats'''
+|-
+| style="vertical-align:top; border-bottom: 1px solid grey" |{{ItemFrame|Pristine Hide|200}}<br>{{ItemFrame|Plant Fibre|200}}<br>{{ItemFrame|Ghost Shroom|20}}
+| colspan="2" style="text-align:left; border-bottom: 1px solid grey" |Makes the wearer immune to the [[Curse of the Forest]]
+|}
+
+'''''Note''': Razer, Immortal King & Chemical Soaked Cloaks require [[DLC|DLC]] to be crafted.<br>Additionally, Razer Cloaks drop half as often as other cloaks in their tier.''
+
+==Cosmetic Armour Sets==
+Cosmetic Armour Sets are meant to be equipped in the cosmetic slot, as they grant no [[attributes]].
+{| class="article-table" style="width:660px"
+! colspan="6" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"|[[Midnight Armour Set|<span style="color: var(--theme-page-text-color)">Midnight Armour Set</span>]]
+|-
+|- style="text-align:center"
+|<center><span style="font-size:115%">'''Gear Level''': {{Blue|1}}</span></center>
+|[[File:Armour MidnightBallGown.png|0x80px|link=Midnight Armour Set]]
+|[[File:Armour MidnightNoblemanSuit.png|0x80px|link=Midnight Armour Set]]
+|[[File:Armour MidnightNoblemanPants.png|0x80px|link=Midnight Armour Set]]
+|
+|
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+|-
+| colspan="3" style="border-top:1px solid dimgray; border-bottom:1px solid dimgray"|{{ItemFrame|Cloth|12}}<br>{{ItemFrame|Wool Thread|4}}
+| colspan="3" style="text-align:right; vertical-align:top; border-top:1px solid dimgray; border-bottom:1px solid dimgray" |'''Durability''': 347
+|-
+! colspan="6" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"|[[Alucard Armour Set|<span style="color: var(--theme-page-text-color)">Alucard Armour Set</span>]]
+|-
+|- style="text-align:center"
+|<center><span style="font-size:115%">'''Gear Level''': {{Blue|1}}</span></center>
+|[[File:Armour AlucardsCoat.png|0x80px|link=Alucard Armour Set]]
+|[[File:Armour AlucardsLeggings.png|0x80px|link=Alucard Armour Set]]
+|[[File:Armour AlucardsBoots.png|0x80px|link=Alucard Armour  Set]]
+|[[File:Armour AlucardsGloves.png|0x80px|link=Alucard Armour Set]]
+|[[File:Cloak AlucardsCloak.png|0x80px|link=Alucard Armour Set]]
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+|-
+| colspan="3"|{{ItemFrame|Cloth|4}}<br>{{ItemFrame|Coarse Thread|1}}
+| colspan="3" style="text-align:right; vertical-align:top" |'''Durability''': 347<br>''[[DLC#Legacy of Castlevania Premium Pack|Legacy of Castlevania]] Exclusive''
+|-
+! colspan="6" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"|[[Soma Cruz Armour Set|<span style="color: var(--theme-page-text-color)">Soma Cruz Armour Set</span>]]
+|-
+|- style="text-align:center"
+|<center><span style="font-size:115%">'''Gear Level''': {{Blue|1}}</span></center>
+|[[File:Armour SomaCruzsCoat.png|0x80px|link=Soma Cruz Armour Set]]
+|[[File:Armour SomaCruzsLeggings.png|0x80px|link=Soma Cruz Armour Set]]
+|[[File:Armour SomaCruzsBoots.png|0x80px|link=Soma Cruz Armour Set]]
+|
+|
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+|-
+| colspan="3"|{{ItemFrame|Cloth|4}}<br>{{ItemFrame|Coarse Thread|1}}
+| colspan="3" style="text-align:right; vertical-align:top" |'''Durability''': 347<br>''[[DLC#Legacy of Castlevania Premium Pack|Legacy of Castlevania]] Exclusive''
+|-
+! colspan="6" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"|[[Shanoa Armour Set|<span style="color: var(--theme-page-text-color)">Shanoa Armour Set</span>]]
+|-
+|- style="text-align:center"
+|<center><span style="font-size:115%">'''Gear Level''': {{Blue|1}}</span></center>
+|[[File:Armour ShanoasGown.png|0x80px|link=Shanoa Armour Set]]
+|[[File:Armour ShanoasLeggings.png|0x80px|link=Shanoa Armour Set]]
+|
+|
+|
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+|-
+| colspan="3"|{{ItemFrame|Cloth|4}}<br>{{ItemFrame|Coarse Thread|1}}
+| colspan="3" style="text-align:right; vertical-align:top" |'''Durability''': 347<br>''[[DLC#Legacy of Castlevania Premium Pack|Legacy of Castlevania]] Exclusive''
+|-
+! colspan="6" style="text-align:center; border-top:1px solid dimgray; border-bottom:1px solid dimgray"|[[Opulent Night Armour Set|<span style="color: var(--theme-page-text-color)">Opulent Night Armour Set</span>]]
+|-
+|- style="text-align:center"
+|<center><span style="font-size:115%">'''Gear Level''': {{Blue|1}}</span></center>
+|[[File:Armour OpulentNightRaiment.png|0x80px|link=Opulent Night Armour Set]]
+|[[File:Armour OpulentNightLeggings.png|0x80px|link=Opulent Night Armour Set]]
+|[[File:Armour OpulentNightSabatons.png|0x80px|link=Opulent Night Armour Set]]
+|[[File:Armour OpulentNightVambraces.png|0x80px|link=Opulent Night Armour Set]]
+|[[File:Head OpulentNightVisage.png|0x80px|link=Opulent Night Visage]]
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Tailoring Bench|type=structure}}
+|-
+| colspan="3"|{{ItemFrame|Cloth|4}}<br>{{ItemFrame|Coarse Thread|1}}
+| colspan="3" style="text-align:right; vertical-align:top" |'''Durability''': 347<br>''[[DLC#Eternal Dominance Pack|Eternal Dominance Pack]] Exclusive''
+|}
+
+==Removed Armours==
+{| class="article-table" style="width:600px"
+! colspan="5" style="text-align:center"|Bandit Armour
+|-
+|- style="text-align:center"
+|
+|[[File:Armour BanditChestguard.png|0x80px|link=Bandit Armour Set]]
+|[[File:Armour BanditLeggings.png|0x80px|link=Bandit Armour Set]]
+|[[File:Armour BanditBoots.png|0x80px|link=Bandit Armour Set]]
+| style="text-align:center"|-
+|- style="text-align:center"
+|'''Max Health''':
+|18
+|15.5
+|12.9
+|'''Gear Level''': 2
+|-
+| colspan="5" |''Loot Drop Only'' <span style="float:right">'''Durability''': 406</span>
+|}<div style="display:none">__TOC__</div>__NOTOC__
+
+==Other Equipment==
+For a list of Equipment, see their respective pages:
+*[[Equipment]]
+*[[Weapons]]
+*[[Jewelry]]
+*[[Hats]]
+*[[Bags]]
+<noinclude>[[{{PAGENAME}}#top|<big>'''↑ Return to Top'''</big>]]</noinclude>
+[[Category:Equipment| ]]
+[[fr:Armures]]

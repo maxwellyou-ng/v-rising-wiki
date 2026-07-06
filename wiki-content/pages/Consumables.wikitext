@@ -1,0 +1,306 @@
+<noinclude>This page lists all '''Consumables'''. To use a consumable you can put it on your action bar or right click it from your inventory. For a list of other craftable [[items]], see its respective [[Items/Item Recipes|page]].</noinclude>
+
+==All consumables==
+Every consumable on the wiki, drawn automatically from each item page's infobox. Click a column header to sort. Crafting times and material costs are in the detailed table below.
+<div class="vr-table-scroll">
+{{#cargo_query:tables=items
+|fields=_pageName=Item,station=Crafting station,stack_size=Stack size,description=Effect
+|where=category IN ('Consumable','Blood Potion')
+|order by=_pageName
+|limit=100
+|format=table
+}}
+</div>
+
+==Crafting details==
+{| class="fandom-table"
+! style="text-align:center"|'''Icon'''
+! style="text-align:center"|'''Name'''
+! style="text-align:center; width:28%"|'''Effect'''
+! style="text-align:center"|'''Crafting Time'''
+! style="text-align:center; width:15%"|'''Crafting Station'''
+! style="text-align:center; width:22.6%"|'''Materials'''<br>'''(Floor Bonus)'''
+|-
+|[[File:Item DuelingBanner.png|63x63px|link=Dueling Banner]]
+|[[Dueling Banner]]
+|A placeable banner that allows you to initiate a duel against another player.<br><br>Crafted from [[By Hand|Inventory]].
+| style="text-align:center" |5 s
+|{{ItemFrame|By Hand|type=Structure}}
+|{{ItemFrame|Blood Essence|10|discountable=N}}
+|-
+|rowspan="2"|[[File:Item Empty Waterskin.png|63x63px|link=Empty Waterskin]]
+|rowspan="2"|1 / 5 [[Empty Waterskin]]
+|rowspan="2"|An empty Waterskin, useful for creating potions.
+|rowspan="2" style="text-align:center"|10 s
+| rowspan="2" |{{ItemFrame|By Hand|type=Structure}}<br>{{ItemFrame|Tannery|type=Structure}}<br>{{ItemFrame|Alchemy Table|type=Structure}}
+|{{ItemFrame|Plant Fibre|16}}<br>{{ItemFrame|Leather|8}}
+|-
+|{{ItemFrame|Plant Fibre|16}}<br>{{ItemFrame|Thick Leather|8}}
+|-
+|[[File:Item Vermin Salve.png|63x63px|link=Vermin Salve]]
+|[[Vermin Salve]]
+|A salve that recovers '''35%''' of your maximum health over '''15s'''. The healing effect is limited when in combat and breaks upon taking damage.
+| style="text-align:center" |10 s
+|{{ItemFrame|By Hand|type=Structure}}<br>{{ItemFrame|Alchemy Table|type=Structure}}
+|{{ItemFrame|Rat|1}}<br>{{ItemFrame|Plant Fibre|32}}<br>{{ItemFrame|Bone|20}}
+|-
+|[[File:Item BloodRoseBrew.png|63x63px|link=Blood Rose Brew]]
+|[[Blood Rose Brew]]
+|A brew that recovers '''40%''' of your maximum health over '''10s'''. The healing effect is limited when in combat and breaks upon taking damage.
+| style="text-align:center" |10 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Blood Rose|32}}<br>{{ItemFrame|Empty Waterskin|1}}
+|-
+|[[File:Item BloodRosePotion.png|63x63px|link=Blood Rose Potion]]
+|[[Blood Rose Potion]]
+|A potion that recovers '''55%''' of your maximum health over '''10s'''. The healing effect is limited when in combat and breaks upon taking damage.
+| style="text-align:center" |30 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Blood Rose|48}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item Rat.png|63x63px|link=Rat]]
+|[[Rat]]
+|Can be consumed to gain a small amount of blood, alters your blood type to frailed. Can be fed to a prisoner to recover 20–30% of their health.
+| style="text-align:center" |30 s
+|{{ItemFrame|Vermin Nest|type=structure}}
+|{{ItemFrame|Plant Fibre|8}}<br>{{ItemFrame|Bone|12}}
+|-
+|[[File:Item TaintedHeart.png|63x63px|link=Tainted Heart]]
+|[[Tainted Heart]]
+|Can be consumed to gain a small amount of blood, alters your blood type to frailed.
+| colspan="3" style="text-align:center" |Not Craftable
+|-
+|[[File:Item UnsulliedHeart.png|63x63px|link=Unsullied Heart]]
+|[[Unsullied Heart]]
+|Can be consumed to gain a medium amount of blood, alters your blood type to frailed.
+| colspan="3" style="text-align:center" |Not Craftable
+|-
+|[[File:Item ExquisiteHeart.png|63x63px|link=Exquisite Heart]]
+|[[Exquisite Heart]]
+|Can be consumed to gain a big amount of blood, alters your blood type to frailed.
+| colspan="3" style="text-align:center" |Not Craftable
+|-
+|[[File:Item TrippyShroom.png|63x63px|link=Trippy Shroom]]
+|[[Trippy Shroom]]
+|Might make you feel trippy. Not recommended to eat.
+| colspan="3" style="text-align:center" |Not Craftable
+|-
+|[[File:Item BrewofFerocity.png|63x63px|link=Brew of Ferocity]]
+|[[Brew of Ferocity]]
+|A brew that increases physical power by '''3''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |30 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Hell's Clarion|32}}<br>{{ItemFrame|Fish Bone|1}}<br>{{ItemFrame|Empty Waterskin|1}}
+|-
+|[[File:Item PotionofRage.png|63x63px|link=Potion of Rage]]
+|[[Potion of Rage]]
+|A brew that increases physical power by '''5''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |30 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Plague Brier|60 (45)|discountable=Y}}<br>{{ItemFrame|Hell's Clarion|60 (45)|discountable=Y}}<br>{{ItemFrame|Fish Bone|1|discountable=N}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item EnchantedBrew.png|63x63px|link=Enchanted Brew]]
+|[[Enchanted Brew]]
+|A brew that increases spell power by '''3''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |30 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Snow Flower|32}}<br>{{ItemFrame|Fish Bone|1}}<br>{{ItemFrame|Empty Waterskin|1}}
+|-
+|[[File:Item WitchPotion.png|63x63px|link=Witch Potion]]
+|[[Witch Potion]]
+|A brew that increases spell power by '''5''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |30 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Sacred Grapes|60}}<br>{{ItemFrame|Snow Flower|60}}<br>{{ItemFrame|Fish Bone|1}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item WranglersPotion.png|63x63px|link=Wrangler's Potion]]
+|[[Wrangler's Potion]]
+|A potion that increases your movement speed when mounted by '''15%''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |30 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Fire Blossom|60}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item MinorSunResistanceBrew.png|63x63px|link=Minor Sun Resistance Brew]]
+|[[Minor Sun Resistance Brew]]
+|brew that increases sun resistance rating by '''25''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |30 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Mourning Lily|20}}<br>{{ItemFrame|Blood Rose|20}}<br>{{ItemFrame|Empty Waterskin|1}}
+|-
+|[[File:Item FireResistanceBrew.png|63x63px|link=Fire Resistance Brew]]
+|[[Fire Resistance Brew]]
+|A brew that increases fire resistance rating by '''50''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |30 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Fire Blossom|40}}<br>{{ItemFrame|Oil|1}}<br>{{ItemFrame|Empty Waterskin|1}}
+|-
+|[[File:Item SilverResistanceBrew.png|63x63px|link=Silver Resistance Brew]]
+|[[Silver Resistance Brew]]
+|A brew that increases silver resistance rating by '''15''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |30 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Snow Flower|32}}<br>{{ItemFrame|Empty Waterskin|1}}
+|-
+|[[File:Item SilverResistancePotion.png|63x63px|link=Silver Resistance Potion]]
+|[[Silver Resistance Potion]]
+|A potion that increases silver resistance rating by '''50''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |60 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Plague Brier|40}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item MinorGarlicResistanceBrew.png|63x63px|link=Minor Garlic Resistance Brew]]
+|[[Minor Garlic Resistance Brew]]
+|A brew that increases garlic resistance rating by '''40''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |30 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Hell's Clarion|32}}<br>{{ItemFrame|Rat|1}}<br>{{ItemFrame|Empty Waterskin|1}}
+|-
+|[[File:Item GarlicResistancePotion.png|63x63px|link=Garlic Resistance Potion]]
+|[[Garlic Resistance Potion]]
+|A potion that increases garlic resistance rating by '''80''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |60 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Hell's Clarion|48}}<br>{{ItemFrame|Rat|1}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item HolyResistancePotion.png|63x63px|link=Holy Resistance Potion]]
+|[[Holy Resistance Potion]]
+|A potion that increases holy resistance rating by '''50''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |60 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Sunflower|60}}<br>{{ItemFrame|Grave Dust|1}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item HolyResistanceFlask.png|63x63px|link=Holy Resistance Flask]]
+|[[Holy Resistance Flask]]
+|A potion that increases holy resistance rating by '''75''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |60 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Holy Resistance Potion}}<br>{{ItemFrame|Sacred Grapes|60}}
+|-
+|[[File:Item DuskCaller.png|63x63px|link=Dusk Caller]]
+|5 [[Dusk Caller]]
+|Summon a swarm of bats to transport a subdued human back to the nearest unoccupied prison cell within your realm.
+| style="text-align:center" |30 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Scourgestone|4}}<br>{{ItemFrame|Hell's Clarion|60}}
+|-
+|[[File:Item IrradiantGruel.png|63x63px|link=Irradiant Gruel]]
+|[[Irradiant Gruel]]
+|It increases the blood quality of a prisoner by '''+1% ~ +2%''', but has a '''35% chance''' to turn the prisoner into a raging mutant.
+| style="text-align:center" |30 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Plague Brier|20}}<br>{{ItemFrame|Mutant Grease|20}}
+|-
+|[[File:Item ElixiroftheCrow.png|63x63px|link=Elixir of the Crow]]
+|[[Elixir of the Crow]]
+|An elixir that increases '''Weapon Leech''' by '''+5%''' and '''Weapon Cooldown Recovery Rate''' by '''+7%''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |20 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Mourning Lily|20}}<br>{{ItemFrame|Bleeding Heart|20}}<br>{{ItemFrame|Greater Blood Essence|1}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item ElixiroftheBat.png|63x63px|link=Elixir of the Bat]]
+|[[Elixir of the Bat]]
+|An elixir that increases '''Spell Leech''' by '''+4%''' and '''Spell Cooldown Reduction Rate''' by '''+6%''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |20 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Blood Rose|20}}<br>{{ItemFrame|Bleeding Heart|20}}<br>{{ItemFrame|Greater Blood Essence|1}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item ElixiroftheWerewolf.png|63x63px|link=Elixir of the Werewolf]]
+|[[Elixir of the Werewolf]]
+|An elixir that increases '''Attack Speed''' by '''+7%''' and '''Weapon Skill Power''' by '''+9%''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |20 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Ghost Shroom|20}}<br>{{ItemFrame|Fire Blossom|20}}<br>{{ItemFrame|Greater Blood Essence|1}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item ElixiroftheBeast.png|63x63px|link=Elixir of the Beast]]
+|[[Elixir of the Beast]]
+|An elixir that increases '''Maximum Health''' by '''+8%''' and '''Healing Received''' by '''+12%''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |20 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Snow Flower|20}}<br>{{ItemFrame|Hell's Clarion|20}}<br>{{ItemFrame|Greater Blood Essence|1}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item ElixiroftheProwler.png|63x63px|link=Elixir of the Prowler]]
+|[[Elixir of the Prowler]]
+|An elixir that increases '''Bonus Movement Speed''' by '''+4%''' and '''Veil Cooldown Recovery Rate''' by '''+7%''' for '''60 Minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |20 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Sunflower|20}}<br>{{ItemFrame|Fire Blossom|20}}<br>{{ItemFrame|Greater Blood Essence|1}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item ElixiroftheRaven.png|63x63px|link=Elixir of the Raven]]
+|[[Elixir of the Raven]]
+|An elixir that increases '''Physical Critical Strike Chance''' by '''+8%''' and '''Physical Critical Strike Power''' by '''+8%''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |20 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Mourning Lily|20}}<br>{{ItemFrame|Snow Flower|20}}<br>{{ItemFrame|Greater Blood Essence|1}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item ElixiroftheBlasphemous.png|63x63px|link=Elixir of the Blasphemous]]
+|[[Elixir of the Blasphemous]]
+|An elixir that increases '''Ultimate Cooldown Recovery Rate''' by '''+14%''' and '''Ultimate Power''' by '''+10%''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |20 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Plague Brier|20}}<br>{{ItemFrame|Hell's Clarion|20}}<br>{{ItemFrame|Greater Blood Essence|1}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item ElixiroftheTwisted.png|63x63px|link=Elixir of the Twisted]]
+|[[Elixir of the Twisted]]
+|An elixir that increases '''Spell Critical Strike Chance''' by '''+8%''' and '''Spell Critical Strike Power''' by '''+8%''' for '''60 minutes'''.<br>'''Effect persists through death.'''
+| style="text-align:center" |20 s
+|{{ItemFrame|Alchemy Table|type=structure}}
+|{{ItemFrame|Corrupted Flower|20}}<br>{{ItemFrame|Plague Brier|20}}<br>{{ItemFrame|Greater Blood Essence|1}}<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item BloodCoating.png|63x63px|link=Blood Coating]]
+|[[Blood Coating]]
+|A coating that applies a stack of a Blood effect on hit.
+| style="text-align:center" |20 s
+| rowspan="6" |{{ItemFrame|Alchemy Table|type=Structure}}
+| rowspan="6" |{{ItemFrame|Corrupted Flower|16}}<br>{{ItemFrame|Venom Sap|16}}
+|-
+|[[File:Item ChaosCoating.png|63x63px|link=Chaos Coating]]
+|[[Chaos Coating]]
+|A coating that applies a stack of a Chaos effect on hit.
+| style="text-align:center" |20 s
+|-
+|[[File:Item FrostCoating.png|63x63px|link=Frost Coating]]
+|[[Frost Coating]]
+|A coating that applies a stack of a Frost effect on hit.
+| style="text-align:center" |20 s
+|-
+|[[File:Item IllusionCoating.png|63x63px|link=Illusion Coating]]
+|[[Illusion Coating]]
+|A coating that applies a stack of an Illusion effect on hit.
+| style="text-align:center" |20 s
+|-
+|[[File:Item StormCoating.png|63x63px|link=Storm Coating]]
+|[[Storm Coating]]
+|A coating that applies a stack of a Storm effect on hit.
+| style="text-align:center" |20 s
+|-
+|[[File:Item UnholyCoating.png|63x63px|link=Unholy Coating]]
+|[[Unholy Coating]]
+|A coating that applies a stack of an Unholy effect on hit.
+| style="text-align:center" |20 s
+|-
+|[[File:Item BloodPotion.png|63x63px|link=Blood Potion]]
+|[[Blood Potion]]
+|A potion that changes your blood type & percentage equal to the drained target's.
+| style="text-align:center" |5 s
+|{{ItemFrame|Prison Cell|type=structure}}
+|[[File:Item BloodEssence.png|30x30px|link=Prisoner]] [[Prisoner|Prisoner Blood]]<br>{{ItemFrame|Empty Glass Bottle|1}}
+|-
+|[[File:Item BloodMerlot.png|63x63px|link=Blood Merlot]]
+|[[Blood Merlot]]
+|A potion that changes your blood type & percentage equal to the drained target's. Has a lower prisoner health & misery cost.
+| style="text-align:center" |5 s
+|{{ItemFrame|Prison Cell|type=structure}}
+|[[File:Item BloodEssence.png|30x30px|link=Prisoner]] [[Prisoner|Prisoner Blood]]<br>{{ItemFrame|Empty Glass Bottle|1}}<br>{{ItemFrame|Sacred Grapes|60|discountable=no}}
+|}
+
+===Throwable Potions (Exclusive to Oakveil Woodlands)===
+* {{ItemFrame|Beauty Elixir|type=Buff}} - Polymorphs all targets in the area into Sheep. Is required to end '''Lucile's''' "'''Alchemic Madness'''" state.
+* {{ItemFrame|Liquid Fire|type=Buff}} - Sets the area and all targets entering it on fire. The burn makes Gold Golems vulnerable to attacks for the duration. Instantly kills [[Corrupted Mantrap]].
+* {{ItemFrame|Pixies Luck|type=Buff}} - Dramatically increases player movement speed.
+* {{ItemFrame|Potion of Dispel|type=Buff}} - Knocks targets back and dispels all effects on targets hit, including '''Lucile's''' "'''Gold Skin'''" invulnerability.
+* {{ItemFrame|Rejuvenation Juice|type=Buff}} - Applies a healing buff to targets in the area. Taking damage ends the effect.
+<noinclude>
+[[{{PAGENAME}}#top|<big>'''↑ Return to Top'''</big>]]
+[[Category:Consumables| ]]
+</noinclude>
+[[fr:Consommables]]
