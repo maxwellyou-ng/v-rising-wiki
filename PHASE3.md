@@ -60,10 +60,12 @@ and wiki.leagueoflegends.com (27 pages surveyed). Full plan:
 - [x] **Weapons → Cargo table** (2026-07-06) — sortable all-weapons
       `#cargo_query` live (numeric declare + cargoRecreateData done;
       needed the Cargo aliasing backport, see Known follow-ups)
-- [ ] **Remaining list pages → Cargo tables** — armor, consumables,
-      structures, bosses as sortable Cargo query tables; dual index on
-      hubs (icon grid to browse + sortable table to compare); keep
-      "Removed …" archive sections standardized at page end
+- [x] **Remaining list pages → Cargo tables** (2026-07-06) — Armours,
+      Consumables, Structures (dump page rewritten; hatnote to Castle
+      Building), V Blood Carriers; dual index kept (curated sections +
+      sortable all-X table). equipment table went numeric
+      (gear_level/durability → Integer, pre-flighted clean); armour/
+      jewelry category backfill still outstanding (see Known follow-ups)
 - [x] **Project:Style guide** (2026-07-05) — live at
       `V Rising Wiki:Style guide` with `VRW:STYLE` shortcut; universal
       section sequence, per-page-type layouts, Brutal/PvP sections,
@@ -75,21 +77,30 @@ and wiki.leagueoflegends.com (27 pages surveyed). Full plan:
       link out instead of embedding strategy; guides hub by progression;
       "outdated as of patch X" banner for stale guides (operator step:
       LocalSettings.php edit)
-- [ ] **Patch pages** — one article per game update: infobox, Additions/
-      Changes/Fixes with icon-linked entities, date-stamped hotfixes,
-      prev/next patch nav + patch navbox; backfill majors (1.0, 1.1 …)
-- [ ] **Update history convention** — per-page reverse-chronological
-      section, "increased to X from Y" notation, **Bug Fix:**/**Removed:**
-      prefixes; superseded values migrate here, never linger in body text
-- [ ] **Redirect pass** — boss short names, plurals, alt spellings,
-      ability names; monthly SearchDigest review mines failed searches
-      into new redirects
-- [ ] **Index pages** for ambiguous concepts (e.g. `Blood` → Blood types,
-      Blood Essence, V Blood, Blood Moon) — linkable index, not disambig
-- [ ] **Hub pages** behind every main-page card (Bosses = V Blood grid by
-      level + sortable table; footnote markers for exceptions)
-- [ ] **Main page routing rows** — "New vampire?" → Guide:Getting started;
-      "Latest patch" → newest patch article; community links
+- [x] **Patch pages** (2026-07-06) — Patch 1.0 + Patch 1.1 backfilled
+      (curated Additions/Changes/Fixes + date-stamped hotfix sections);
+      EA majors stubbed (Secrets of Gloomrot, Bloodfeast, Early Access
+      Release); Template:Navbox Patches; Patch Notes is the version-index
+      hub with major rows linked
+- [x] **Update history convention** (2026-07-05/06) — defined in the
+      style guide §Update history; patch articles use the notation.
+      Rolling it out to entity pages happens with the style-guide
+      normalization item above
+- [x] **Redirect pass** (2026-07-06) — initial pass:
+      `wiki-content/redirects.tsv` (94 redirects: boss short names,
+      plurals/spellings, patch aliases) via `scripts/push-redirects.sh`
+      - [ ] monthly SearchDigest review mines failed searches into new
+            redirects (recurring)
+- [x] **Index pages** (2026-07-06) — resolved as hatnotes per the style
+      guide (primary topic + hatnote, no separate index): Blood now
+      routes Blood Essence / V Blood / Blood Moon / Blood Potion
+- [x] **Hub pages** (2026-07-06) — audit: Bosses hub = upgraded V Blood
+      Carriers (Cargo table + by-act table); Weapons/Castle Building/
+      Crafting/Servants/Abilities all adequate
+- [x] **Main page routing rows** (2026-07-06) — routing strip: Journal
+      starter link, Cargo-driven "Latest patch", Patch Notes, Guides,
+      style guide. "New vampire?" points at Journal until the Guide:
+      namespace ships (Guide:Getting started still open above)
 - [ ] **Accessibility** — `alt=` required in Module:ItemFrame /
       Module:Infobox image params; real header cells with `scope` in
       generated tables; table `overflow-x` wrapper for mobile; WCAG AA
@@ -108,6 +119,19 @@ and wiki.leagueoflegends.com (27 pages surveyed). Full plan:
 - [ ] Submit sitemap to Google Search Console
 
 ## Known follow-ups
+
+- **equipment category/type backfill (2026-07-06)**: `equipment.category`
+  is NULL on ~137/144 rows and `type` only set for Bag/Jewelry, so the
+  Armours page shows an all-equipment table — an armour-only filter needs
+  `type=` backfilled on ~110 entity pages first
+- **bosses.level stays String deliberately (2026-07-06)**: all values are
+  two-digit (16–91, one "80+"), so lexical sort is correct; revisit only
+  if a single-digit or 100+ boss ever ships
+- **structures.unlocked_by** has raw Fandom HTML-span junk on a few rows —
+  clean the source pages when convenient
+- **pages.txt** is regenerated from the live wiki now (allpages API; the
+  Phase-2 file was empty); `pages-redirects.txt` alongside it, both
+  gitignored
 
 - **Local Cargo patch (2026-07-06)**: MW ≥ 1.43.2 changed DB table
   aliasing; Cargo 3.7 (and its frozen REL1_43 branch) generates broken SQL
