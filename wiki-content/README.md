@@ -57,9 +57,9 @@ Notes:
   After changing the declaration, re-run:
   `docker compose exec -T mediawiki php maintenance/run.php ./extensions/Cargo/maintenance/cargoRecreateData.php --table loot_drops`
 - `Template:Screenshots` needs Extension:TabberNeue (bind-mounted like Cargo).
-- `Template:WeaponInfobox` declares `gear_level`/`durability` as Integer and
-  `physical_power` as Float (2026-07-05, for numeric column sorting) —
-  after pushing, re-run `cargoRecreateData.php --table weapons`.
+- Whenever a `#cargo_declare` changes, re-run
+  `cargoRecreateData.php --table <name>` after pushing (weapons went
+  numeric and patches was created this way on 2026-07-05).
 - `Template:Navbox`, `Template:Stub`, `Template:Outdated`, and the Weapons
   page's `vr-table-scroll` wrapper depend on the `.vr-navbox-*` /
   `.vr-banner` / table CSS added to `config-snippets/Common.css` — paste

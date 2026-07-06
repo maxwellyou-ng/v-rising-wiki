@@ -34,13 +34,12 @@
       - LootDrop/List Loot Sources → Cargo `loot_drops` (was DPL)
       - Screenshots → Module:Screenshots (needs TabberNeue — see below)
       - `$wgPFEnableStringFunctions = true` for `{{#replace:}}` et al.
-- [ ] TabberNeue extension — bind mount is in docker-compose.yml and the
-      REL1_43 clone step is documented; needs `docker compose up -d` +
-      `wfLoadExtension( 'TabberNeue' )` (blocked on operator action)
-- [ ] Navboxes — consistent footer navboxes across entity types
-      (generic `Template:Navbox` + TemplateStyles; V Blood + Weapons
-      navboxes become instances)
-- [ ] Cargo query result styling — sortable list/table pages
+- [x] TabberNeue extension — installed and on Special:Version (2026-07-06)
+- [x] Navboxes (2026-07-05) — generic `Template:Navbox` (`.vr-navbox-*`
+      classes in Common.css); `Navbox Weapons` refactored onto it; V Blood
+      navbox migration still open
+- [x] Cargo query result styling (2026-07-05) — `.cargoTable` +
+      `.article-table` styled in Common.css, `.vr-table-scroll` wrapper
 - [ ] Light theme audit — full pass, WCAG AA contrast check
 - [ ] Main page v2 — replace placeholders with featured content,
       recent patch notes, community links
@@ -58,15 +57,19 @@ Derived from a product/UX review of minecraft.wiki, stardewvalleywiki.com,
 and wiki.leagueoflegends.com (27 pages surveyed). Full plan:
 `~/.claude/plans/review-these-wikis-https-minecraft-wiki-federated-planet.md`.
 
-- [ ] **List pages → Cargo tables** — rebuild `Weapons` (then armor,
-      consumables, structures, bosses) as sortable Cargo query tables;
-      dual index on hubs (icon grid to browse + sortable table to compare);
-      keep "Removed …" archive sections standardized at page end
-- [ ] **Project:Style guide** — universal section sequence (hatnotes →
-      infobox → intro → body → see also → references → navboxes →
-      categories), per-page-type layouts, standard "Brutal difficulty" and
-      "PvE/PvP differences" sections, linking/naming/image rules,
-      `VRW:STYLE` shortcut; then normalize top-traffic pages
+- [x] **Weapons → Cargo table** (2026-07-06) — sortable all-weapons
+      `#cargo_query` live (numeric declare + cargoRecreateData done;
+      needed the Cargo aliasing backport, see Known follow-ups)
+- [ ] **Remaining list pages → Cargo tables** — armor, consumables,
+      structures, bosses as sortable Cargo query tables; dual index on
+      hubs (icon grid to browse + sortable table to compare); keep
+      "Removed …" archive sections standardized at page end
+- [x] **Project:Style guide** (2026-07-05) — live at
+      `V Rising Wiki:Style guide` with `VRW:STYLE` shortcut; universal
+      section sequence, per-page-type layouts, Brutal/PvP sections,
+      linking/naming/image rules
+- [ ] **Normalize top-traffic pages to the style guide** — bosses and
+      weapon classes first
 - [ ] **Guide: namespace** — `$wgExtraNamespaces` for long-form guides
       (Getting started, castle building, boss strategies); reference pages
       link out instead of embedding strategy; guides hub by progression;
@@ -100,11 +103,20 @@ and wiki.leagueoflegends.com (27 pages surveyed). Full plan:
 - [x] robots.txt served by Caddy; legacy `/wiki/` → `/w/` 301
 - [x] Sitemap: `scripts/generate-sitemap.sh` → `/images/sitemap/`, daily cron
 - [ ] Meta descriptions / OpenGraph tags — needs WikiSEO + PageImages +
-      TextExtracts (REL1_43 bind mounts, same operator step as TabberNeue)
+      TextExtracts (REL1_43 bind mounts; verified still missing from
+      Special:Version 2026-07-06 — TabberNeue made it in, these didn't)
 - [ ] Submit sitemap to Google Search Console
 
 ## Known follow-ups
 
+- **Local Cargo patch (2026-07-06)**: MW ≥ 1.43.2 changed DB table
+  aliasing; Cargo 3.7 (and its frozen REL1_43 branch) generates broken SQL
+  (`cargo__weapons._pageID` against an aliased FROM) for non-aggregating
+  `#cargo_query` backlink tracking. Backported upstream 3.9.2's
+  `mwUsesOldDBAliasing()` fix into
+  `data/config/extensions/Cargo/includes/CargoSQLQuery.php` (3 sites,
+  marked with comments). Remove the patch when Cargo is upgraded to
+  ≥ 3.8 — treat that upgrade as its own deliberate task.
 - Search index was empty after CLI import — if search results look thin,
   re-run `maintenance/run.php rebuildtextindex`
 - LocationFinder map links still point at the Fandom interactive map
