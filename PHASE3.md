@@ -112,11 +112,12 @@ and wiki.leagueoflegends.com (27 pages surveyed). Full plan:
 - **Local Cargo patch (2026-07-06)**: MW ≥ 1.43.2 changed DB table
   aliasing; Cargo 3.7 (and its frozen REL1_43 branch) generates broken SQL
   (`cargo__weapons._pageID` against an aliased FROM) for non-aggregating
-  `#cargo_query` backlink tracking. Backported upstream 3.9.2's
-  `mwUsesOldDBAliasing()` fix into
-  `data/config/extensions/Cargo/includes/CargoSQLQuery.php` (3 sites,
-  marked with comments). Remove the patch when Cargo is upgraded to
-  ≥ 3.8 — treat that upgrade as its own deliberate task.
+  `#cargo_query` backlink tracking. Upstream 3.9.2's
+  `mwUsesOldDBAliasing()` fix ships as
+  `patches/cargo-mw1432-db-aliasing.patch` (the `data/` extension clones
+  are gitignored — apply on the VPS per `patches/README.md`). Remove when
+  Cargo is upgraded to ≥ 3.8 — treat that upgrade as its own deliberate
+  task.
 - Search index was empty after CLI import — if search results look thin,
   re-run `maintenance/run.php rebuildtextindex`
 - LocationFinder map links still point at the Fandom interactive map

@@ -1,0 +1,64 @@
+--- a/includes/CargoSQLQuery.php
++++ b/includes/CargoSQLQuery.php
+@@ -382,6 +382,20 @@
+ 				}
+ 			}
+ 		}
++	}
++
++	/**
++	 * The handling of DB table aliases in SQL queries was changed in
++	 * MW 1.44, for reasons I don't really understand; because of it,
++	 * some of the Cargo tables need to be called in the SQL query without
++	 * their "cargo__" prefix. This change was then backported to MW 1.43,
++	 * starting with 1.43.2.
++	 *
++	 * Backported from upstream Cargo 3.9.2 (MW >= 1.43.2 DB aliasing);
++	 * remove on Cargo upgrade.
++	 */
++	public static function mwUsesOldDBAliasing() {
++		return version_compare( MW_VERSION, '1.43.2', '<' );
+ 	}
+ 
+ 	/**
+@@ -398,14 +412,15 @@
+ 		foreach ( $this->mCargoJoinConds as $cargoJoinCond ) {
+ 			// Only add the DB prefix to the table names if
+ 			// they're true table names and not aliases.
++			$oldAliasing = self::mwUsesOldDBAliasing();
+ 			$table1 = $cargoJoinCond['table1'];
+-			if ( !array_key_exists( $table1, $this->mAliasedTableNames ) || $this->mAliasedTableNames[$table1] == $table1 ) {
++			if ( $oldAliasing && ( !array_key_exists( $table1, $this->mAliasedTableNames ) || $this->mAliasedTableNames[$table1] == $table1 ) ) {
+ 				$cargoTable1 = $this->mCargoDB->tableName( $table1 );
+ 			} else {
+ 				$cargoTable1 = $this->mCargoDB->addIdentifierQuotes( $table1 );
+ 			}
+ 			$table2 = $cargoJoinCond['table2'];
+-			if ( !array_key_exists( $table2, $this->mAliasedTableNames ) || $this->mAliasedTableNames[$table2] == $table2 ) {
++			if ( $oldAliasing && ( !array_key_exists( $table2, $this->mAliasedTableNames ) || $this->mAliasedTableNames[$table2] == $table2 ) ) {
+ 				$cargoTable2 = $this->mCargoDB->tableName( $table2 );
+ 			} else {
+ 				$cargoTable2 = $this->mCargoDB->addIdentifierQuotes( $table2 );
+@@ -1662,11 +1677,18 @@
+ 		$beforeText = $matches[1];
+ 		$tableName = $matches[2];
+ 		$fieldName = $matches[3];
+-		$isTableAlias = false;
+-		if ( array_key_exists( $tableName, $this->mAliasedTableNames ) ) {
+-			if ( !in_array( $tableName, $this->mAliasedTableNames ) ) {
+-				$isTableAlias = true;
++		// Backported from upstream Cargo 3.9.2 (MW >= 1.43.2 DB aliasing);
++		// remove on Cargo upgrade.
++		$oldAliasing = self::mwUsesOldDBAliasing();
++		if ( $oldAliasing ) {
++			$isTableAlias = false;
++			if ( array_key_exists( $tableName, $this->mAliasedTableNames ) ) {
++				if ( !in_array( $tableName, $this->mAliasedTableNames ) ) {
++					$isTableAlias = true;
++				}
+ 			}
++		} else {
++			$isTableAlias = true;
+ 		}
+ 		if ( $isTableAlias ) {
+ 			return $beforeText . $this->mCargoDB->addIdentifierQuotes( $tableName ) . "." .
