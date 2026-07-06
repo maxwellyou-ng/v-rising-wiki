@@ -8,7 +8,7 @@
 |salvageable={{{salvageable|}}}
 |structure={{{structure|}}}
 }}[[Category:Items]][[Category:Weapons]] }}</includeonly><noinclude>
-{{#cargo_declare:_table=weapons|name=String|weapon_type=String|gear_level=String|physical_power=String|stats=Wikitext|durability=String|salvageable=Wikitext|structure=Page}}
+{{#cargo_declare:_table=weapons|name=String|weapon_type=String|gear_level=Integer|physical_power=Float|stats=Wikitext|durability=Integer|salvageable=Wikitext|structure=Page}}
 Weapon infobox, implemented in [[Module:Infobox]] and stored in the Cargo table <code>weapons</code>.
 
 See [[Template:WeaponInfobox/Skills|/Skills]] for the automatic Skill linking part of the template.<br>

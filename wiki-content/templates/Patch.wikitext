@@ -1,0 +1,35 @@
+<includeonly><templatestyles src="Infobox/styles.css" /><div class="vr-infobox">
+<div class="vr-infobox-title">{{{name|{{PAGENAME}}}}}</div>
+{{#if:{{{image|}}}|<div class="vr-infobox-image">[[File:{{{image}}}|280px|alt={{{name|{{PAGENAME}}}}} key art]]</div>}}
+<div class="vr-infobox-row"><div class="vr-infobox-label">Release date</div><div class="vr-infobox-value">{{{date|}}}</div></div>
+{{#if:{{{official|}}}|<div class="vr-infobox-row"><div class="vr-infobox-label">Official notes</div><div class="vr-infobox-value">[{{{official}}} Stunlock announcement]</div></div>}}
+{{#if:{{{prev|}}}{{{next|}}}|<div class="vr-infobox-row"><div class="vr-infobox-label">Patch order</div><div class="vr-infobox-value">{{#if:{{{prev|}}}|← [[{{{prev}}}]]}}{{#if:{{{next|}}}|&nbsp;•&nbsp;[[{{{next}}}]] →}}</div></div>}}
+</div>{{#ifeq: {{NAMESPACENUMBER}} | 0 |{{#cargo_store:_table=patches
+|name={{{name|{{PAGENAME}}}}}
+|date={{{date|}}}
+|official={{{official|}}}
+}}[[Category:Patches]]}}</includeonly><noinclude>
+{{#cargo_declare:_table=patches|name=String|date=Date|official=URL}}
+Infobox for game-update articles, stored in the Cargo table <code>patches</code> (feeds the patch timeline navbox and the "Latest patch" main-page card).
+
+Canonical patch article layout (see [[Project:Style guide]]):
+<pre>
+{{Patch
+| name     = Patch 1.1 — Invaders of Oakveil
+| date     = 2025-04-28
+| official = https://playvrising.com/...
+| prev     = Patch 1.0
+| next     = Patch 1.2
+}}
+Intro sentence: what the update is and its headline feature.
+
+==Additions==
+New content, every entity icon-linked with {{ItemFrame}}.
+==Changes==
+Balance and system changes: "increased to X from Y" notation.
+==Fixes==
+==Hotfixes==
+Date-stamped sub-entries (e.g. ===1.1.1 — 2025-05-06===).
+</pre>
+[[Category:Infobox templates| ]]
+</noinclude>

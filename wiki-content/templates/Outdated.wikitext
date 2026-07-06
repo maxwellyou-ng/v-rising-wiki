@@ -1,0 +1,4 @@
+<div class="vr-banner vr-banner--warning">This {{{what|article}}} may be outdated{{#if:{{{1|}}}| — it was last verified against '''{{{1}}}'''}}. Current values may differ; please [{{fullurl:{{FULLPAGENAME}}|action=edit}} update it] and note changes in the Update history section.</div><includeonly>[[Category:Outdated articles]]</includeonly><noinclude>
+Place at the top of articles or guides that predate a game update. First parameter is the last-verified patch, e.g. <code>{{Outdated|Patch 1.0}}</code>; optional <code>what=guide</code> changes the noun. Adds the page to [[:Category:Outdated articles]].
+[[Category:Maintenance templates]]
+</noinclude>

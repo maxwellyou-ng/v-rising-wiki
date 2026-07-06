@@ -61,12 +61,12 @@
    V Rising semantic variables (used by templates)
    =================================================== */
 :root {
-  /* Rarity colors (matches in-game) */
+  /* Rarity colors (matches in-game; tuned for dark surfaces) */
   --vr-rarity-common: #c8c8c8;
-  --vr-rarity-uncommon: #4a9e4a;
-  --vr-rarity-rare: #4a6abe;
-  --vr-rarity-epic: #9a3abe;
-  --vr-rarity-legendary: #d4841a;
+  --vr-rarity-uncommon: #5ab55a;
+  --vr-rarity-rare: #6d8ede;
+  --vr-rarity-epic: #b45ad6;
+  --vr-rarity-legendary: #e09a2e;
 
   /* Infobox */
   --vr-infobox-bg: var(--color-surface-2);
@@ -74,4 +74,13 @@
   --vr-infobox-header-text: #f0e8e0;
   --vr-infobox-border: var(--color-surface-4);
   --vr-infobox-label: var(--color-base--subtle);
+}
+
+/* Rarity colors darkened for light/parchment surfaces (WCAG AA) */
+[data-mw-skin-citizen-theme="light"] {
+  --vr-rarity-common: #5a5248;
+  --vr-rarity-uncommon: #2a6e2a;
+  --vr-rarity-rare: #2a4a9e;
+  --vr-rarity-epic: #7a2a9e;
+  --vr-rarity-legendary: #9a5e08;
 }

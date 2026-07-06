@@ -1,0 +1,4 @@
+&#123;&#123;[[Template:{{{1}}}|{{{1}}}]]&#125;&#125;<noinclude>
+Renders a template name as a link inside braces, for documentation: <code>{{tl|ItemFrame}}</code> → {{tl|ItemFrame}}
+[[Category:Formatting templates]]
+</noinclude>

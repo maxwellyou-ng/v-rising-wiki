@@ -4,25 +4,123 @@
    Applies in all skins; uses tokens defined in Citizen.css
    =================================================== */
 
-/* --- Tables --- */
-.wikitable {
+/* --- Tables ---
+   .article-table = Fandom class used by imported pages;
+   .cargoTable = Cargo #cargo_query format=table output */
+.wikitable,
+.article-table,
+.cargoTable {
   background: var(--color-surface-1);
   border-collapse: collapse;
   border: 1px solid var(--color-surface-4);
   color: var(--color-base);
 }
-.wikitable th {
+.wikitable th,
+.article-table th,
+.cargoTable th {
   background: var(--color-surface-3);
   border: 1px solid var(--color-surface-4);
   padding: 6px 10px;
   color: var(--color-base);
 }
-.wikitable td {
+.wikitable td,
+.article-table td,
+.cargoTable td {
   border: 1px solid var(--color-surface-4);
   padding: 5px 10px;
 }
-.wikitable tr:nth-child(even) td {
+.wikitable tr:nth-child(even) td,
+.article-table tr:nth-child(even) td,
+.cargoTable tr:nth-child(even) td {
   background: var(--color-surface-2);
+}
+
+/* Sortable header affordance (MediaWiki tablesorter) */
+.wikitable th.headerSort:hover,
+.cargoTable th.headerSort:hover {
+  background: var(--color-surface-4);
+  cursor: pointer;
+}
+
+/* Horizontal scroll wrapper for wide tables on narrow screens:
+   <div class="vr-table-scroll"> ... </div> */
+.vr-table-scroll {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* --- Rarity text colors (tokens in Citizen.css) --- */
+.vr-rarity-common { color: var(--vr-rarity-common); }
+.vr-rarity-uncommon { color: var(--vr-rarity-uncommon); }
+.vr-rarity-rare { color: var(--vr-rarity-rare); }
+.vr-rarity-epic { color: var(--vr-rarity-epic); }
+.vr-rarity-legendary { color: var(--vr-rarity-legendary); }
+
+/* --- Maintenance banners (Template:Stub, Template:Outdated) --- */
+.vr-banner {
+  border: 1px solid var(--color-surface-4);
+  border-left: 4px solid var(--color-accent);
+  background: var(--color-surface-2);
+  color: var(--color-base--subtle);
+  padding: 6px 12px;
+  margin: 0 0 1em;
+  font-size: 0.9em;
+}
+.vr-banner--warning {
+  border-left-color: var(--color-warning);
+}
+
+/* --- Navboxes (Template:Navbox and instances) --- */
+.vr-navbox {
+  clear: both;
+  width: 100%;
+  margin: 1.5em auto 0;
+  border: 1px solid var(--color-surface-4);
+  background: var(--color-surface-1);
+  font-size: 0.9em;
+}
+.vr-navbox-title {
+  background: var(--vr-infobox-header-bg);
+  color: var(--vr-infobox-header-text);
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+.vr-navbox-title a {
+  color: var(--vr-infobox-header-text);
+}
+.vr-navbox-row {
+  display: flex;
+  border-top: 1px solid var(--color-surface-4);
+}
+.vr-navbox-group {
+  flex: 0 0 11em;
+  background: var(--color-surface-3);
+  color: var(--color-base);
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: right;
+}
+.vr-navbox-list {
+  flex: 1;
+  padding: 5px 10px;
+  text-align: center;
+}
+.vr-navbox-list li {
+  display: inline;
+}
+.vr-navbox-list li:not(:last-child)::after {
+  content: " • ";
+  color: var(--color-base--subtle);
+}
+@media (max-width: 719px) {
+  .vr-navbox-row {
+    flex-direction: column;
+  }
+  .vr-navbox-group {
+    flex: none;
+    text-align: left;
+  }
 }
 
 /* --- Thumbnails / images --- */

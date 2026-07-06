@@ -52,8 +52,24 @@ push "Template:Titlebox"           wiki-content/templates/Titlebox.wikitext
 push "Template:Box with Title"     wiki-content/templates/Box_with_Title.wikitext
 push "Template:Simple Window"      wiki-content/templates/Simple_Window.wikitext
 
+push "Template:Navbox"             wiki-content/templates/Navbox.wikitext
+push "Template:Patch"              wiki-content/templates/Patch.wikitext
+push "Template:Tl"                 wiki-content/templates/Tl.wikitext
+push "Template:Stub"               wiki-content/templates/Stub.wikitext
+push "Template:Outdated"           wiki-content/templates/Outdated.wikitext
+
+# Content/project pages mirrored in the repo.
+push "Weapons"                     wiki-content/pages/Weapons.wikitext
+push "Project:Style guide"         wiki-content/pages/Style_guide.wikitext
+push "VRW:STYLE"                   wiki-content/pages/VRW_STYLE.wikitext
+
 echo "Done. Job queue will refresh transcluding pages (jobrunner container)."
 echo "NOTE: web workers cache templates in APCu, which CLI edits cannot purge."
 echo "For the changes to render, now run:"
 echo "  docker compose restart mediawiki"
 echo "  docker compose exec -T mediawiki php maintenance/run.php purgeParserCache --age 1"
+echo ""
+echo "If a #cargo_declare changed (weapons: gear_level/physical_power/durability"
+echo "became numeric 2026-07-05; patches is new), also rebuild those tables:"
+echo "  docker compose exec -T mediawiki php maintenance/run.php ./extensions/Cargo/maintenance/cargoRecreateData.php --table weapons"
+echo "  docker compose exec -T mediawiki php maintenance/run.php ./extensions/Cargo/maintenance/cargoRecreateData.php --table patches"

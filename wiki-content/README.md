@@ -41,6 +41,14 @@ docker compose exec -T mediawiki php maintenance/run.php purgeParserCache --age 
 | templates/Enemy_Infobox.wikitext | Template:Enemy Infobox |
 | templates/OreNodeInfobox.wikitext | Template:OreNodeInfobox |
 | templates/Journal.wikitext, Location, Event, Game, QuestTemplate, Titlebox, Box_with_Title, Simple_Window | matching Template: pages |
+| templates/Navbox.wikitext | Template:Navbox (generic footer navbox, `.vr-navbox-*` classes) |
+| templates/Patch.wikitext | Template:Patch (patch infobox, declares Cargo table `patches`) |
+| templates/Tl.wikitext | Template:Tl (template-link helper for docs) |
+| templates/Stub.wikitext | Template:Stub |
+| templates/Outdated.wikitext | Template:Outdated (takes last-verified patch) |
+| pages/Weapons.wikitext | Weapons (overview page with Cargo all-weapons table) |
+| pages/Style_guide.wikitext | Project:Style guide |
+| pages/VRW_STYLE.wikitext | VRW:STYLE (shortcut redirect) |
 
 Notes:
 
@@ -49,6 +57,13 @@ Notes:
   After changing the declaration, re-run:
   `docker compose exec -T mediawiki php maintenance/run.php ./extensions/Cargo/maintenance/cargoRecreateData.php --table loot_drops`
 - `Template:Screenshots` needs Extension:TabberNeue (bind-mounted like Cargo).
+- `Template:WeaponInfobox` declares `gear_level`/`durability` as Integer and
+  `physical_power` as Float (2026-07-05, for numeric column sorting) —
+  after pushing, re-run `cargoRecreateData.php --table weapons`.
+- `Template:Navbox`, `Template:Stub`, `Template:Outdated`, and the Weapons
+  page's `vr-table-scroll` wrapper depend on the `.vr-navbox-*` /
+  `.vr-banner` / table CSS added to `config-snippets/Common.css` — paste
+  that to `MediaWiki:Common.css` before or with the push.
 - The data pages `Template:Recipe/data` and `Template:LocationFinder/data`
   stay on-wiki unchanged; Module:GameData parses them directly (no
   LabeledSectionTransclusion dependency).

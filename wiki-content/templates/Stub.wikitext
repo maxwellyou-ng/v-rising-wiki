@@ -1,0 +1,4 @@
+<div class="vr-banner">This article is a stub. You can help the V Rising Wiki by [{{fullurl:{{FULLPAGENAME}}|action=edit}} expanding it].</div><includeonly>[[Category:Stubs]]</includeonly><noinclude>
+Place at the top of short articles that need expansion (after hatnotes, before the infobox). Adds the page to [[:Category:Stubs]].
+[[Category:Maintenance templates]]
+</noinclude>

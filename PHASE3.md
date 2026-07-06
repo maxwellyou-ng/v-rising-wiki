@@ -38,6 +38,8 @@
       REL1_43 clone step is documented; needs `docker compose up -d` +
       `wfLoadExtension( 'TabberNeue' )` (blocked on operator action)
 - [ ] Navboxes — consistent footer navboxes across entity types
+      (generic `Template:Navbox` + TemplateStyles; V Blood + Weapons
+      navboxes become instances)
 - [ ] Cargo query result styling — sortable list/table pages
 - [ ] Light theme audit — full pass, WCAG AA contrast check
 - [ ] Main page v2 — replace placeholders with featured content,
@@ -49,6 +51,49 @@
       - Extend AbuseFilter + ConfirmEdit to comment namespace
       - Style against design tokens
 - [ ] Collaborator review round
+
+## Stage 3 — Reference-wiki parity (from 2026-07-05 UX review)
+
+Derived from a product/UX review of minecraft.wiki, stardewvalleywiki.com,
+and wiki.leagueoflegends.com (27 pages surveyed). Full plan:
+`~/.claude/plans/review-these-wikis-https-minecraft-wiki-federated-planet.md`.
+
+- [ ] **List pages → Cargo tables** — rebuild `Weapons` (then armor,
+      consumables, structures, bosses) as sortable Cargo query tables;
+      dual index on hubs (icon grid to browse + sortable table to compare);
+      keep "Removed …" archive sections standardized at page end
+- [ ] **Project:Style guide** — universal section sequence (hatnotes →
+      infobox → intro → body → see also → references → navboxes →
+      categories), per-page-type layouts, standard "Brutal difficulty" and
+      "PvE/PvP differences" sections, linking/naming/image rules,
+      `VRW:STYLE` shortcut; then normalize top-traffic pages
+- [ ] **Guide: namespace** — `$wgExtraNamespaces` for long-form guides
+      (Getting started, castle building, boss strategies); reference pages
+      link out instead of embedding strategy; guides hub by progression;
+      "outdated as of patch X" banner for stale guides (operator step:
+      LocalSettings.php edit)
+- [ ] **Patch pages** — one article per game update: infobox, Additions/
+      Changes/Fixes with icon-linked entities, date-stamped hotfixes,
+      prev/next patch nav + patch navbox; backfill majors (1.0, 1.1 …)
+- [ ] **Update history convention** — per-page reverse-chronological
+      section, "increased to X from Y" notation, **Bug Fix:**/**Removed:**
+      prefixes; superseded values migrate here, never linger in body text
+- [ ] **Redirect pass** — boss short names, plurals, alt spellings,
+      ability names; monthly SearchDigest review mines failed searches
+      into new redirects
+- [ ] **Index pages** for ambiguous concepts (e.g. `Blood` → Blood types,
+      Blood Essence, V Blood, Blood Moon) — linkable index, not disambig
+- [ ] **Hub pages** behind every main-page card (Bosses = V Blood grid by
+      level + sortable table; footnote markers for exceptions)
+- [ ] **Main page routing rows** — "New vampire?" → Guide:Getting started;
+      "Latest patch" → newest patch article; community links
+- [ ] **Accessibility** — `alt=` required in Module:ItemFrame /
+      Module:Infobox image params; real header cells with `scope` in
+      generated tables; table `overflow-x` wrapper for mobile; WCAG AA
+      incl. rarity colors on dark
+- [ ] **Community scaffolding** — Project:How to help, Template:Stub /
+      Template:Outdated (patch param) + tracking categories, `/doc`
+      subpages for all templates and modules
 
 ## SEO / discoverability (2026-07-03)
 

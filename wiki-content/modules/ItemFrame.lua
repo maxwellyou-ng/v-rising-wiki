@@ -37,10 +37,11 @@ function p._itemFrame(args)
 	table.insert(out, string.format(
 		'<span style="position: relative; margin-right:2px; display:inline-flex; justify-content: space-around; align-items: center; width:%spx; height: %spx; background-color: #000000;">',
 		bgSize, bgSize))
-	table.insert(out, string.format('[[File:%s_%s.png|frameless|%sx%spx|link=%s]]',
-		imageType, image, bgSize, bgSize, itemName))
+	table.insert(out, string.format('[[File:%s_%s.png|frameless|%sx%spx|link=%s|alt=%s]]',
+		imageType, image, bgSize, bgSize, itemName, itemName))
+	-- decorative border: empty alt so screen readers skip the duplicate link
 	table.insert(out, string.format(
-		'<span style="position: absolute; left: 0; top: 0;">[[File:InventorySlotBorder.png|class=hidden|%sx%spx|link=%s]]</span></span>',
+		'<span style="position: absolute; left: 0; top: 0;">[[File:InventorySlotBorder.png|class=hidden|%sx%spx|link=%s|alt=]]</span></span>',
 		bgSize, bgSize, itemName))
 
 	if quantity == '0' then
@@ -74,8 +75,8 @@ function p._itemBox(args)
 		string.format('<center class="mobileonly">[[%s]]</center>', itemName),
 		string.format('<div style="position: relative; float:left; margin: 8px 8px 5px 16px; width:%spx;">', size),
 		string.format('<div style="position: absolute; width:%spx; height: %spx; display: flex; justify-content: space-around; align-items: center; overflow: hidden; background-color: #000000;">', size, size),
-		string.format('[[File:%s_%s.png|frameless|%sx%spx|link=%s]]', imageType, imageName, size, size, itemName),
-		string.format('<span style="position: absolute;left:0;top:0;">[[File:InventorySlotBorder.png|class=hidden|%sx%spx|link=%s]]</span>', size, size, itemName),
+		string.format('[[File:%s_%s.png|frameless|%sx%spx|link=%s|alt=%s]]', imageType, imageName, size, size, itemName, itemName),
+		string.format('<span style="position: absolute;left:0;top:0;">[[File:InventorySlotBorder.png|class=hidden|%sx%spx|link=%s|alt=]]</span>', size, size, itemName),
 		'</div>',
 		'<div class="hidden" style="position: relative; z-index: 1; margin-left: -16px; margin-top: 98px; min-width: 96px; max-width: 116px; padding: 0 8px 0 8px; border: solid 2px #808080; background-color: rgba(45, 45, 45, 0.95)">',
 		string.format('[[%s]]', itemName),

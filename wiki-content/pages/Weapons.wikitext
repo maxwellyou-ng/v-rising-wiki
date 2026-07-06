@@ -1,0 +1,597 @@
+This page lists all weapons & their respective [[Attributes|stats]]. For [[Weapon Skills]], visit the dedicated weapon pages:
+{{Navbox Weapon Types}}
+==All weapons==
+Every weapon in the game, drawn automatically from each weapon page's infobox. Click a column header to sort — by gear level to see progression, or by type to compare tiers of one weapon class. Detailed crafting costs are in the tier sections below and on each weapon's page.
+<div class="vr-table-scroll">
+{{#cargo_query:tables=weapons
+|fields=_pageName=Weapon,weapon_type=Type,gear_level=Gear level,physical_power=Physical power,durability=Durability,stats=Bonus stats
+|order by=weapon_type,gear_level
+|limit=200
+|format=table
+}}
+</div>
+==Melee Weapons==
+[[Greatsword|Iron Greatsword]] recipe unlocks after feeding on [[Tristan the Vampire Hunter]].<br>
+[[Reaper|Iron Reaper]] recipe unlocks after feeding on [[Kriig the Undead General]].<br>
+[[Claws|Iron Claw]] recipe unlocks after feeding on [[Frostmaw the Mountain Terror]].<br>
+[[Twinblade|Iron Twinblade]] recipe unlocks after feeding on [[Gaius the Cursed Champion]].<br>
+[[Iron Whip]] recipe unlocks after feeding on [[Domina the Blade Dancer]].<br>
+[[Sanguine Whip|Sanguine Tier Whip]] recipe unlocks after feeding on [[Simon Belmont the Vampire Hunter]].<br>
+[[Slashers|Iron Slashers]] recipe unlocks after feeding on [[Jakira the Shadow Huntress]].
+{| class="article-table"
+! colspan="9" style="text-align:center; border-top: 1px solid dimgray" |Physical Damage Bonus
+|-
+| style="text-align:center; padding:5px"|'''[[Sword]]'''<br>+25%&nbsp;to Vegetation
+| style="text-align:center; padding:5px"|'''[[Axes]]'''<br>+25%&nbsp;to Wood
+| style="text-align:center; padding:5px"|'''[[Mace]]'''<br>+25%&nbsp;to Minerals
+| style="text-align:center; padding:5px"|'''[[Spear]]'''<br>+25%&nbsp;to Creatures
+| style="text-align:center; padding:5px"|'''[[Greatsword]]'''<br>+25%&nbsp;to Wood
+| style="text-align:center; padding:5px"|'''[[Reaper]]'''<br>+25%&nbsp;to Undead
+| colspan="2" style="text-align:center; padding:5px"|'''[[Twinblade]]''' /<br>'''[[Slashers]]'''<br>+25%&nbsp;to&nbsp;Vegetation
+| style="text-align:center; padding:5px"|'''[[Whip]]''' /<br>'''[[Claws]]'''<br>None
+|- style="padding:0"
+! colspan="9" style="text-align:center; font-size:115%" |<span style="float:left">'''Gear Level''': 3</span> <span style="padding-right:80px">Bone Tier</span>
+|- style="text-align:center"
+|[[File:Weapon BoneSword.png|0x62px|link=Bone Sword]]
+|[[File:Weapon BoneAxes.png|0x62px|link=Bone Axes]]
+|[[File:Weapon BoneMace.png|0x62px|link=Bone Mace]]
+|[[File:Weapon BoneSpear.png|0x62px|link=Bone Spear]]
+| colspan="3" |
+|
+|
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|By Hand|type=Structure}}
+| colspan="2" style="text-align:right"|'''Weapon Skills''':
+|1
+|-
+| colspan="6" rowspan="3" style="vertical-align:top" |{{ItemFrame|Bone|16|discountable=n}}
+|-
+| colspan="2" style="text-align:right; white-space:nowrap" |'''Physical Power''':
+|5.1
+|-
+| colspan="2" style="text-align:right" |'''Durability''':
+|817
+|-
+! colspan="9" style="text-align:center; font-size:115%" |<span style="float:left">'''Gear Level''': 6</span> <span style="padding-right:80px">Reinforced Bone Tier</span>
+|- style="text-align:center"
+|[[File:Weapon ReinforcedBoneSword.png|0x62px|link=Reinforced Bone Sword]]
+|[[File:Weapon ReinforcedBoneAxes.png|0x62px|link=Reinforced Bone Axes]]
+|[[File:Weapon ReinforcedBoneMace.png|0x62px|link=Reinforced Bone Mace]]
+|[[File:Weapon ReinforcedBoneSpear.png|0x62px|link=Reinforced Bone Spear]]
+| colspan="3" |
+|
+|
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Simple Workbench|type=structure}}
+| colspan="2" style="text-align:right"|'''Weapon Skills''':
+|1
+|-
+| colspan="6" rowspan="3" |1 Bone Tier Weapon<br><!--
+-->{{ItemFrame|Plank|4}}<br><!--
+-->{{ItemFrame|Stone|128}}
+|-
+| colspan="2" style="text-align:right" |'''Physical Power''':
+|6.5
+|-
+| colspan="2" style="text-align:right" |'''Durability''':
+|928
+|-
+! colspan="9" style="text-align:center; font-size:115%" |<span style="float:left">'''Gear Level''': 9</span> <span style="padding-right:80px">Copper Tier</span> 
+|- style="text-align:center"
+|[[File:Weapon CopperSword.png|0x62px|link=Copper Sword]]
+|[[File:Weapon CopperAxes.png|0x62px|link=Copper Axes]]
+|[[File:Weapon CopperMace.png|0x62px|link=Copper Mace]]
+|[[File:Weapon CopperSpear.png|0x62px|link=Copper Spear]]
+| colspan="3" |
+|
+|
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Simple Workbench|type=structure}}
+| colspan="2" style="text-align:right"|'''Weapon Skills''':
+|2
+|-
+| colspan="6" rowspan="3" style="vertical-align:top" |{{ItemFrame|Copper Ingot|16}}<br><!--
+-->{{ItemFrame|Plank|8}}
+|-
+| colspan="2" style="text-align:right" |'''Physical Power''':
+|8.5
+|-
+| colspan="2" style="text-align:right" |'''Durability''':
+|1085
+|-
+! colspan="9" style="text-align:center; font-size:115%" |<span style="float:left">'''Gear Level''': 12</span> <span style="padding-right:80px">Merciless Copper Tier</span> 
+|- style="text-align:center"
+|[[File:Weapon MercilessCopperSword.png|0x62px|link=Merciless Copper Sword]]<br>[[File:Item_CrudeSapphire.png|0x35px|link=Crude Sapphire]]
+|[[File:Weapon MercilessCopperAxes.png|0x62px|link=Merciless Copper Axes]]<br>[[File:Item_CrudeRuby.png|0x35px|link=Crude Ruby]]
+|[[File:Weapon MercilessCopperMace.png|0x62px|link=Merciless Copper Mace]]<br>[[File:Item_CrudeTopaz.png|0x35px|link=Crude Topaz]]
+|[[File:Weapon MercilessCopperSpear.png|0x62px|link=Merciless Copper Spear]]<br>[[File:Item_CrudeEmerald.png|0x35px|link=Crude Emerald]]
+| colspan="3" |
+|
+|
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Simple Workbench|type=structure}}
+| colspan="2" style="text-align:right"|'''Weapon Skills''':
+|2
+|-
+| colspan="6" rowspan="3" |1 Copper Tier Weapon<br><!--
+-->2 [[Items#Crude|Crude Gem Stones]] (unique to each weapon type)<br><!--
+-->{{ItemFrame|Whetstone|12}}<br><!--
+-->{{ItemFrame|Leather|4}}
+|-
+| colspan="2" style="text-align:right" |'''Physical Power''':
+|10.9
+|-
+| colspan="2" style="text-align:right" |'''Durability''':
+|1292
+|-
+| colspan="9" |Guaranteed recipe drop from [[Clive the Firestarter]], and a chance to drop from other Level 20 - 40 [[V Blood Carriers]] or [[fishing]] / opening chests in [[Farbane Woods]]. Also sold at the [[Vendors#Shady Merchant Camps|Shady Merchant Camps]].
+|-
+! colspan="9" style="text-align:center; font-size:115%" |<span style="float:left">'''Gear Level''': 15</span> <span style="padding-right:80px">Iron Tier</span> 
+|- style="text-align:center"
+| colspan="9" |
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; flex; flex-direction: row; align-items: center;">
+[[File:Weapon IronSword.png|0x62px|link=Iron Sword]][[File:Weapon IronGreatsword.png|0x62px|link=Iron Greatsword]][[File:Weapon IronTwinblade.png|0x62px|link=Iron Twinblade]][[File:Weapon IronAxes.png|0x62px|link=Iron Axes]][[File:Weapon IronClaws.png|0x62px|link=Iron Claws]][[File:Weapon IronMace.png|0x62px|link=Iron Mace]][[File:Weapon IronSpear.png|0x62px|link=Iron Spear]][[File:Weapon IronReaper.png|0x62px|link=Iron Reaper]][[File:Weapon IronWhip.png|0x62px|link=Iron Whip]][[File:Weapon IronSlashers.png|0x62px|link=Iron Slashers]]</div>
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Smithy|type=structure}}
+| colspan="2" style="text-align:right"|'''Weapon Skills''':
+|3
+|-
+| colspan="6" rowspan="3" style="vertical-align:top" |{{ItemFrame|Iron Ingot|12}}<br><!--
+-->{{ItemFrame|Plank|8}}
+|-
+| colspan="2" style="text-align:right" |'''Physical Power''':
+|13.8
+|-
+| colspan="2" style="text-align:right" |'''Durability''':
+|1554
+|-
+| colspan="9" |Recipes unlocked by slaying [[Quincey the Bandit King]].
+|-
+! colspan="9" style="text-align:center; font-size:115%" |<span style="float:left">'''Gear Level''': 18</span> <span style="padding-right:80px">Merciless Iron Tier</span> 
+|- style="text-align:center"
+| colspan="9" |
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; flex; flex-direction: row; align-items: center;">
+[[File:Weapon MercilessIronSword.png|0x62px|link=Merciless Iron Sword]][[File:Weapon MercilessIronGreatsword.png|0x62px|link=Merciless Iron Greatsword]][[File:Weapon MercilessIronTwinblade.png|0x62px|link=Merciless Iron Twinblade]][[File:Weapon MercilessIronAxes.png|0x62px|link=Merciless Iron Axes]][[File:Weapon MercilessIronClaws.png|0x62px|link=Merciless Iron Claws]][[File:Weapon MercilessIronMace.png|0x62px|link=Merciless Iron Mace]][[File:Weapon MercilessIronSpear.png|0x62px|link=Merciless Iron Spear]][[File:Weapon MercilessIronReaper.png|0x62px|link=Merciless Iron Reaper]][[File:Weapon MercilessIronWhip.png|0x62px|link=Merciless Iron Whip]][[File:Weapon MercilessIronSlashers.png|0x62px|link=Merciless Iron Slashers]]</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularSapphire.png|0x30px|link=Regular Sapphire]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularSapphire.png|0x30px|link=Regular Sapphire]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularSapphire.png|0x30px|link=Regular Sapphire]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularRuby.png|0x30px|link=Regular Ruby]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularRuby.png|0x30px|link=Regular Ruby]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularTopaz.png|0x30px|link=Regular Topaz]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularEmerald.png|0x30px|link=Regular Emerald]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularMiststone.png|0x30px|link=Regular Miststone]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularMiststone.png|0x30px|link=Regular Miststone]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularAmethyst.png|0x30px|link=Regular Amethyst]]&nbsp;&nbsp;
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Smithy|type=structure}}
+| colspan="2" style="text-align:right"|'''Weapon Skills''':
+|3
+|-
+| colspan="6" rowspan="3" |1 Iron Tier Weapon<br><!--
+-->1 [[Items#Regular|Regular Gem Stone]] (unique to each weapon type)<br><!--
+-->{{ItemFrame|Greater Blood Essence|4}}<br><!--
+-->{{ItemFrame|Reinforced Plank|4}}
+|-
+| colspan="2" style="text-align:right" |'''Physical Power''':
+|17.3
+|-
+| colspan="2" style="text-align:right" |'''Durability''':
+|1873
+|-
+| colspan="9" |Guaranteed recipe drops by [[Jade the Vampire Hunter]] & [[Meredith the Bright Archer]].<br>Chance to drop from Level 44 - 65 [[V Blood Carriers]] or from [[fishing]] and chests across [[Dunley Farmlands]], [[Ruins of Mortium]] & [[Gloomrot South]]. Also sold at the [[Vendors#Dunley Farmlands|Rural Book Merchant]] for {{ItemFrame|Silver Coin|48|discountable=N}}s.
+|-
+! colspan="9" style="text-align:center; font-size:115%" |<span style="float:left">'''Gear Level''': 20 / 24 / 27</span> <span style="padding-right:140px">Rare Ancestral Tier</span>
+|- style="text-align:center"
+| colspan="9" |
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; flex; flex-direction: row; align-items: center;">[[File:Weapon RareAncestralSword.png|0x62px|link=Rare Ancestral Sword]][[File:Weapon RareAncestralGreatsword.png|0x62px|link=Rare Ancestral Greatsword]][[File:Weapon RareAncestralTwinblade.png|0x62px|link=Rare Ancestral Twinblade]][[File:Weapon RareAncestralAxes.png|0x62px|link=Rare Ancestral Axes]][[File:Weapon RareAncestralClaws.png|0x62px|link=Rare Ancestral Claws]][[File:Weapon RareAncestralMace.png|0x62px|link=Rare Ancestral Mace]][[File:Weapon RareAncestralSpear.png|0x62px|link=Rare Ancestral Spear]][[File:Weapon RareAncestralReaper.png|0x62px|link=Rare Ancestral Reaper]][[File:Weapon RareAncestralWhip.png|0x62px|link=Rare Ancestral Whip]][[File:Weapon RareAncestralSlashers.png|0x62px|link=Rare Ancestral Slashers]]
+</div>
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Ancestral Forge|type=structure}}
+| colspan="2" style="text-align:right"|'''Weapon Skills''':
+|3
+|-
+| colspan="3" rowspan="3" |1 Merciless Iron Tier Weapon<br><!--
+-->{{ItemFrame|Rare Ancestral Greatsword Shard|1|display=Rare Ancestral Weapon Shard}}<br><!--
+-->{{ItemFrame|Radium Alloy|8}}<br><!--
+-->{{ItemFrame|Greater Blood Essence|1|discountable=N}}
+| colspan="5" style="text-align:right" |'''Physical Power''':
+|19.9/24.3/<br>29.3
+|-
+| colspan="6" |<span style="float:right; padding-right:24px">'''Attributes''':<span style="padding-left:10px; font-size:100%"> {{CollapseOnly|&nbsp;Infused - Second Weapon Skill (Q) hits inflict {{Debuff|Leech}} / {{Debuff|Ignite}} / {{Debuff|Condemn}} / {{Debuff|Weaken}} / {{Debuff|Chill}} / {{Debuff|Static}}<br>
+
+'''2 of 14 random stat modifiers:'''<br><!--
+-->+[3.2% - 16%] Bonus Maximum Health<br><!--
+-->+[1.6% - 8%] Bonus Movement Speed<br><!--
+-->+[2.8% - 14%] Veil Cooldown Rate<br><!--
+-->+[2.0% - 10%] Bonus Physical Power<br><!--
+-->+[2.8% - 14%] Attack Speed<br><!--
+-->+[2.8% - 14%] Weapon Skill Cooldown Rate<br><!--
+-->+[3.2% - 16%] Weapon Skill Power<br><!--
+-->+[3.2% - 16%] Physical Critical Chance<br><!--
+-->+[3.2% - 16%] Physical Critical Power<br><!--
+-->+[2.8% - 14%] Bonus Spell Power<br><!--
+-->+[2.8% - 14%] Spell Cooldown Rate<br><!--
+-->+[3.2% - 16%] Spell Critical Chance<br><!--
+-->+[3.2% - 16%] Spell Critical Power<br><!--
+-->+[2.0% - 10%] Spell Leech}}</span></span>
+|-
+| colspan="4" |
+| style="text-align:right" |'''Durability''':
+|1993
+|-
+| colspan="9" |Fragments drop from level 53+ [[V Blood Carriers]] ('''25%'''), tier 1 [[Rift Incursions]] ('''50%'''), and can be purchased from the [[Vendors#Ruins of Mortium|Vampire Merchant (Rare)]] for {{ItemFrame|Stygian Shard|750|discountable=N}}.<br>Rare Ancestral weapons can be upgraded to Gear Level 24 and 27 using a corresponding Dark Silver and Sanguine weapon, increasing their Physical Power.
+|-
+! colspan="9" style="text-align:center; font-size:115%" |<span style="float:left">'''Gear Level''': 23</span> <span style="padding-right:80px">Dark Silver Tier</span>
+|- style="text-align:center"
+| colspan="9" |
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; flex; flex-direction: row; align-items: center;">[[File:Weapon DarkSilverSword.png|0x62px|link=Dark Silver Sword]][[File:Weapon DarkSilverGreatsword.png|0x62px|link=Dark Silver Greatsword]][[File:Weapon DarkSilverTwinblade.png|0x62px|link=Dark Silver Twinblade]][[File:Weapon DarkSilverAxes.png|0x62px|link=Dark Silver Axes]][[File:Weapon DarkSilverClaws.png|0x62px|link=Dark Silver Claws]][[File:Weapon DarkSilverMace.png|0x62px|link=Dark Silver Mace]][[File:Weapon DarkSilverSpear.png|0x62px|link=Dark Silver Spear]][[File:Weapon DarkSilverReaper.png|0x62px|link=Dark Silver Reaper]][[File:Weapon DarkSilverWhip.png|0x62px|link=Dark Silver Whip]][[File:Weapon DarkSilverSlashers.png|0x62px|link=Dark Silver Slashers]]</div>
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Anvil|type=structure}}
+| colspan="2" style="text-align:right"|'''Weapon Skills''':
+|3
+|-
+| colspan="6" rowspan="3" style="vertical-align:top" |{{ItemFrame|Dark Silver Ingot|12}}<br><!--
+-->{{ItemFrame|Reinforced Plank|8}}<br><!--
+-->{{ItemFrame|Primal Blood Essence|1}}
+|-
+| colspan="2" style="text-align:right" |'''Physical Power''':
+|24.3
+|-
+| colspan="2" style="text-align:right" |'''Durability''':
+|2545
+|-
+| colspan="9" |Recipe unlocked by slaying [[Cyril the Cursed Smith]].
+|-
+! colspan="9" style="text-align:center; font-size:115%" |<span style="float:left">'''Gear Level''': 26</span> <span style="padding-right:80px">Sanguine Tier</span>
+|- style="text-align:center"
+| colspan="9" |
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; flex; flex-direction: row; align-items: center;">
+[[File:Weapon SanguineSword.png|0x62px|link=Sanguine Sword]][[File:Weapon SanguineGreatsword.png|0x62px|link=Sanguine Greatsword]][[File:Weapon SanguineTwinblade.png|0x62px|link=Sanguine Twinblade]][[File:Weapon SanguineAxes.png|0x62px|link=Sanguine Axes]][[File:Weapon SanguineClaws.png|0x62px|link=Sanguine Claws]][[File:Weapon SanguineMace.png|0x62px|link=Sanguine Mace]][[File:Weapon SanguineSpear.png|0x62px|link=Sanguine Spear]][[File:Weapon SanguineReaper.png|0x62px|link=Sanguine Reaper]][[File:Weapon SanguineWhip.png|0x62px|link=Sanguine Whip]][[File:Weapon SanguineSlashers.png|0x62px|link=Sanguine Slashers]]</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessSapphire.png|0x30px|link=Flawless Sapphire]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessSapphire.png|0x30px|link=Flawless Sapphire]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessSapphire.png|0x30px|link=Flawless Sapphire]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessRuby.png|0x30px|link=Flawless Ruby]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessRuby.png|0x30px|link=Flawless Ruby]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessTopaz.png|0x30px|link=Flawless Topaz]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessEmerald.png|0x30px|link=Flawless Emerald]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessMiststone.png|0x30px|link=Flawless Miststone]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessMiststone.png|0x30px|link=Flawless Miststone]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessAmethyst.png|0x30px|link=Flawless Amethyst]]&nbsp;&nbsp;
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Anvil|type=structure}}
+| colspan="2" style="text-align:right"|'''Weapon Skills''':
+|3
+|-
+| colspan="6" rowspan="3" |1 Dark Silver Tier Weapon<br><!--
+-->1 [[Items#Flawless|Flawless Gem Stone]] (unique to each weapon type)<br><!--
+-->{{ItemFrame|Gold Ingot|12}}
+|-
+| colspan="2" style="text-align:right" |'''Physical Power''':
+|29.3
+|-
+| colspan="2" style="text-align:right" |'''Durability''':
+|3037
+|-
+| colspan="9" |Chance to drop from Level 66+ [[V Blood Carriers]], [[fishing]] or chests across [[Silverlight Hills]], [[Cursed Forest]], [[Gloomrot North]] & [[Oakveil Woodlands]]. Sold at the [[Vendors#Gloomrot North|Treasure Hunter Trade Post]] for {{ItemFrame|Goldsun Coin|260|discountable=N}}s.
+|-
+! colspan="9" style="text-align:center; font-size:115%" |<span style="float:left">'''Gear Level''': 30</span> <span style="padding-right:80px">Epic Ancestral Tier</span>
+|- style="text-align:center"
+| colspan="9" |
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around; flex; flex-direction: row; align-items: center;">[[File:Weapon EpicAncestralSword.png|0x62px|link=Epic Ancestral Sword]][[File:Weapon EpicAncestralGreatsword.png|0x62px|link=Epic Ancestral Greatsword]][[File:Weapon EpicAncestralTwinblade.png|0x62px|link=Epic Ancestral Twinblade]][[File:Weapon EpicAncestralAxes.png|0x62px|link=Epic Ancestral Axes]][[File:Weapon EpicAncestralClaws.png|0x62px|link=Epic Ancestral Claws]][[File:Weapon EpicAncestralMace.png|0x62px|link=Epic Ancestral Mace]][[File:Weapon EpicAncestralSpear.png|0x62px|link=Epic Ancestral Spear]][[File:Weapon EpicAncestralReaper.png|0x62px|link=Epic Ancestral Reaper]][[File:Weapon EpicAncestralWhip.png|0x62px|link=Epic Ancestral Whip]][[File:Weapon EpicAncestralSlashers.png|0x62px|link=Epic Ancestral Slashers]]</div>
+|-
+| colspan="6" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Ancestral Forge|type=structure}}
+| colspan="2" style="text-align:right"|'''Weapon Skills''':
+|3
+|-
+| colspan="3" rowspan="3" |1 Sanguine Tier Weapon<br><!--
+-->{{ItemFrame|Epic Ancestral Greatsword Shard|1|display=Epic Ancestral Weapon Shard}}<br><!--
+-->{{ItemFrame|Onyx Tear|4}}
+| colspan="5" style="text-align:right" |'''Physical Power''':
+|33.7
+|-
+| colspan="6" |<span style="float:right; padding-right:24px">'''Attributes''':<span style="padding-left:10px; font-size:100%"> {{CollapseOnly|&nbsp;Infused - Second Weapon Skill (Q) hits inflict {{Debuff|Leech}} / {{Debuff|Ignite}} / {{Debuff|Condemn}} / {{Debuff|Weaken}} / {{Debuff|Chill}} / {{Debuff|Static}}<br>
+
+'''3 of 14 random stat modifiers:'''<br><!--
+-->+[3.2% - 16%] Bonus Maximum Health<br><!--
+-->+[1.6% - 8%] Bonus Movement Speed<br><!--
+-->+[2.8% - 14%] Veil Cooldown Rate<br><!--
+-->+[2.0% - 10%] Bonus Physical Power<br><!--
+-->+[2.8% - 14%] Attack Speed<br><!--
+-->+[2.8% - 14%] Weapon Skill Cooldown Rate<br><!--
+-->+[3.2% - 16%] Weapon Skill Power<br><!--
+-->+[3.2% - 16%] Physical Critical Chance<br><!--
+-->+[3.2% - 16%] Physical Critical Power<br><!--
+-->+[2.8% - 14%] Bonus Spell Power<br><!--
+-->+[2.8% - 14%] Spell Cooldown Rate<br><!--
+-->+[3.2% - 16%] Spell Critical Chance<br><!--
+-->+[3.2% - 16%] Spell Critical Power<br><!--
+-->+[2.0% - 10%] Spell Leech}}</span></span>
+|-
+| colspan="4" |
+| style="text-align:right" |'''Durability''':
+|3800
+|-
+| colspan="9" |Fragments drop from level 79+ [[V Blood Carriers]] ('''5%'''), tier 2 [[Rift Incursions]], and can be purchased from the [[Vendors#Ruins of Mortium|Vampire Merchant (Epic)]] for {{ItemFrame|Greater Stygian Shard|1500|discountable=N}}s.
+|}
+
+==Unique Weapons==
+{| class="article-table"
+! colspan="3" style="text-align:center; font-size:115%; border-top: 1px solid dimgray"|<span style="float:left">'''Gear Level''': 7</span> <span style="padding-right:80px">Lumberjack's Axes</span>
+|-
+| colspan="3" |[[File:Weapon LumberjacksAxes.png|center|0x62px|link=Lumberjack's Axes]]
+|-
+|'''Price
+| style="text-align:right" |'''Weapon Skills''':
+|1
+|-
+| rowspan="4" style="vertical-align:top" |{{ItemFrame|Copper Coin|18|discountable=N}}, [[Vendors#Shady Goods Dealer|Shady Goods Dealer]] (Farbane)
+|-
+| style="text-align:right"|'''Physical Power''':
+|7.1
+|-
+| style="text-align:right"|'''Physical Damage Bonus''':
+| style="width:25%"|+50% to Wood
+|-
+| style="text-align:right"|'''Durability''':
+|970
+|-
+! colspan="3" style="text-align:center; font-size:115%"|<span style="float:left">'''Gear Level''': 7</span> <span style="padding-right:80px">Miner's Mace</span>
+|-
+| colspan="3" |[[File:Weapon MinersMace.png|center|0x62px|link=Miner's Mace]]
+|-
+|'''Price'''
+| style="text-align:right" |'''Weapon Skills''':
+|1
+|-
+| rowspan="4" style="vertical-align:top" |{{ItemFrame|Copper Coin|18|discountable=N}}, [[Vendors#Shady Goods Dealer|Shady Goods Dealer]] (Farbane)
+|-
+| style="text-align:right"|'''Physical Power''':
+|7.1
+|-
+| style="text-align:right"|'''Physical Damage Bonus''':
+| +50% to Minerals
+|-
+| style="text-align:right"|'''Durability''':
+|970
+|}
+
+==Ranged Weapons==
+[[Crossbow|Copper Crossbow]] recipe unlocks after feeding on [[Rufus the Foreman]].<br>
+[[Longbow|Copper Longbow]] recipe unlocks after feeding on [[Lidia the Chaos Archer]].<br>
+[[Daggers|Iron Dagger]] recipe unlocks after feeding on [[Bane the Shadowblade]].<br>
+[[Pistols|Iron Pistols]] recipe unlocks after feeding on [[Jade the Vampire Hunter]]. 
+{| class="article-table"
+! colspan="3" style="text-align:center; font-size:115%; border-top: 1px solid dimgray"|<span style="float:left">'''Gear Level''': 3</span> <span style="padding-right:80px">Bone Tier</span>
+|-
+| colspan="3" |[[File:Weapon BoneCrossbow.png|center|0x62px|link=Bone Crossbow]]
+|-
+|'''Crafting Costs''' <nowiki>|</nowiki> {{ItemFrame|By Hand|type=Structure}}
+| style="text-align:right" |'''Weapon Skills''':
+|1
+|-
+| rowspan="2" |{{ItemFrame|Bone|16|discountable=n}}
+| style="text-align:right" |'''Physical Power''':
+|5.1
+|-
+| style="text-align:right"|'''Durability''':
+|817
+|-
+! colspan="3" style="text-align:center; font-size:115%"|<span style="float:left">'''Gear Level''': 6</span> <span style="padding-right:80px">Reinforced Bone Tier</span>
+|-
+| colspan="3" |[[File:Weapon ReinforcedBoneCrossbow.png|center|0x62px|link=Reinforced Bone Crossbow]]
+|-
+|'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> <span style="display:none"><br></span>{{ItemFrame|Simple Workbench|type=structure}}
+| style="text-align:right" |'''Weapon Skills''':
+|1
+|-
+| rowspan="2" |{{ItemFrame|Plank|4}}<br><!--
+-->{{ItemFrame|Stone|128}}
+| style="text-align:right" |'''Physical Power''':
+|6.5
+|-
+| style="text-align:right"|'''Durability''':
+|928
+|-
+! colspan="3" style="text-align:center; font-size:115%"|<span style="float:left">'''Gear Level''': 9</span> <span style="padding-right:80px">Copper Tier</span>
+|-
+| colspan="3" style="text-align:center" |[[File:Weapon CopperCrossbow.png|0x62px|link=Copper Crossbow]][[File:Weapon CopperLongbow.png|0x62px|link=Copper Longbow]]
+|-
+|'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> <span style="display:none"><br></span>{{ItemFrame|Woodworking Bench|type=structure}}
+| style="text-align:right" |'''Weapon Skills''':
+|2
+|-
+| rowspan="2" |{{ItemFrame|Copper Ingot|16}}<br><!--
+-->{{ItemFrame|Plank|8}}
+| style="text-align:right" |'''Physical Power''':
+|8.5
+|-
+| style="text-align:right" |'''Durability''':
+|1085 
+|-
+! colspan="3" style="text-align:center; font-size:115%"|<span style="float:left">'''Gear Level''': 12</span> <span style="padding-right:80px">Merciless Copper Tier</span>
+|-
+| colspan="3" style="text-align:center" |[[File:Weapon MercilessHuntersCrossbow.png|0x62px|link=Merciless Copper Crossbow]][[File:Weapon MercilessCopperLongbow.png|0x62px|link=Merciless Copper Longbow]]<br>[[File:Item_CrudeTopaz.png|0x35px|link=Crude Topaz]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_CrudeAmethyst.png|0x30px|link=CrudeAmethyst]]
+|-
+|'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> <span style="display:none"><br></span>{{ItemFrame|Woodworking Bench|type=structure}}
+| style="text-align:right" |'''Weapon Skills''':
+|2
+|-
+| rowspan="2" |1 Copper Tier Weapon<br><!--
+-->2 [[Items#Crude|Crude Gem Stones]] (unique to each weapon type)<br><!--
+-->{{ItemFrame|Whetstone|12}}<br><!--
+-->{{ItemFrame|Leather|4}}
+| style="text-align:right" |'''Physical Power''':
+|10.9
+|-
+| style="text-align:right" |'''Durability''':
+| 1292
+|-
+| colspan="3" |Guaranteed recipe drop from [[Clive the Firestarter]], and a chance to drop from other Level 20 - 40 [[V Blood Carriers]] or [[fishing]] / opening chests in [[Farbane Woods]]. Also sold at the [[Vendors#Shady Merchant Camps|Shady Merchant Camps]].
+|-
+! colspan="3" style="text-align:center; font-size:115%"|<span style="float:left">'''Gear Level''': 15</span> <span style="padding-right:80px">Iron Tier</span>
+|-
+| colspan="3" style="text-align:center" |[[File:Weapon IronCrossbow.png|0x62px|link=Iron Crossbow]][[File:Weapon IronLongbow.png|0x62px|link=Iron Longbow]][[File:Weapon IronDaggers.png|0x62px|link=Iron Daggers]][[File:Weapon IronPistols.png|0x62px|link=Iron Pistols]]
+|-
+|'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> <span style="display:none"><br></span>{{ItemFrame|Smithy|type=structure}}
+| style="text-align:right" |'''Weapon Skills''':
+|3
+|-
+| rowspan="2" |{{ItemFrame|Iron Ingot|12}}<br><!--
+-->{{ItemFrame|Plank|8}}
+| style="text-align:right" |'''Physical Power''':
+|13.8
+|-
+| style="text-align:right" |'''Durability''':
+|1554
+|-
+! colspan="3" style="text-align:center; font-size:115%"|<span style="float:left">'''Gear Level''': 18</span> <span style="padding-right:80px">Merciless Iron Tier</span>
+|-
+| colspan="3" style="text-align:center" |[[File:Weapon MercilessIronCrossbow.png|0x62px|link=Merciless Iron Crossbow]][[File:Weapon MercilessIronLongbow.png|0x62px|link=Merciless Iron Longbow]][[File:Weapon MercilessIronDaggers.png|0x62px|link=Merciless Iron Daggers]][[File:Weapon MercilessIronPistols.png|0x62px|link=Merciless Iron Pistols]]<br>[[File:Item_RegularTopaz.png|0x30px|link=Regular Topaz]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularAmethyst.png|0x30px|link=Regular Amethyst]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularAmethyst.png|0x30px|link=Regular Amethyst]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_RegularRuby.png|0x30px|link=Regular Ruby]]
+|-
+|'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> <span style="display:none"><br></span>{{ItemFrame|Smithy|type=structure}}
+| style="text-align:right" |'''Weapon Skills''':
+|3
+|-
+| rowspan="3" style="vertical-align:top" |1 Iron Tier Weapon<br><!--
+-->1 [[Items#Regular|Regular Gem Stone]] (unique to each weapon type)<br><!--
+-->{{ItemFrame|Greater Blood Essence|4}}<br><!--
+-->{{ItemFrame|Reinforced Plank|4}}
+|-
+| style="text-align:right" |'''Physical Power''':
+|17.3
+|-
+| style="text-align:right" |'''Durability''':
+| 1873
+|-
+| colspan="3" |Guaranteed recipe drops by [[Jade the Vampire Hunter]] & [[Meredith the Bright Archer]].<br>Chance to drop from Level 44 - 65 [[V Blood Carriers]] or from [[fishing]] and chests across [[Dunley Farmlands]], [[Ruins of Mortium]] & [[Gloomrot South]]. Also sold at the [[Vendors#Dunley Farmlands|Rural Book Merchant]] for {{ItemFrame|Silver Coin|48|discountable=N}}s.
+|-
+! colspan="3" style="text-align:center; font-size:115%"|<span style="float:left">'''Gear Level''': 20 / 24 / 27</span> <span style="padding-right:140px">Rare Ancestral Tier</span>
+|-
+| colspan="3" style="text-align:center" |[[File:Weapon RareAncestralCrossbow.png|0x62px|link=Rare Ancestral Crossbow]][[File:Weapon RareAncestralLongbow.png|0x62px|link=Rare Ancestral Longbow]][[File:Weapon RareAncestralDaggers.png|0x62px|link=Rare Ancestral Daggers]][[File:Weapon RareAncestralPistols.png|0x62px|link=Rare Ancestral Pistols]]
+|-
+| colspan="1" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> <span style="display:none"><br></span>{{ItemFrame|Ancestral Forge|type=structure}}
+| colspan="1" style="text-align:right" |'''Weapon Skills''':
+|3
+|-
+| rowspan="2" |1 Merciless Iron Tier Weapon<br><!--
+-->{{ItemFrame|Rare Ancestral Longbow Shard|1|display=Rare Ancestral Weapon Shard}}<br><!--
+-->{{ItemFrame|Radium Alloy|8}}<br><!--
+-->{{ItemFrame|Greater Blood Essence|1}}
+| style="text-align:right" |'''Physical Power''':
+|19.9 / 24.3 / 29.3
+|-
+| style="text-align:right" |'''Durability''':
+|1993
+|-
+| colspan="3" |<span style="float:left; white-space:nowrap">'''Attributes''':&nbsp; {{CollapseOnly|&nbsp;Infused - Second Weapon Skill (Q) hits inflict<br>{{Debuff|Leech}} / {{Debuff|Ignite}} / {{Debuff|Condemn}} / {{Debuff|Weaken}} / {{Debuff|Chill}} / {{Debuff|Static}}<br><!--
+-->'''2 of 14 random stat modifiers:'''<br><!--
+-->+[3.2% - 16%] Bonus Maximum Health<br><!--
+-->+[1.6% - 8%] Bonus Movement Speed<br><!--
+-->+[2.8% - 14%] Veil Cooldown Rate<br><!--
+-->+[2.0% - 10%] Bonus Physical Power<br><!--
+-->+[2.8% - 14%] Attack Speed<br><!--
+-->+[2.8% - 14%] Weapon Skill Cooldown Rate<br><!--
+-->+[3.2% - 16%] Weapon Skill Power<br><!--
+-->+[3.2% - 16%] Physical Critical Chance<br><!--
+-->+[3.2% - 16%] Physical Critical Power<br><!--
+-->+[2.8% - 14%] Bonus Spell Power<br><!--
+-->+[2.8% - 14%] Spell Cooldown Rate<br><!--
+-->+[3.2% - 16%] Spell Critical Chance<br><!--
+-->+[3.2% - 16%] Spell Critical Power<br><!--
+-->+[2.0% - 10%] Spell Leech}}</span>
+|-
+| colspan="3" |Fragments drop from level 53+ [[V Blood Carriers]] ('''25%'''), tier 1 [[Rift Incursions]] ('''50%'''), and can be purchased from the [[Vendors#Ruins of Mortium|Vampire Merchant (Rare)]] for {{ItemFrame|Stygian Shard|750|discountable=N}}.<br>Rare Ancestral weapons can be upgraded to Gear Level 24 and 27 using a corresponding Dark Silver and Sanguine weapon, increasing their Physical Power.
+|-
+! colspan="3" style="text-align:center; font-size:115%"|<span style="float:left">'''Gear Level''': 23</span> <span style="padding-right:80px">Dark Silver Tier</span>
+|-
+| colspan="3" style="text-align:center" |[[File:Weapon DarkSilverCrossbow.png|0x62px|link=Dark Silver Crossbow]][[File:Weapon DarkSilverLongbow.png|0x62px|link=Dark Silver Longbow]][[File:Weapon DarkSilverDaggers.png|0x62px|link=Dark Silver Daggers]][[File:Weapon DarkSilverPistols.png|0x62px|link=Dark Silver Pistols]]
+|-
+|'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Anvil|type=structure}}
+| style="text-align:right" |'''Weapon Skills''':
+|3
+|-
+| rowspan="2" |{{ItemFrame|Dark Silver Ingot|12}}<br><!--
+-->{{ItemFrame|Reinforced Plank|8}}<br><!--
+-->{{ItemFrame|Primal Blood Essence|1}}
+| style="text-align:right" |'''Physical Power''': 
+|24.3
+|-
+| style="text-align:right" |'''Durability''':
+|2545 
+|-
+| colspan="3" |Recipe unlocked by slaying [[Cyril the Cursed Smith]].
+|-
+! colspan="3" style="text-align:center; font-size:115%"|<span style="float:left">'''Gear Level''': 26</span> <span style="padding-right:80px">Sanguine Tier</span>
+|-
+| colspan="3" style="text-align:center" |[[File:Weapon SanguineCrossbow.png|0x62px|link=Sanguine Crossbow]][[File:Weapon SanguineLongbow.png|0x62px|link=Sanguine Longbow]][[File:Weapon SanguineDaggers.png|0x62px|link=Sanguine Daggers]][[File:Weapon SanguinePistols.png|0x62px|link=Sanguine Pistols]]<br>[[File:Item_FlawlessTopaz.png|0x30px|link=Flawless Topaz]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessAmethyst.png|0x30px|link=Flawless Amethyst]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessAmethyst.png|0x30px|link=Flawless Amethyst]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[File:Item_FlawlessRuby.png|0x30px|link=Flawless Ruby]]
+|-
+|'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Anvil|type=structure}}
+| style="text-align:right" |'''Weapon Skills''':
+| 3
+|-
+| rowspan="2" |1 Dark Silver Tier Weapon<br><!--
+-->1 [[Items#Flawless|Flawless Gem Stone]] (unique to each weapon type)<br><!--
+-->{{ItemFrame|Gold Ingot|12}}
+| style="text-align:right" |'''Physical Power''':
+|29.3
+|-
+| style="text-align:right" |'''Durability''':
+|3037
+|-
+| colspan="7" |Chance to drop from Level 66+ [[V Blood Carriers]], [[fishing]] or chests across [[Silverlight Hills]], [[Cursed Forest]], [[Gloomrot North]] & [[Oakveil Woodlands]]. Sold at the [[Vendors#Gloomrot North|Treasure Hunter Trade Post]] for {{ItemFrame|Goldsun Coin|260|discountable=N}}s.
+|-
+! colspan="3" style="text-align:center; font-size:115%"|<span style="float:left">'''Gear Level''': 30</span> <span style="padding-right:80px">Epic Ancestral Tier</span>
+|-
+| colspan="3" style="text-align:center" |[[File:Weapon EpicAncestralCrossbow.png|0x62px|link=Epic Ancestral Longbow]][[File:Weapon EpicAncestralLongbow.png|0x62px|link=Epic Ancestral Longbow]][[File:Weapon EpicAncestralDaggers.png|0x62px|link=Epic Ancestral Daggers]][[File:Weapon EpicAncestralPistols.png|0x62px|link=Epic Ancestral Pistols]]
+|-
+| colspan="1" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> <span style="display:none"><br></span>{{ItemFrame|Ancestral Forge|type=structure}}
+| colspan="1" style="text-align:right" |'''Weapon Skills''':
+| 3
+|-
+| rowspan="2" |1 Sanguine Tier Weapon<br><!--
+-->{{ItemFrame|Epic Ancestral Longbow Shard|1|display=Epic Ancestral Weapon Shard}}<br><!--
+-->{{ItemFrame|Onyx Tear|4}}<br>
+| style="text-align:right" |'''Physical Power''':
+|33.7
+|-
+| style="text-align:right" |'''Durability''':
+|3800
+|-
+| colspan="3" |<span style="float:left; white-space:nowrap">'''Attributes''':&nbsp; {{CollapseOnly|&nbsp;Infused - Second Weapon Skill (Q) hits inflict<br> {{Debuff|Leech}} / {{Debuff|Ignite}} / {{Debuff|Condemn}} / {{Debuff|Weaken}} / {{Debuff|Chill}} / {{Debuff|Static}}<br><!--
+-->'''3 of 14 random stat modifiers:'''<br><!--
+-->+[3.2% - 16%] Bonus Maximum Health<br><!--
+-->+[1.6% - 8%] Bonus Movement Speed<br><!--
+-->+[2.8% - 14%] Veil Cooldown Rate<br><!--
+-->+[2.0% - 10%] Bonus Physical Power<br><!--
+-->+[2.8% - 14%] Attack Speed<br><!--
+-->+[2.8% - 14%] Weapon Skill Cooldown Rate<br><!--
+-->+[3.2% - 16%] Weapon Skill Power<br><!--
+-->+[3.2% - 16%] Physical Critical Chance<br><!--
+-->+[3.2% - 16%] Physical Critical Power<br><!--
+-->+[2.8% - 14%] Bonus Spell Power<br><!--
+-->+[2.8% - 14%] Spell Cooldown Rate<br><!--
+-->+[3.2% - 16%] Spell Critical Chance<br><!--
+-->+[3.2% - 16%] Spell Critical Power<br><!--
+-->+[2.0% - 10%] Spell Leech}}</span>
+|-
+| colspan="7" |Fragments drop from level 79+ [[V Blood Carriers]] ('''5%'''), tier 2 [[Rift Incursions]], and can be purchased from the [[Vendors#Ruins of Mortium|Vampire Merchant (Epic)]] for {{ItemFrame|Greater Stygian Shard|1500|discountable=N}}s.
+|}
+
+==Legendary Artifact Weapons==
+Artifacts are uniquely named weapons with [[Weapon Skills|weapon skill]] modifications. They are crafted at the {{ItemFrame|Ancestral Forge|type=structure}} using {{ItemFrame|Legendary Ancestral Greatsword Shard|display=Legendary Artifact shards}}, which have a 15% chance of dropping from Tier 2 [[Rift Incursions]] as well as {{ItemFrame|Epic Ancestral Greatsword Shard|display=Epic Ancestral Weapon Shard}} purchases from the [[Vendors#Ruins of Mortium|Vampire Merchant]].
+{{ItemBox|The Gravecaller|type=Weapon}} {{ItemBox|The Red Twins|type=Weapon}} {{ItemBox|Hand of Winter|type=Weapon}} {{ItemBox|The Thousand Storms|type=Weapon}} {{ItemBox|Mortira's Lament|type=Weapon}} {{Clear|left}}
+{{ItemBox|Apocalypse|type=Weapon}}  {{ItemBox|Talons of the Lich Beast|type=Weapon}} {{ItemBox|Cloud Dancers|type=Weapon}} {{ItemBox|Wings of the Fallen|type=Weapon}}  {{ItemBox|The Morning Star|type=Weapon}}  {{Clear|left}}
+ {{ItemBox|The Fate Dancers|type=Weapon}} {{ItemBox|The Siren's Wail|type=Weapon}} {{ItemBox|Oaksong|type=Weapon}} {{ItemBox|The Wraithblades|type=Weapon}} {{ItemBox|The Endbringers|type=Weapon}} {{Clear|left}}
+
+==Removed Weapons==
+{| class="article-table"
+! colspan="3" style="text-align:center; border-top: 1px solid dimgray" |The General's Soul Reaper
+|-
+| colspan="3" |[[File:Weapon TheGeneral'sSoulReaper.png|center|0x62px|link=The General's Soul Reaper]]
+|-
+| style="width:400px" |'''Crafting Costs''' (With Floor Bonus) <nowiki>|</nowiki> {{ItemFrame|Smithy|type=structure}}
+| style="text-align:right" |'''Weapon Skills''': 
+|3
+|-
+| rowspan="4" style="vertical-align:top" |{{ItemFrame|The General's Soul Reaper Orb}}<br><!--
+-->{{ItemFrame|Regular Miststone|4}}<br><!--
+-->{{ItemFrame|Greater Blood Essence|4}}<br><!--
+-->{{ItemFrame|Iron Ingot|24}}<br><!--
+-->{{ItemFrame|Plank|16}}<br><!--
+-->{{ItemFrame|Gem Dust|120}} 
+| style="text-align:right" |'''Gear Level''':
+|18
+|-
+| style="text-align:right" |'''Physical Power''': 
+|18.5
+|-
+| style="text-align:right" |'''Stat Bonus''':
+| +25% Physical Damage to Undead<br>+5% Spell Critical Chance<br>+6 Spell Power
+|-
+| style="text-align:right" |'''Durability''':
+|1873
+|}<noinclude>
+[[{{PAGENAME}}#top|<big>'''↑ Return to Top'''</big>]]</noinclude>
+[[pt-br:Armas]]
+[[Category:Equipment| ]]
+[[Category:Weapons| ]]

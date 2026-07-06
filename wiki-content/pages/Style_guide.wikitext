@@ -1,0 +1,130 @@
+{{DISPLAYTITLE:Style guide}}
+This style guide keeps articles predictable: a reader who has seen one boss page knows where to find the loot table on every boss page. When in doubt, copy the structure of a well-maintained article of the same type. Propose changes on the talk page.
+
+Shortcut: [[VRW:STYLE]]
+
+==Universal article layout==
+Every article follows this sequence (omit sections that don't apply — never reorder):
+
+# Hatnotes (disambiguation, "For X, see Y")
+# Maintenance banners ({{tl|Stub}}, {{tl|Outdated}})
+# Infobox
+# Intro — one or two sentences stating what the subject is, with the article title in '''bold'''
+# Body sections (per page type, below)
+# See also
+# Notes / References
+# Update history
+# Navbox
+# Categories
+
+==Page-type layouts==
+
+===Boss (V Blood carrier)===
+# Infobox ({{tl|Boss Infobox}}) — level, location, unlocks
+# Intro with in-game journal quote
+# Location
+# Attacks — with a ''Brutal difficulty'' subsection where behavior differs
+# Strategy — situational advice, not prescriptive loadouts; long walkthroughs belong in a Guide page, linked with <code>''Main article:''</code>
+# Rewards — Spells, then Structures/Recipes, then a sortable loot table with drop percentages
+# Quotes
+# Trivia
+# Update history
+# V Blood navbox
+
+===Weapon / equipment===
+# Infobox ({{tl|WeaponInfobox}} / {{tl|EquipmentInfobox}})
+# Intro
+# Obtaining — crafting recipe (costs via {{tl|ItemFrame}}), drops, vendors
+# Usage / stats — per-tier comparison table where applicable
+# Notes — interactions and edge cases (what stacks, what doesn't)
+# Update history
+# Type navbox ({{tl|Navbox Weapons}})
+
+===Ability / spell===
+# Infobox ({{tl|AbilityInfobox}}) — school, cooldown, unlock source
+# Intro
+# Effect — per-tier/jewel values
+# Notes — interactions (explicit "stacks with / does not stack with" lists)
+# Update history
+# School navbox
+
+===Item / consumable===
+# Infobox ({{tl|ItemInfobox}})
+# Intro
+# Obtaining
+# Usage — organized by what it's used '''for''' (recipes, quests, refinement), one subsection each
+# Update history
+# Navbox
+
+===Structure (castle object)===
+# Infobox ({{tl|StructureInfobox}})
+# Intro
+# Obtaining / unlock
+# Usage — what it crafts/refines, with recipe tables
+# Update history
+# Navbox
+
+===Location===
+# Infobox — region, level range, notable drops
+# Intro
+# Inhabitants — enemies and V Blood carriers, grouped by spawn condition
+# Resources
+# Points of interest
+# Update history
+# Region navbox
+
+===Game mechanic===
+# Quick-reference facts box at top where useful
+# Intro definition
+# Body ordered by graduated complexity: overview → practical use → exact numbers/formulas; put a small summary table before any dense reference table
+# Update history
+
+===Patch===
+See [[Template:Patch]] documentation: infobox, then Additions / Changes / Fixes / Hotfixes.
+
+===Guide===
+Long-form walkthroughs and build advice live in guide pages ("Guide:" prefix), not in reference articles. Mark superseded guides prominently: ''"Outdated as of Patch X"''. Reference articles link to guides; guides link back to reference articles for numbers.
+
+==Standard sections==
+
+===Brutal difficulty===
+Differences on Brutal servers go in a labeled ''Brutal difficulty'' subsection of the relevant section — never scattered inline.
+
+===PvE / PvP differences===
+Where values differ by server type, present both in one place, labeled — e.g. a two-column table or a ''PvP differences'' subsection. Do not fork pages.
+
+===Update history===
+Reverse-chronological bullet list, one entry per patch, linked to the patch article:
+<pre>
+==Update history==
+* [[Patch 1.1]] — Physical power increased to 35 from 33.7. '''Bug Fix:''' no longer loses durability when parried.
+* [[Patch 1.0]] — Added.
+</pre>
+Notation: "increased/reduced to X from Y". Prefixes: '''Bug Fix:''', '''Removed:''', '''New:'''. When a value changes, the old value ''moves here'' — body text and infobox always show only the current value. Removed content moves to a ''Removed'' section or page, never silently deleted.
+
+==Linking==
+* Link the first mention of an entity in the intro, in each infobox, and in each table row; avoid re-linking in running prose after the first mention.
+* Item and entity mentions in lists and tables use {{tl|ItemFrame}} (icon + link). In prose, plain links — no icons mid-sentence.
+* Prefer redirects over piped links ("[[Keely]]" not "[[Keely the Frost Archer|Keely]]") — redirects make search work.
+* Create a redirect for every common alias, plural, and short name. Only create a disambiguation page when two or more real targets exist; otherwise redirect to the primary topic and add a hatnote.
+
+==Naming==
+* Article titles use exact in-game names, singular.
+* Section headings are sentence case ("Update history", not "Update History"). Start at level 2 (<code>==</code>); never skip levels.
+* Dates are written "May 8, 2024" (unambiguous across regions).
+
+==Images==
+* Infobox images use in-game inventory icons or renders on transparent/dark background.
+* Screenshots: name files <code>Subject description patchX.Y.png</code> so superseded shots are identifiable after visual updates.
+* Every image in templates gets meaningful <code>alt=</code> text (the entity name); purely decorative images get empty <code>alt=</code>.
+
+==Tables==
+* Stat comparisons use <code>class="wikitable sortable"</code> or a Cargo query — never image galleries laid out as tables.
+* Header cells use <code>!</code> (real <code>&lt;th&gt;</code>), with icons accompanied by text.
+* Wrap wide tables in <code>&lt;div class="vr-table-scroll"&gt;</code> so they scroll on phones.
+* Conditional cases (drop-rate modifiers, difficulty scaling) go in footnotes below the table, not inline in cells.
+
+==Colors==
+Never hardcode colors in templates or articles. Use the semantic tokens from [[MediaWiki:Citizen.css]] (<code>--vr-rarity-*</code>, <code>--vr-infobox-*</code>) or the classes in [[MediaWiki:Common.css]] (<code>.vr-rarity-legendary</code> etc.) — they adapt to both themes.
+
+[[Category:Project pages]]

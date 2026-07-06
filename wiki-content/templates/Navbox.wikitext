@@ -1,0 +1,20 @@
+<includeonly><div class="vr-navbox" role="navigation" aria-label="{{{title|Navigation}}}"><div class="vr-navbox-title">{{{title|}}}</div>{{#if:{{{above|}}}|<div class="vr-navbox-row"><div class="vr-navbox-list">{{{above|}}}</div></div>}}{{#if:{{{list1|}}}|<div class="vr-navbox-row">{{#if:{{{group1|}}}|<div class="vr-navbox-group">{{{group1|}}}</div>}}<div class="vr-navbox-list">{{{list1|}}}</div></div>}}{{#if:{{{list2|}}}|<div class="vr-navbox-row">{{#if:{{{group2|}}}|<div class="vr-navbox-group">{{{group2|}}}</div>}}<div class="vr-navbox-list">{{{list2|}}}</div></div>}}{{#if:{{{list3|}}}|<div class="vr-navbox-row">{{#if:{{{group3|}}}|<div class="vr-navbox-group">{{{group3|}}}</div>}}<div class="vr-navbox-list">{{{list3|}}}</div></div>}}{{#if:{{{list4|}}}|<div class="vr-navbox-row">{{#if:{{{group4|}}}|<div class="vr-navbox-group">{{{group4|}}}</div>}}<div class="vr-navbox-list">{{{list4|}}}</div></div>}}{{#if:{{{list5|}}}|<div class="vr-navbox-row">{{#if:{{{group5|}}}|<div class="vr-navbox-group">{{{group5|}}}</div>}}<div class="vr-navbox-list">{{{list5|}}}</div></div>}}{{#if:{{{list6|}}}|<div class="vr-navbox-row">{{#if:{{{group6|}}}|<div class="vr-navbox-group">{{{group6|}}}</div>}}<div class="vr-navbox-list">{{{list6|}}}</div></div>}}{{#if:{{{list7|}}}|<div class="vr-navbox-row">{{#if:{{{group7|}}}|<div class="vr-navbox-group">{{{group7|}}}</div>}}<div class="vr-navbox-list">{{{list7|}}}</div></div>}}{{#if:{{{list8|}}}|<div class="vr-navbox-row">{{#if:{{{group8|}}}|<div class="vr-navbox-group">{{{group8|}}}</div>}}<div class="vr-navbox-list">{{{list8|}}}</div></div>}}{{#if:{{{below|}}}|<div class="vr-navbox-row"><div class="vr-navbox-list">{{{below|}}}</div></div>}}</div></includeonly><noinclude>
+Generic footer navbox. Styled by the <code>.vr-navbox-*</code> classes in [[MediaWiki:Common.css]] (design tokens from [[MediaWiki:Citizen.css]]) — one visual language for all entity-class navboxes.
+
+Place at the very bottom of the article, after See also / References and before categories. Separate list entries with <code>&amp;nbsp;•&amp;nbsp;</code>.
+
+Example usage:
+<pre>
+{{Navbox
+| title = [[Weapons]]
+| group1 = Melee
+| list1  = [[Sword]] • [[Axes]] • [[Mace]] • [[Spear]] • [[Greatsword]] • [[Reaper]] • [[Slashers]] • [[Twinblade]] • [[Whip]] • [[Claws]]
+| group2 = Ranged
+| list2  = [[Crossbow]] • [[Longbow]] • [[Daggers]] • [[Pistols]]
+| below  = [[Weapon Skills]] • [[Legendary Artifact Weapons]]
+}}
+</pre>
+
+Parameters: <code>title</code> (required), <code>above</code>, <code>group1</code>–<code>group8</code> (optional row labels), <code>list1</code>–<code>list8</code> (row content; a row renders only if its list is non-empty), <code>below</code>.
+[[Category:Navbox templates| ]]
+</noinclude>
