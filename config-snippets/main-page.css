@@ -42,3 +42,21 @@
   font-size: 0.9em;
   margin: 0;
 }
+
+.vr-routing {
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-surface-4);
+  border-radius: 4px;
+  padding: 0.6em 1.2em;
+  margin-bottom: 2em;
+  text-align: center;
+  font-size: 0.95em;
+}
+/* Cargo list format wraps its output in a <ul>; keep it inline in the strip */
+.vr-routing ul,
+.vr-routing li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

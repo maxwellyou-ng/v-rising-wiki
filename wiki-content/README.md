@@ -54,8 +54,11 @@ docker compose exec -T mediawiki php maintenance/run.php purgeParserCache --age 
 | pages/V_Blood_Carriers.wikitext | V Blood Carriers (all-bosses Cargo table + by-act table) |
 | pages/Patch_1.0.wikitext, Patch_1.1, Secrets_of_Gloomrot, Bloodfeast, Early_Access_Release | patch articles (Template:Patch infobox feeds Cargo `patches`; hotfixes are sections, not pages) |
 | pages/Patch_Notes.wikitext | Patch Notes (version index hub; major rows link to the patch articles) |
+| pages/Blood.wikitext | Blood (mechanics article; hatnote routes Blood Essence / V Blood / Blood Moon / Blood Potion) |
+| pages/Main_Page.wikitext | Main Page (card grid + routing strip with Cargo-driven latest patch) |
 | pages/Style_guide.wikitext | Project:Style guide |
 | pages/VRW_STYLE.wikitext | VRW:STYLE (shortcut redirect) |
+| redirects.tsv | pushed by `scripts/push-redirects.sh` (not push-wiki-content.sh) — one redirect per line, `source<TAB>target` |
 
 Notes:
 

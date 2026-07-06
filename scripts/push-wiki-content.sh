@@ -71,6 +71,8 @@ push "Secrets of Gloomrot"         wiki-content/pages/Secrets_of_Gloomrot.wikite
 push "Bloodfeast"                  wiki-content/pages/Bloodfeast.wikitext
 push "Early Access Release"        wiki-content/pages/Early_Access_Release.wikitext
 push "Patch Notes"                 wiki-content/pages/Patch_Notes.wikitext
+push "Blood"                       wiki-content/pages/Blood.wikitext
+push "Main Page"                   wiki-content/pages/Main_Page.wikitext
 push "Project:Style guide"         wiki-content/pages/Style_guide.wikitext
 push "VRW:STYLE"                   wiki-content/pages/VRW_STYLE.wikitext
 

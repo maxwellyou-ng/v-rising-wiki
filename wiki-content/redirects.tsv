@@ -1,0 +1,105 @@
+# Redirect pass (Phase 3) — source<TAB>target, pushed by scripts/push-redirects.sh
+# Sources verified missing on the live wiki 2026-07-06; the push script
+# additionally skips any source that exists with non-redirect content.
+
+# Boss short names (from the bosses Cargo table)
+Adam	Adam the Firstborn
+Albert	Albert the Duke of Balaton
+Alpha	Alpha the White Wolf
+Angram	Angram the Purifier
+Azariel	Azariel the Sunbringer
+Bane	Bane the Shadowblade
+Baron du Bouchon	Baron du Bouchon the Sommelier
+Beatrice	Beatrice the Tailor
+Ben	Ben the Old Wanderer
+Christina	Christina the Sun Priestess
+Clive	Clive the Firestarter
+Cyril	Cyril the Cursed Smith
+Dantos	Dantos the Forgebinder
+Domina	Domina the Blade Dancer
+Dracula	Dracula the Immortal King
+Errol	Errol the Stonebreaker
+Finn	Finn the Fisherman
+Foulrot	Foulrot the Soultaker
+Frostmaw	Frostmaw the Mountain Terror
+Gaius	Gaius the Cursed Champion
+General Cassius	General Cassius the Betrayer
+Cassius	General Cassius the Betrayer
+General Elena	General Elena the Hollow
+Elena	General Elena the Hollow
+General Valencia	General Valencia the Depraved
+Valencia	General Valencia the Depraved
+Gorecrusher	Gorecrusher the Behemoth
+Goreswine	Goreswine the Ravager
+Grayson	Grayson the Armourer
+Grethel	Grethel the Glassblower
+Henry Blackbrew	Henry Blackbrew the Doctor
+Jade	Jade the Vampire Hunter
+Jakira	Jakira the Shadow Huntress
+Keely	Keely the Frost Archer
+Kodia	Kodia the Ferocious Bear
+Kriig	Kriig the Undead General
+Leandra	Leandra the Shadow Priestess
+Lidia	Lidia the Chaos Archer
+Lord Styx	Lord Styx the Night Champion
+Lucile	Lucile the Venom Alchemist
+Mairwyn	Mairwyn the Elementalist
+Maja	Maja the Dark Savant
+Matka	Matka the Curse Weaver
+Megara	Megara the Serpent Queen
+Meredith	Meredith the Bright Archer
+Morian	Morian the Stormwing Matriarch
+Nibbles	Nibbles the Putrid Rat
+Nicholaus	Nicholaus the Fallen
+Octavian	Octavian the Militia Captain
+Polora	Polora the Feywalker
+Quincey	Quincey the Bandit King
+Raziel	Raziel the Shepherd
+Rufus	Rufus the Foreman
+Simon Belmont	Simon Belmont the Vampire Hunter
+Sir Erwin	Sir Erwin the Gallant Cavalier
+Sir Magnus	Sir Magnus the Overseer
+Solarus	Solarus the Immaculate
+Stavros	Stavros the Carver
+Talzur	Talzur the Winged Horror
+Terah	Terah the Geomancer
+Terrorclaw	Terrorclaw the Ogre
+Tristan	Tristan the Vampire Hunter
+Ungora	Ungora the Spider Queen
+Vincent	Vincent the Frostbringer
+Voltatia	Voltatia the Power Master
+Willfred	Willfred the Village Elder
+Ziva	Ziva the Engineer
+
+# Plurals / singulars / spellings
+Armor Sets	Armours
+Armors	Armours
+Greatswords	Greatsword
+Whips	Whip
+Longbows	Longbow
+Twinblades	Twinblade
+Claw	Claws
+Blood potion	Blood Potion
+Soul Shards	Soul Shard
+Stygian Shards	Stygian Shard
+
+# Common terms
+V Bloods	V Blood Carriers
+V Blood Boss	V Blood Carriers
+V Blood Bosses	V Blood Carriers
+Castle Relocation	Castle Relocation Heart
+
+# Patch aliases
+Update 1.0	Patch 1.0
+1.0	Patch 1.0
+Update 1.1	Patch 1.1
+1.1	Patch 1.1
+Invaders of Oakveil	Patch 1.1
+Update 1.1: Invaders of Oakveil	Patch 1.1
+Update #1: Secrets of Gloomrot	Secrets of Gloomrot
+Halloween Update: Bloodfeast	Bloodfeast
+Patch notes	Patch Notes
+Patchnotes	Patch Notes
+Changelog	Patch Notes
+Version history	Patch Notes
+Update history	Patch Notes

@@ -1,0 +1,225 @@
+:''This page covers blood types, quality and the Blood Pool. For the castle resource, see [[Blood Essence]]; for boss blood, see [[V Blood Carriers|V Blood]]; for the night event, see [[Blood Moon]]; for drinkable blood, see [[Blood Potion]].''
+<blockquote>''"You will slowly lose health and ultimately perish if you run out of blood."''</blockquote>[[File:Frail Blood Pool.png|alt=Frailed|thumb|Example of a Frail Type Blood Pool; no bonuses.|400x400px]]Blood is a key resource in V Rising.
+
+The player must continuously find new victims lest they run out of blood entirely. Feeding on a blood-carrying target (victim) will refill the player's Blood Pool to its maximum capacity of 10 liters and absorb the victim's blood type (Creature, Rogue, Warrior, etc.). Later on in the game the player unlocks {{ItemFrame|Blood Potion}} and {{ItemFrame|Blood Merlot}}, which allows them to store blood for later consumption. Each blood type provides different passive bonuses, with higher quality blood granting stronger bonuses. The 5 tiers of Blood Pool powers are unlocked at different percentage levels. For example, Tier IV Blood Pool powers will only be unlocked by draining a 90%+ blood quality victim.
+
+The Blood Pool drains slowly over time, and faster when dealing & taking damage or using particular [[abilities#Vampire Powers|vampire powers]] such as {{Ability|Blood Mend}} or {{Ability|Expose Vein}}. Dying will immediately incur a 1 liter Blood Pool loss. Blood drainage can be virtually paused whilst sleeping in a [[Coffin]]. Blood drain is reduced by 25% on Relaxed Difficulty.<br>Upon running out of a non-frailed Blood Pool, the player's Blood Pool will revert to 1 liter of [[File:BloodType_Frailed.png|frameless|25px]] '''Frailed''' blood. <br>If their frailed Blood Pool runs out, the player's health will slowly deplete to 1 health. Feeding on any source of blood will restore the player's health regeneration.
+
+Prior to v1.0, a player's current Blood Pool could not be refilled by any means. However, as of update 1.0, it is now possible by feeding on a defeated [[Primal Blood Soul]], either from a Tier 2 [[Rift Incursion]] in the [[Ruins of Mortium]] or a summoned one from the {{ItemFrame|Stygian Summoning Circle|type=Structure}}. Doing so will refill the player's current Blood Pool by 5 liters (50%).
+
+==Blood Types & Quality ==
+{| class="fandom-table"
+!Blood Type
+!Quality Threshold
+!Effect
+|-
+|<center>[[File:BloodType_Frailed.png|frameless|]]<br>'''Frail'''</center>
+|<center>'''None'''</center>
+|'''None'''
+|-
+| rowspan="5" |<center>[[File:BloodType_Creature.png|frameless|]]<br>'''Creature'''</center>
+|<center>'''I'''</center>
+|{{Blue|'''8-16%'''}} Increased Maximum Health and {{Blue|'''40%'''}} increased health regeneration.
+|-
+|<center>'''II'''</center>
+|{{Blue|'''4-8%'''}} Increased Movement Speed and {{Blue|'''8%'''}} increased Shapeshift Speed.
+|-
+|<center>'''III'''</center>
+|{{Blue|'''12-24%'''}} Increased Healing Received and {{Blue|'''20'''}} increased All Resistances.
+|-
+|<center>'''IV'''</center>
+|Bite heals you for {{Blue|'''5%'''}} of your maximum health and temporarily increases your attack speed and physical damage output by {{Blue|'''25%'''}}.
+|-
+|<center>'''V'''</center>
+|Boost all above effects by {{Blue|'''20%'''}} and increases the [[Attributes|maximum cap]] of blood effects with an equal amount.
+|-
+| rowspan="5" |<center>[[File:BloodType_Worker.png|frameless|]]<br>'''Worker'''</center>
+|<center>'''I'''</center>
+|{{Blue|'''12-24%'''}} Increased Resource Yield.
+|-
+|<center>'''II'''</center>
+|{{Blue|'''12-24%'''}} Increased Damage against Resource Objects.
+|-
+|<center> '''III'''</center>
+|{{Blue|'''8-16%'''}} Increased Mount Speed.
+|-
+|<center>'''IV'''</center>
+|{{Blue|'''3%'''}} Chance to instantly destroy a resource node and trigger a burst of speed.
+|-
+|<center>'''V'''</center>
+|Boost all above effects by {{Blue|'''20%'''}} and increases the [[Attributes|maximum cap]] of blood effects with an equal amount.
+|-
+| rowspan="5" |<center>[[File:BloodType_Brute.png|frameless|]]<br>'''Brute'''</center>
+|<center>'''I'''</center>
+|{{Blue|'''7-14%'''}} Increased Primary Attack Speed and gain {{Blue|'''5%'''}} increased Physical Power.
+|-
+|<center>'''II'''</center>
+|{{Blue|'''5-10%'''}} Primary Attack Life Leech and {{Blue|'''4%'''}} increased Damage Reduction.
+|-
+|<center>'''III'''</center>
+|{{Blue|'''8-16%'''}} Increased Maximum Health. Heal self for {{Blue|'''5%'''}} of your victim's health when striking a killing blow.
+|-
+|<center>'''IV'''</center>
+|{{Blue|'''15%'''}} Chance to parry an attack reducing damage taken by {{Blue|'''25%'''}}. Parrying an attack increases your own physical power by {{Blue|'''15%'''}} for {{Blue|'''3.5s'''}}.
+|-
+|<center>'''V'''</center>
+|Boost all above effects by {{Blue|'''20%'''}} and increases the [[Attributes|maximum cap]] of blood effects with an equal amount.
+|-
+| rowspan="5" |<center>[[File:BloodType_Rogue.png|frameless|]]<br>'''Rogue'''</center>
+|<center>'''I'''</center>
+|{{Blue|'''8-16%'''}} Increased Physical Critical Chance and {{Blue|'''8%'''}} increased Physical Critical Power.
+|-
+|<center>'''II'''</center>
+|{{Blue|'''4-8%'''}} Increased Movement Speed and gain {{Blue|'''10%'''}} additional speed for {{Blue|'''3s'''}} when striking a killing blow.
+|-
+|<center>'''III'''</center>
+|{{Blue|'''7-14%'''}} Increased Veil Cooldown Rate. {{Blue|'''100%'''}} increased Physical Critical Chance after using a Veil.
+|-
+|<center>'''IV'''</center>
+|{{Blue|'''50%'''}} Chance on Critical Strike to expose victims armor, increasing damage taken from all sources by {{Blue|'''15%'''}} for {{Blue|'''4s'''}}.
+|-
+|<center>'''V'''</center>
+|Boost all above effects by {{Blue|'''20%'''}} and increases the [[Attributes|maximum cap]] of blood effects with an equal amount.
+|-
+| rowspan="5" |<center>[[File:BloodType_Warrior.png|frameless|]]<br>'''Warrior'''</center>
+|<center>'''I'''</center>
+|{{Blue|'''10%'''}} Increased Physical Power and Veil attack deal {{Blue|'''40%'''}} bonus damage.
+|-
+|<center>'''II'''</center>
+|{{Blue|'''14%'''}} Increased Weapon Cooldown Rate and {{Blue|'''5%'''}} increased Weapon Skill Leech.
+|-
+|<center>'''III'''</center>
+|{{Blue|'''18%'''}} Increased Weapon Skill Power and {{Blue|'''24%'''}} increased damage when striking enemies at full health.
+|-
+|<center>'''IV'''</center>
+|{{Blue|'''12'''}} Increased Weapon Charge Gain.
+|-
+|<center>'''V'''</center>
+|Boost all above effects by {{Blue|'''20%'''}} and increases the [[Attributes|maximum cap]] of blood effects with an equal amount.
+|-
+| rowspan="5" |<center>[[File:BloodType_Scholar.png|frameless|]]<br>'''Scholar'''</center>
+|<center>'''I'''</center>
+|{{Blue|'''6-12%'''}} Increased Spell Power and {{Blue|'''10%'''}} Shield Efficiency.
+|-
+|<center>'''II'''</center>
+|{{Blue|'''6-12%'''}} Increased Spell Cooldown Rate and shield self for {{Blue|'''25%'''}} of your spell power when casting a spell.
+|-
+|<center>'''III'''</center>
+|{{Blue|'''10-20%'''}} Ultimate Power and reset your Spell Cooldowns when using an Ultimate.
+|-
+|<center>'''IV'''</center>
+|{{Blue|'''12'''}} Increased Spell Charge Gain.
+|-
+|<center>'''V'''</center>
+|Boost all above effects by {{Blue|'''20%'''}} and increases the [[Attributes|maximum cap]] of blood effects with an equal amount.
+|-
+| rowspan="5" |<center>[[File:BloodType_Mutant.png|frameless|]]<br>'''Mutant'''</center>
+|<center>'''I'''</center>
+|{{Blue|'''7-14%'''}} Increased Spell Power and {{Blue|'''10%'''}} increased Shapeshift Speed.
+|-
+|<center>'''II'''</center>
+|{{Blue|'''14-28%'''}} Increased Ultimate Cooldown Rate and spawn {{Blue|{{ItemFrame|Mutated Rat|2|discountable=N|display=Mutant Rats}}}} that fight by your side when casting an Ultimate.
+|-
+|<center>'''III'''</center>
+|{{Blue|'''10-20%'''}} Ultimate Power and {{Blue|'''12%'''}} increased Minion Damage.
+|-
+|<center>'''IV'''</center>
+|{{Blue|'''7%'''}} Increased Veil Cooldown Rate and landing a Veil attack reduces Ultimate Cooldown by {{Blue|'''7s'''}}.
+|-
+|<center>'''V'''</center>
+|Boost all above effects by {{Blue|'''20%'''}} and increases the [[Attributes|maximum cap]] of blood effects with an equal amount.
+|-
+| rowspan="5" |<center>[[File:BloodType_Draculin.png|frameless|]]<br>'''Draculin'''</center>
+|<center>'''I'''</center>
+|{{Blue|'''6-12%'''}} Increased Spell Power and {{Blue|'''8%'''}} increased Spell Critical Power.
+|-
+|<center>'''II'''</center>
+|{{Blue|'''8-16%'''}} Increased Spell Critical Chance and Spell hits grants {{Blue|'''6%'''}} Movement Speed for {{Blue|'''3s'''}}.
+|-
+|<center>'''III'''</center>
+|{{Blue|'''4-8%'''}} Increased Spell Leech and {{Blue|'''3'''}} increased Spell Charge Gain.
+|-
+|<center>'''IV'''</center>
+|Spell Critical Strike hits increases Spell Cooldown Rate by {{Blue|'''30%'''}} for {{Blue|'''3s'''}}.
+|-
+|<center>'''V'''</center>
+|Boost all above effects by {{Blue|'''20%'''}} and increases the [[Attributes|maximum cap]] of blood effects with an equal amount.
+|-
+| rowspan="5" |<center>[[File:BloodType_Corrupted.png|frameless|]]<br>'''Corrupted'''</center>
+|<center>'''I'''</center>
+|{{Blue|'''25% - 50%'''}} Reduced damage taken from Corrupted Attacks and gain {{Blue|'''5%'''}} Life Leech but you suffer {{Blue|'''10%'''}} increased damage taken from all other sources.
+|-
+|<center>'''II'''</center>
+|Reduces the maximum amount of [[Vile Corruption]] stacks by {{Blue|'''4 - 8'''}} but you suffer {{Blue|'''50% - 100%'''}} increased Blood drain rate.
+|-
+|<center>'''III'''</center>
+|{{Blue|'''8-12%'''}} Increased Movement Speed and {{Blue|'''14%'''}} increased Attack Speed but there is a {{Blue|'''25%'''}} chance when taking damage to trigger an eruption inflicting a {{Blue|'''2s'''}} snare. ''({{Blue|'''125%'''}} corruption damage)''
+|-
+|<center>'''IV'''</center>
+|Spell and Weapon Charge Gain increased by {{Blue|'''10'''}} but there is a {{Blue|'''30%'''}} chance to spawn a shadow that attacks you when using a spell.<br>''({{Blue|'''150%'''}} piercing corruption damage, can no longer be countered or deal fatal damage)''
+|-
+|<center>'''V'''</center>
+|Boost all above effects by {{Blue|'''20%'''}} and increases the [[Attributes|maximum cap]] of blood effects with an equal amount.
+|-
+| rowspan="5" |<center>[[File:BloodType_Blood_of_the_Immortal.png|frameless|]]<br>'''Blood of the Immortal'''<br>([[Dracula]] fight on Brutal difficulty)</center>
+|<center>'''I'''</center>
+|{{Blue|'''100%'''}} Increased Physical Power and Spell Power.
+|-
+|<center>'''II'''</center>
+|{{Blue|'''15%'''}} Increased Movement Speed & {{Blue|'''30%'''}} Increased Primary Attack Speed.
+|-
+|<center>'''III'''</center>
+|{{Blue|'''40%'''}} Damage Reduction.
+|-
+|<center>'''IV'''</center>
+|{{Blue|'''100%'''}} Increased Veil Cooldown Rate.
+|-
+|<center>'''V'''</center>
+|{{Blue|'''40'''}} Increased Spell and Weapon Charge Gain.
+|}
+===Threshold Percentages===
+Blood Quality % required to unlock each Tier<br>
+*'''I''': '''&nbsp;&nbsp;1%'''
+*'''II''': '''30%'''
+*'''III''': '''60%'''
+*'''IV''': '''90%'''
+*'''V''': '''100%'''
+
+===Bonus Scaling===
+For tiers I - III, at least one variable is proportional to the quality of the given blood, down to a minimum of half the max potential bonus. For example, [[File:BloodType_Worker.png|frameless|30px]] Worker Blood's '''Tier 1''' bonus will provide at least '''12%''' but up-to '''24%''' Increased Resource yield, the value of which ranges between 1% and 100% Blood Quality:&nbsp;
+*'''1%''' Blood Quality => '''12%''' Increased Resource yield
+*'''30%''' Blood Quality => '''15.6%''' Increased Resource yield
+*'''50%''' Blood Quality => '''18%''' Increased Resource yield
+*'''99%''' Blood Quality => '''24%''' Increased Resource yield
+*'''100%''' Blood Quality => '''~29%''' Increased Resource yield (including '''Tier V''' bonus of '''+20%''')
+
+===Detecting Blood Types===
+[[File:Blood Hunger Example.png|thumb|Example of the Blood Hunger ability with the blood type icon and percentage displayed.]]Mouse over a victim to display the blood type and blood quality percentage. See [[Enemies]] for a list of all enemies with a blood type.
+
+Once the player has fed on the [[V Blood Carrier]] [[Tristan the Vampire Hunter]], they will unlock the {{Ability|Blood Hunger}} ability. Blood Hunger places the player in a blood detection mode, displaying the blood type icon and percentage over all victims' heads, instead of needing to mouse over.
+
+==Blood Consumables==
+The player can consume items such as {{ItemFrame|Rat}}s and {{ItemFrame|Tainted Heart}}s to restore a small amount of their blood pool, at the cost of changing their blood type to 'frailed', losing all blood type bonuses.
+
+Once the player has fed on the [[V Blood Carrier]] [[Vincent the Frostbringer]], they will unlock {{ItemFrame|Prison Cell|type=Structure}}s. By using the {{Ability|Dominate}} Vampire Power they can imprison high-quality human victims and repeatedly extract {{ItemFrame|Blood Potion}}s / {{ItemFrame|Blood Merlot}}s from them. Allowing for a consistent supply of high quality blood.
+
+Once the player has fed on [[Lucile the Venom Alchemist]], they will additionally be able to mix {{ItemFrame|Blood Potion}}s via the {{ItemFrame|Blood Homogenizer|type=Structure}}. This allows for fusing one of the blood traits in a potion into another. If&nbsp;the&nbsp;[[Blood#Blood Types & Quality|blood quality]] of the secondary potion is 90% or higher, the '''IV''' bonus will also be infused.
+
+==Servants==
+Servants increase in power and effectiveness with blood quality level. For more info see [[Servants]]. 
+
+==Blood Pool Examples==
+<gallery>
+File:Creature Blood Pool.png|Creature
+File:Worker Blood Pool.png|Worker
+File:Brute Blood Pool.png|Brute
+File:Rogue Blood Pool.png|Rogue
+File:Warrior Blood Pool.png|Warrior
+File:Scholar Blood Pool.png|Scholar
+File:Mutant Blood Pool.png|Mutant
+File:Draculin Blood Pool.png|Draculin
+File:Corrupted Blood Pool.png|Corrupted
+</gallery>
+
+[[fr:Sang]]
+[[Category:Game Mechanics| ]]

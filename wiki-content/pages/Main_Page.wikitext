@@ -1,0 +1,50 @@
+<div class="vr-main">
+
+<div class="vr-hero">
+<div class="vr-hero__title">VRising Wiki</div>
+<div class="vr-hero__sub">The community encyclopedia for V Rising</div>
+</div>
+
+<div class="vr-cards">
+
+<div class="vr-card">
+=== [[Bosses]] ===
+Hunt V Blood carriers across Vardoran to gain new powers and progress.
+</div>
+
+<div class="vr-card">
+=== [[Weapons]] ===
+Swords, axes, spears, crossbows and more — stats, skills, and crafting.
+</div>
+
+<div class="vr-card">
+=== [[Crafting]] ===
+Recipes, workstations, and the resources needed to build your arsenal.
+</div>
+
+<div class="vr-card">
+=== [[Castle]] ===
+Build and fortify your castle — rooms, structures, and castle heart.
+</div>
+
+<div class="vr-card">
+=== [[Servants]] ===
+Convert humans to servants, manage gear, and send them on missions.
+</div>
+
+<div class="vr-card">
+=== [[Spells]] ===
+Blood types, spell schools, and ability unlocks from V Blood bosses.
+</div>
+
+</div><!-- .vr-cards -->
+
+<div class="vr-routing">
+'''New vampire?''' Start with the [[Journal]] quest line &nbsp;•&nbsp; '''Latest patch:''' {{#cargo_query:tables=patches|fields=_pageName|order by=date DESC|limit=1|format=list}} &nbsp;•&nbsp; [[Patch Notes|All patches]] &nbsp;•&nbsp; [[Guides]] &nbsp;•&nbsp; [[Project:Style guide|How to contribute]]
+</div>
+
+</div><!-- .vr-main -->
+
+<templatestyles src="Main Page/styles.css" />
+__NOTOC__
+__NOEDITSECTION__
